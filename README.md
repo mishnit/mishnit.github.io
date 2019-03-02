@@ -1,1 +1,2 @@
-My blog: https://mishnit.github.io
+My blog: CORPOR8
+https://mishnit.github.io
