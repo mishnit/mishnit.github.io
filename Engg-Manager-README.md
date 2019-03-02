@@ -6,7 +6,7 @@ This is inspired by [Manager README](https://hackernoon.com/12-manager-readmes-f
 Note: 'You' in this document is you the engineer/manager.
 
 # My Background
-I’m an engineer turned manager and have worked with a lot of early/late stage startups and also at MNC like TCS Research Labs for last 8 years. This gives me the unique experience of learning what works and what doesn’t at both ends of the scale spectrum. I have a passion for using technology to build products that solve real world problems. What I am most passionate though is managing engineers and building great high performing but empathetic teams. 
+I’m an engineer turned manager and have worked with a lot of early/late stage startups and also at MNCs like TCS Innovation Labs for last 8 years. This gives me the unique experience of learning what works and what doesn’t at both ends of the scale spectrum. I have a passion for using technology to build products that solve real world problems. What I am most passionate though is managing engineers and building great high performing but empathetic teams. 
 
 # My Leadership Style
 Key points that define my Leadership style are as follows:
