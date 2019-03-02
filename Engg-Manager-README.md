@@ -6,7 +6,27 @@ This is inspired by [Manager README](https://hackernoon.com/12-manager-readmes-f
 Note: 'You' in this document is you the engineer/manager.
 
 # My Background
-I’m an engineer turned manager and have worked with a lot of early/late stage startups and also at MNC like TCS Research Labs. This gives me the unique experience of learning what works and what doesn’t at both ends of the scale spectrum. I have a passion for using technology to build products that solve real world problems. What I am most passionate though is managing engineers and building great high performing but empathetic teams. 
+I’m an engineer turned manager and have worked with a lot of early/late stage startups and also at MNC like TCS Research Labs for last 8 years. This gives me the unique experience of learning what works and what doesn’t at both ends of the scale spectrum. I have a passion for using technology to build products that solve real world problems. What I am most passionate though is managing engineers and building great high performing but empathetic teams. 
+
+# My Leadership Style
+Let's start by talking about my leadership style, as it's the cornerstone of everything I will talk about in this README.
+
+I am a firm believer in People, Product, Profit, in that order. One of my top priorities is to ensure people stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed.
+
+As part of our new employee onboarding experience, you would've been asked to do a DISC profile assessment.
+
+# Key Points that Define My Leadership Style
+I value people over everything else
+I value actions over words
+I value pragmatism over correctness
+I value realism over (extreme-)optimism
+I value autonomy over micro-management
+I value over-communication over under-communication
+I value problem solving skills over engineering skills
+I value working smarter over working harder
+I value being straight-up over being political
+I value giving info early over giving info at last-minute
+I value taking risks over not making mistakes
 
 # My Job
 As an Engineering Manager, it is my job to:
@@ -37,6 +57,51 @@ You know where you stand in your career within and outside of our organisation a
 You are motivated, focused, having fun, & not burning out
 If I fail at any of these — especially anything that puts retaining you at risk — you would be doing me a huge favor by letting me know as soon as possible. I want you to reflect back 10 years from now at your time spent at our organisation and consider it to be the best work you’ve ever done. If you’re still here then, I’ve done my job well.
 
+# My Role
+One of my top priorities is to ensure people stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed.
+That said, with the help of others, I would like:
+
+# For Software Engineers
+to ensure you work on the right things
+to ensure you talk to the right people
+to ensure you feel it's a safe and supportive workplace
+to ensure you upskill yourself
+
+# For Tech & QA Leads (My Direct Reports)
+to ensure you get the coaching and mentorship you need to succeed in your role
+to ensure you lead instead of manage your team
+to ensure you have the autonomy to lead and drive your team
+to ensure you have enough information and context to prioritise tasks for your team
+to ensure you feel safe to be honest with me
+
+# For Product Managers
+to ensure you know how easy or difficult it is to perform a given task
+to ensure you always get our confidence level on our own estimation
+to ensure you get presented with alternative solutions we believe could achieve similar goals with less effort
+to ensure you are provided with enough technical guidance for your product roadmap
+
+# For the Rest of Leadership Team
+to ensure you gain the confidence that we would deliver
+to ensure you know why we do or don't do certain things for you
+to ensure you understand how we work as an engineering group
+to ensure you are consulted before we begin a major piece of work that affects your team
+to ensure you know we work together as one Xplor team and not as individual functional groups
+
+# Effective Communication with Me
+I am generally a well organised person. In order to communicate effectively with me, please:
+
+be straight-up and cut the bullshit
+be explicit rathar than assume I already have the knowledge of something
+grab me if it's urgent, or requires back and forth
+call me if it's urgent and I'm out of office
+Slack me if it's short and don't require back and forth
+email me if it's long and don't require back and forth
+being interrupted is part of my role, come talk to me even if I have headphones on
+be patient, and if you don't hear back from me within a day, nudge me
+think about the outcome and actionable items before you schedule a meeting with me
+if it's more personal or more private, let's go grab a coffee or tea
+hard truth: your requests are important to you, but may not be as important compared to others
+
 # Software Development Principles
 As an engineering manager I strongly believed in putting people over process and changing process to accommodate our needs and goals. As an engineering manager I will stay out of the planning loop where possible while guiding tech leads, principals and managers distill what I believe are values that are important to me, which are: 
 
@@ -60,6 +125,22 @@ I am not perfect. I’ve learnt more from failures than I have from success, so 
 
 *2. Rambling:* My conversation style is to work off of visual cues from my audience and sometimes when I don’t get a cue, I can continue to elaborate my point which can come off as rambling. I am actively learning to correct this. 
 
+# Trust Bank
+I will always fill up the trust bank to the fullest and work backwards. What that means is that I will place my trust in you blindly, but if you repeatedly make the same mistakes again and again after being given feedback then you will slowly drain that trust bank.
+
+# The "No Surprises" Rule
+Finally, there should be no surprises in the up direction (to your leader), down direction (to your team) and sideway direction (to your peers).
+Please:
+
+*if there are issues, surface them as quickly as possible.*
+*if you suspect something might become an issue, do some analysis and surface them as quickly as possible.*
+*if you are told about something vague, ask for more information then do some analysis and surface them as quickly as possible.*
+
+# Receiving and Providing Feedback
+Feedback should be provided and received as soon as possible. Instead of waiting for our next 1:1, or the next Officevibe survey, or the next watercooler conversation, grab me and let's talk it out.
+
+Every person is different, and therefore every project and every team are different. There is always room for improvement, for everyone. So, if you have any feedback for me, please come talk to me, I promise I won't bite! ;)
+
 # Personality Quirks
 Here are some things that I am both aware of, and that may or may not impact how you work with me:
 * Based on personality tests I classify as EFNP.
@@ -68,3 +149,7 @@ Here are some things that I am both aware of, and that may or may not impact how
 * I don’t take life too seriously and very open to feedback regardless of how critical.
 
 Hope this helps you to understand my role, my philosophies and helps us work together to build rewarding careers for both you and me while building a solid international technology product and brand.
+
+# No README is Perfect
+If you have suggestions on things I should cover or clarify in this README, please come and have a chat!
+
