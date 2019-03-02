@@ -1,0 +1,22 @@
+---
+layout: default
+title: Corpor8
+---
+
+<h2>About</h2>
+<p id='about'>My name is Nitin Mishra.
+I am a Foodie, Technology Enthusiast with Business acumen, wisdom seeker, influencer, author and TEDx speaker.
+I love to play around and generate cheatsheets for almost everything.
+</p>
+
+<ul class='links'>
+    <li><a href='https://github.com/mishnit'>Github</a></li>
+    <li><a href='https://www.linkedin.com/in/mishnit'>LinkedIn</a></li>
+</ul>
+
+<h2>Blog Posts</h2>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
