@@ -9,13 +9,8 @@ Note: 'You' in this document is you the engineer/manager.
 I’m an engineer turned manager and have worked with a lot of early/late stage startups and also at MNC like TCS Research Labs for last 8 years. This gives me the unique experience of learning what works and what doesn’t at both ends of the scale spectrum. I have a passion for using technology to build products that solve real world problems. What I am most passionate though is managing engineers and building great high performing but empathetic teams. 
 
 # My Leadership Style
-Let's start by talking about my leadership style, as it's the cornerstone of everything I will talk about in this README.
+Key points that define my Leadership style are as follows:
 
-I am a firm believer in People, Product, Profit, in that order. One of my top priorities is to ensure people stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed.
-
-As part of our new employee onboarding experience, you would've been asked to do a DISC profile assessment.
-
-# Key Points that Define My Leadership Style
 * I value people over everything else
 * I value actions over words
 * I value pragmatism over correctness
@@ -56,8 +51,7 @@ My role is empowerment. I want you to think this is a great place to work, come 
 * If I fail at any of these — especially anything that puts retaining you at risk — you would be doing me a huge favor by letting me know as soon as possible. I want you to reflect back 10 years from now at your time spent at our organisation and consider it to be the best work you’ve ever done. If you’re still here then, I’ve done my job well.
 
 # My Role
-One of my top priorities is to ensure people stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed.
-That said, with the help of others, I would like:
+I am a firm believer in People, Product, Profit, in that order. One of my top priorities is to ensure people stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. That said, with the help of others, I would like:
 
 # For Software Engineers
 * to ensure you work on the right things
@@ -137,7 +131,7 @@ Please:
 # Receiving and Providing Feedback
 Feedback should be provided and received as soon as possible. Instead of waiting for our next 1:1, or the next internal survey, or the next watercooler conversation, grab me and let's talk it out.
 
-Every person is different, and therefore every project and every team are different. There is always room for improvement, for everyone. So, if you have any feedback for me, please come talk to me, I promise I won't bite! ;)
+Every person is different, and therefore every project and every team are different. There is always room for improvement, for everyone. So, if you have any feedback for me, please come talk to me, I promise I won't bite! These meetings can go by the [Chatham House Rule](https://www.chathamhouse.org/chatham-house-rule) ;)
 
 # Personality Quirks
 Here are some things that I am both aware of, and that may or may not impact how you work with me:
