@@ -5,9 +5,9 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  <title>Nitin Mishra</title>
  <link href="https://mishnit.github.io/atom.xml" rel="self"/>
- <link href="https://mishnit.github.io/"/>
+ <link href="https://mishnit.github.io"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://mishnit.github.io/</id>
+ <id>https://mishnit.github.io</id>
  <author>
   <name>Nitin Mishra</name>
   <email>geekymishnit@gmail.com</email>
