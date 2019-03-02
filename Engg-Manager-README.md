@@ -35,9 +35,9 @@ As an Engineering Manager, it is my job to:
 Your success is ultimately my success, so I will go out of my way to try and make you successful without micro-managing. I believe that regardless of the complexity of the problem you are trying to tackle, you already have the answer in you, my role is to help you find it. I rely heavily on open questions, rather than jumping straight to advice, but if you explicitly ask for advice I am more than happy to provide it. If you need to chat, come grab me, anytime. 
 
 # How I expect you to approach your job
-*Engineers:* Our organisation has hired you because of your experience and skills, and I am not here to tell you how to do your job. I believe you are able to operate as a professional adult, and make smart decisions. This does not mean that I expect you to do everything on your own , I am here to provide you guidance and mentorship (either through me, or by finding the people you should be getting it from). When you need help, I expect you to not hesitate and ask for it. If you feel you made a mistake, own up to it, as will I. 
+*1. Engineers:* Our organisation has hired you because of your experience and skills, and I am not here to tell you how to do your job. I believe you are able to operate as a professional adult, and make smart decisions. This does not mean that I expect you to do everything on your own , I am here to provide you guidance and mentorship (either through me, or by finding the people you should be getting it from). When you need help, I expect you to not hesitate and ask for it. If you feel you made a mistake, own up to it, as will I. 
 
-*Managers:* Please routinely reach out to your team’s stakeholders, keep an ear to the ground about what they’re launching, and be proactive about responding to them when they reach out. Please continue to educate yourself on leadership: use the tech budget to go learn from of the best leaders in the industry. It goes without saying, but please have weekly 1:1s with your direct reports. More on 1:1’s later.
+*2. Managers:* Please routinely reach out to your team’s stakeholders, keep an ear to the ground about what they’re launching, and be proactive about responding to them when they reach out. Please continue to educate yourself on leadership: use the tech budget to go learn from of the best leaders in the industry. It goes without saying, but please have weekly 1:1s with your direct reports. More on 1:1’s later.
 
 # Northstar:
 My role is empowerment. I want you to think this is a great place to work, come in motivated every day to solve hard challenges. I want you to get out of bed excited. I also want to ensure the company is doing great because you are doing great and delivering great value. If that is not happening, why are we here?
@@ -97,15 +97,15 @@ I am generally a well organised person. In order to communicate effectively with
 # Software Development Principles
 As an engineering manager I strongly believed in putting people over process and changing process to accommodate our needs and goals. As an engineering manager I will stay out of the planning loop where possible while guiding tech leads, principals and managers distill what I believe are values that are important to me, which are: 
 
-*Customer focus:* Are we obsessed about customer needs and working towards the ‘wow’ in our organisation’s values?. Are we being empathetic towards our customers.? 
+*1. Customer focus:* Are we obsessed about customer needs and working towards the ‘wow’ in our organisation’s values?. Are we being empathetic towards our customers.? 
 
-*Transparency:* Are we clearly and transparently oversharing information within and across teams.?
+*2. Transparency:* Are we clearly and transparently oversharing information within and across teams.?
 
-*Curiosity:* Are we constantly learning? Are we finding ways to improve processes/people/products? 
+*3. Curiosity:* Are we constantly learning? Are we finding ways to improve processes/people/products? 
 
-*Bias for Action:* Do we see opportunities where other’s see roadblocks? Are we actively biased for taking action? Are we open to calculated risk taking and not slowing down cycles? 
+*4. Bias for Action:* Do we see opportunities where other’s see roadblocks? Are we actively biased for taking action? Are we open to calculated risk taking and not slowing down cycles? 
 
-*Ownership:* Are we acting as owners? Are we thinking long term enough and challenging ourselves to think big? Are we ensuring that we never say “That’s not my job”? 
+*5. Ownership:* Are we acting as owners? Are we thinking long term enough and challenging ourselves to think big? Are we ensuring that we never say “That’s not my job”? 
 
 # 1-on-1's
 I’m big on 1-on-1’s. Mostly this time is about you. Yes, I am the reason why 1–1’s will now be weekly. My role will be to listen to you. I will also use this time for us to to work through your career goals and use it for feedback on my own performance as a manager. While skeptical of some parts, I have adopted a version of Radical Candor for feedback. I’ve been guilty of being over empathetic in the past while missing the point of giving feedback, but I’ve pivoted that to caring personally but challenging directly when I see an opportunity for improvement. While I understand it may be hard for everyone to be on board with this, I expect the same from my team and my managers.
