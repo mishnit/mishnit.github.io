@@ -1,7 +1,7 @@
 ## Engineering Manager README
 
 # What is this?
-This is inspired by [Manager README](https://hackernoon.com/12-manager-readmes-from-silicon-valleys-top-tech-companies-26588a660afe), a document that helps introduce you to my management style, philosophy, and expectations. The intended audience is primarily anyone who reports in to me, though anyone is free to read it — or even provide feedback on it! This is a living document, incomplete (we never stop growing) and concise guide. So hi! Let’s get to know me. 
+This is inspired by [Manager README](https://hackernoon.com/12-manager-readmes-from-silicon-valleys-top-tech-companies-26588a660afe), a document that helps introduce you to my management style, philosophy, and expectations. The intended audience is primarily anyone who reports in to me, though anyone is free to read it — or even provide feedback on it! This is a living, incomplete (we never stop growing) and concise document. So hi! Let’s get to know me. 
 
 Note: 'You' in this document is you the engineer/manager.
 
