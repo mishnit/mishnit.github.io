@@ -1,2 +1,2 @@
-CORPOR8: An Engineering Manager Readme
+CORPOR8: An Engineering Manager README
 https://mishnit.github.io
