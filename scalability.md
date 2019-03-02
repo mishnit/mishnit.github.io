@@ -777,9 +777,3 @@ An organized reading list for illustrating the patterns behind scalable, reliabl
 * [Designing Data-Intensive Applications](https://dataintensive.net/)
 * [Web Scalability for Startup Engineers](https://www.goodreads.com/book/show/23615147-web-scalability-for-startup-engineers)
 * [Scalability Rules: 50 Principles for Scaling Web Sites](http://scalabilityrules.com/)
-
-## License
-
-[![CC-BY](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)
-
-Created and maintained by [Binh Nguyen](https://www.linkedin.com/in/binhnguyennus/) (Agency for Science, Technology and Research of Singapore). Thank You & Happy Coding :shipit: 
