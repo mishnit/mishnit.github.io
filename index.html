@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>101 questions</title>
+  <meta name="description" content="Automatically pick three things to ask in 1 on 1 meetings">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <style type="text/css">
+    body {
+      font-size: 2em;
+    }
+    #container {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      width:100%;
+    }
+    #questions {
+      width:50%;
+      text-align:center;
+    }
+    .question {
+      padding-bottom: 3em;
+    }
+    #attribution {
+      margin-top: 4em;
+      font-size: 0.5em;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="questions">
+      <p class="question" id="one"></p>
+      <p class="question" id="two"></p>
+      <p class="question" id="three"></p>
+
+      <p id="attribution">With thanks to Jason Evanish, who wrote <a href="https://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/">this excellent list of questions to ask in 1 on 1s</a>.</p>
+    </div>
+  </div>
+
+    <script type="text/javascript">
+      // Thanks to https://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/
+      var questions = [
+        "(Short Term Goals) How is [project] going? What could we do to make it better?",
+        "(Short Term Goals) Is there anything blocking you from getting your work done?",
+        "(Short Term Goals) Are there any projects you'd really like to work on if you were given the opportunity?",
+        "(Short Term Goals) What parts of your job would you like to deepen your skills in or get additional training in?",
+        "(Short Term Goals) Is any part of your project unclear or confusing?",
+        "(Long Term Goals) What do you want to be doing in 5 years? 10 years? 3 years?",
+        "(Long Term Goals) What are your long term goals? Have you thought about them?",
+        "(Long Term Goals) Do you feel like you're making progress on your big goals here? Why or why not?",
+        "(Long Term Goals) What's one thing we could do today to help you with your long term goals?",
+        "(Long Term Goals) Do you feel we're helping you advance your career at a pace you would like?",
+        "(Long Term Goals) Who do you really admire? Why? (People often admire those they want to become)",
+        "(Long Term Goals) If you had millions of dollars, what would you do every day?",
+        "(Long Term Goals) What are your super powers? What powers would you like to develop?",
+        "(Long Term Goals) What are your big dreams in life? Are you making progress on them?",
+        "(Long Term Goals) Could you see yourself making progress on more of your goals here? What would need to change to do so?",
+        "(Long Term Goals) What work are you doing here that you feel is most in line with your long term goals?",
+        "(Long Term Goals) As a kid, what did you want to be when you grew up?",
+        "(Company Improvement) What is the company not doing today that we should do to better compete in the market?",
+        "(Company Improvement) What's one thing we'd be *crazy* not to do in the next quarter to improve our product?",
+        "(Company Improvement) How could we change our team meetings to be more effective?",
+        "(Company Improvement) If you were CEO, what's the first thing you'd change?",
+        "(Company Improvement) Do you think our company is loyal to its employees? Why or why not?",
+        "(Company Improvement) Are there any aspects of our culture you wish you could change?",
+        "(Company Improvement) What are your favorite parts about our culture?",
+        "(Company Improvement) Do you feel over-worked, under-worked, or just the right workload?",
+        "(Company Improvement) Why do you think [employee who recently quit] left? What did they tell you?",
+        "(Company Improvement) What would convince you to leave for a job somewhere else?",
+        "(Company Improvement) Which company values do you like the most? Which the least? Why?",
+        "(Company Improvement) What is the #1 Problem at our company? Why?",
+        "(Company Improvement) Do you feel like you're on the same page with your team? How often do you think you need meetings to ensure you stay that way?",
+        "(Company Improvement) What do you think are the long term prospects of the company?",
+        "(Company Improvement) How many hours a day do you feel you're productive? How could we help you be more productive?",
+        "(Company Improvement) How could we be more creative or innovative as a company?",
+        "(Self Improvement) Do you feel challenged at work? Are you learning new things?",
+        "(Self Improvement) What area of the company would you like to learn more about?",
+        "(Self Improvement) What skills would you like to develop right now?",
+        "(Self Improvement) Who in the company would you like to learn from? What do you want to learn?",
+        "(Self Improvement) How do you prefer to receive feedback?",
+        "(Self Improvement) Do you feel you're getting enough feedback?",
+        "(Self Improvement) What's a recent situation you wish you handled differently? What would you change?",
+        "(Self Improvement) What additional training or education would you like?",
+        "(Self Improvement) Are there any roles in the company you'd like to learn more about?",
+        "(Self Improvement) What do you think are the key skills for your role? How would you rate yourself for each of them?",
+        "(Self Improvement) Is there an aspect of your job you would like more help or coaching?",
+        "(Manager Improvement) What could I do as a manager to make your work easier?",
+        "(Manager Improvement) What do you like about my management style? What do you dislike?",
+        "(Manager Improvement) Would you like more or less direction from me on your work?",
+        "(Manager Improvement) What could I do to make you enjoy your work more?",
+        "(Manager Improvement) How can I better support you?",
+        "(Manager Improvement) What would you like to know about me?",
+        "(Manager Improvement) Is there a situation you'd like my help with?",
+        "(Manager Improvement) What is something I could do better? What is a criticism you have for me?",
+        "(Happiness) Are you happy?",
+        "(Happiness) Are you happy working here?",
+        "(Happiness) Are you happy with your recent work? Why or why not?",
+        "(Happiness) What would make you leave this job for another?",
+        "(Happiness) What's one thing we do to help you enjoy your job more?",
+        "(Happiness) Is your job what you expected when you accepted it?",
+        "(Happiness) What worries you?",
+        "(Happiness) What's on your mind?",
+        "(Happiness) What's not fun about working here? What do you enjoy most about working here?",
+        "(Happiness) Who are you friends with at work? (Shown to be a key to enjoying your job)",
+        "(Happiness) When was the time you enjoyed working here the most?",
+        "(Happiness) What do you feel is your greatest accomplishment here?",
+        "(Happiness) What's something you feel is undervalued that you contribute to the team?",
+        "(Happiness) What part of your job do you wish you didn't have to do?",
+        "(Personal Life) How are you? How is life outside of work?",
+        "(Personal Life) How do you feel your work/life balance is right now?",
+        "(Personal Life) How do you feel about your current compensation (salary and benefits)?",
+        "(Personal Life) What's one thing we could change about work for you that would improve your personal life?",
+        "(Personal Life) If around a holiday: What did you do for [Holiday]? How was it?",
+        "(Personal Life) How are your parents/grandparents? Where do they live?",
+        "(Personal Life) If they have children: How is [name of child] doing? (Ask something related to their age like starting school, playing sports, or other interests.)",
+        "(Personal Life) What do you like to do in your free time? What are your hobbies?",
+        "(Personal Life) What did you do for fun in the past that you haven't had as much time for lately?",
+        "(Personal Life) What drives you? What motivates you to come to work each day?",
+        "(Team Relations) Who on the team do you have the most difficulty working with? Why?",
+        "(Team Relations) How would you describe the work environment on the team? Is it more competitive or collaborative?",
+        "(Team Relations) How could we improve the ways our team works together?",
+        "(Team Relations) Who is kicking ass on the team? What have they done?",
+        "(Team Relations) Who do you admire on the team? Why?",
+        "(Team Relations) Do you feel your ideas are heard by the team and I?",
+        "(Team Relations) Who would you like to work more often with? Why?",
+        "(Team Relations) Is everyone pulling their weight on the team?",
+        "(Team Relations) Do you help other members on the team? Do others help you when you need it?",
+        "(Team Relations) What's one thing we should change about how our team works together?",
+        "(Team Relations) What characteristics make someone a good fit for our team? How would you look for those characteristics in an interview?",
+        "(Team Relations) What's the biggest thing you'd like to change about our team?",
+        "(Team Relations) What do you like most about working on our team?",
+        "(Team Relations) Has anyone on the team ever made you feel uncomfortable? What happened?",
+        "(Work Habits) What part of the day do you have the most energy and focus? When do you have the least? What changes could we make to your work schedule to accommodate this?",
+        "(Work Habits) What are 3 things would you buy to improve your productivity if money was no object?",
+        "(Work Habits) What is an ideal, productive day at work for you? Walk me through the day…",
+        "(Work Habits) What's an inexpensive thing we could do to improve our office environment?",
+        "(Work Habits) What are the biggest time wasters for you each week?",
+        "(Work Habits) What makes you excited and motivated to work on a project?",
+        "(Work Habits) When you get stuck on something, what is your process for getting unstuck? Who do you turn to for help?",
+        "(Work Habits) What part of your work routine do you find is working best? What area do you want to improve?",
+        "(Work Habits) Are there any meetings or discussions you feel you should be a part of that you're not? Are you included in any you don't want to be a part of?",
+        "(Work Habits) What do you do when you feel low energy or unmotivated?",
+        "(Work Habits) How can I help…? (be more productive/happier at work/enjoy work more/etc)",
+      ];
+      var one = document.getElementById("one");
+      var two = document.getElementById("two");
+      var three = document.getElementById("three");
+      var random = [];
+      for (var i = 0; i < 3; i++) {
+        do
+          var r = Math.floor(Math.random() * questions.length);
+        while (random.indexOf(r) != -1);
+        random.push(r);
+      }
+      one.innerHTML = questions[random[0]];
+      two.innerHTML = questions[random[1]];
+      three.innerHTML = questions[random[2]];
+    </script>
+  </body>
+</html>
