@@ -62,7 +62,8 @@ I am a firm believer in People, Product, Profit, in that order. One of my top pr
 # For Tech & QA Leads (My Direct Reports)
 * to ensure you get the coaching and mentorship you need to succeed in your role
 * to ensure you lead instead of manage your team
-* to ensure you have the autonomy to lead and drive your team
+* to ensure you have the autonomy to lead and 
+ve your team
 * to ensure you have enough information and context to prioritise tasks for your team
 * to ensure you feel safe to be honest with me
 
