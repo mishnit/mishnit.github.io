@@ -16,26 +16,24 @@ I am a firm believer in People, Product, Profit, in that order. One of my top pr
 As part of our new employee onboarding experience, you would've been asked to do a DISC profile assessment.
 
 # Key Points that Define My Leadership Style
-I value people over everything else
-I value actions over words
-I value pragmatism over correctness
-I value realism over (extreme-)optimism
-I value autonomy over micro-management
-I value over-communication over under-communication
-I value problem solving skills over engineering skills
-I value working smarter over working harder
-I value being straight-up over being political
-I value giving info early over giving info at last-minute
-I value taking risks over not making mistakes
+* I value people over everything else
+* I value actions over words
+* I value pragmatism over correctness
+* I value realism over (extreme-)optimism
+* I value autonomy over micro-management
+* I value over-communication over under-communication
+* I value problem solving skills over engineering skills
+* I value working smarter over working harder
+* I value being straight-up over being political
+* I value giving info early over giving info at last-minute
+* I value taking risks over not making mistakes
 
 # My Job
 As an Engineering Manager, it is my job to:
+
 1. Attract and Retain world-class talent (that’s you). This means doing a lot of interviews, talking to a lot of people.
-
 2. Give engineers and managers a sense of purpose and direction. This means focusing on building high performance teams, helping you understand where you stand and how you can measurably grow in your career, building a deeply value focused engineering org. 
-
 3. Help with planning and delivering on goals. This means setting context on roadmaps and product direction so that you, always know why are you doing what you are doing and reporting back state of the world higher up the chain.
-
 4. Develop and improve my own abilities as a leader.
 
 # How I approach my job
@@ -50,57 +48,57 @@ Your success is ultimately my success, so I will go out of my way to try and mak
 My role is empowerment. I want you to think this is a great place to work, come in motivated every day to solve hard challenges. I want you to get out of bed excited. I also want to ensure the company is doing great because you are doing great and delivering great value. If that is not happening, why are we here?
 
 # If I succeed at my job:
-You feel empowered as a leader to figure out what you need to do and how you think it should be done and then to get it done.
-You have enough context to understand your priority and focus over upcoming waves.
-You have built effective relationships with others in the company.
-You know where you stand in your career within and outside of our organisation and understand how to move up.
-You are motivated, focused, having fun, & not burning out
-If I fail at any of these — especially anything that puts retaining you at risk — you would be doing me a huge favor by letting me know as soon as possible. I want you to reflect back 10 years from now at your time spent at our organisation and consider it to be the best work you’ve ever done. If you’re still here then, I’ve done my job well.
+* You feel empowered as a leader to figure out what you need to do and how you think it should be done and then to get it done.
+* You have enough context to understand your priority and focus over upcoming waves.
+* You have built effective relationships with others in the company.
+* You know where you stand in your career within and outside of our organisation and understand how to move up.
+* You are motivated, focused, having fun, & not burning out
+* If I fail at any of these — especially anything that puts retaining you at risk — you would be doing me a huge favor by letting me know as soon as possible. I want you to reflect back 10 years from now at your time spent at our organisation and consider it to be the best work you’ve ever done. If you’re still here then, I’ve done my job well.
 
 # My Role
 One of my top priorities is to ensure people stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed.
 That said, with the help of others, I would like:
 
 # For Software Engineers
-to ensure you work on the right things
-to ensure you talk to the right people
-to ensure you feel it's a safe and supportive workplace
-to ensure you upskill yourself
+* to ensure you work on the right things
+* to ensure you talk to the right people
+* to ensure you feel it's a safe and supportive workplace
+* to ensure you upskill yourself
 
 # For Tech & QA Leads (My Direct Reports)
-to ensure you get the coaching and mentorship you need to succeed in your role
-to ensure you lead instead of manage your team
-to ensure you have the autonomy to lead and drive your team
-to ensure you have enough information and context to prioritise tasks for your team
-to ensure you feel safe to be honest with me
+* to ensure you get the coaching and mentorship you need to succeed in your role
+* to ensure you lead instead of manage your team
+* to ensure you have the autonomy to lead and drive your team
+* to ensure you have enough information and context to prioritise tasks for your team
+* to ensure you feel safe to be honest with me
 
 # For Product Managers
-to ensure you know how easy or difficult it is to perform a given task
-to ensure you always get our confidence level on our own estimation
-to ensure you get presented with alternative solutions we believe could achieve similar goals with less effort
-to ensure you are provided with enough technical guidance for your product roadmap
+* to ensure you know how easy or difficult it is to perform a given task
+* to ensure you always get our confidence level on our own estimation
+* to ensure you get presented with alternative solutions we believe could achieve similar goals with less effort
+* to ensure you are provided with enough technical guidance for your product roadmap
 
 # For the Rest of Leadership Team
-to ensure you gain the confidence that we would deliver
-to ensure you know why we do or don't do certain things for you
-to ensure you understand how we work as an engineering group
-to ensure you are consulted before we begin a major piece of work that affects your team
-to ensure you know we work together as one Xplor team and not as individual functional groups
+* to ensure you gain the confidence that we would deliver
+* to ensure you know why we do or don't do certain things for you
+* to ensure you understand how we work as an engineering group
+* to ensure you are consulted before we begin a major piece of work that affects your team
+* to ensure you know we work together as one Xplor team and not as individual functional groups
 
 # Effective Communication with Me
 I am generally a well organised person. In order to communicate effectively with me, please:
 
-be straight-up and cut the bullshit
-be explicit rathar than assume I already have the knowledge of something
-grab me if it's urgent, or requires back and forth
-call me if it's urgent and I'm out of office
-Slack me if it's short and don't require back and forth
-email me if it's long and don't require back and forth
-being interrupted is part of my role, come talk to me even if I have headphones on
-be patient, and if you don't hear back from me within a day, nudge me
-think about the outcome and actionable items before you schedule a meeting with me
-if it's more personal or more private, let's go grab a coffee or tea
-hard truth: your requests are important to you, but may not be as important compared to others
+* be straight-up and cut the bullshit
+* be explicit rathar than assume I already have the knowledge of something
+* grab me if it's urgent, or requires back and forth
+* call me if it's urgent and I'm out of office
+* Slack me if it's short and don't require back and forth
+* email me if it's long and don't require back and forth
+* being interrupted is part of my role, come talk to me even if I have headphones on
+* be patient, and if you don't hear back from me within a day, nudge me
+* think about the outcome and actionable items before you schedule a meeting with me
+* if it's more personal or more private, let's go grab a coffee or tea
+* hard truth: your requests are important to you, but may not be as important compared to others
 
 # Software Development Principles
 As an engineering manager I strongly believed in putting people over process and changing process to accommodate our needs and goals. As an engineering manager I will stay out of the planning loop where possible while guiding tech leads, principals and managers distill what I believe are values that are important to me, which are: 
@@ -137,7 +135,7 @@ Please:
 *if you are told about something vague, ask for more information then do some analysis and surface them as quickly as possible.*
 
 # Receiving and Providing Feedback
-Feedback should be provided and received as soon as possible. Instead of waiting for our next 1:1, or the next Officevibe survey, or the next watercooler conversation, grab me and let's talk it out.
+Feedback should be provided and received as soon as possible. Instead of waiting for our next 1:1, or the next internal survey, or the next watercooler conversation, grab me and let's talk it out.
 
 Every person is different, and therefore every project and every team are different. There is always room for improvement, for everyone. So, if you have any feedback for me, please come talk to me, I promise I won't bite! ;)
 
