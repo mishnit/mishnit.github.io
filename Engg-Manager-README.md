@@ -9,7 +9,7 @@ Note: 'You' in this document is you the engineer/manager.
 I’m an engineer turned manager and have worked with a lot of early/late stage startups and also at MNC like TCS Research Labs. This gives me the unique experience of learning what works and what doesn’t at both ends of the scale spectrum. I have a passion for using technology to build products that solve real world problems. What I am most passionate though is managing engineers and building great high performing but empathetic teams. 
 
 # My Job
-As a Senior Engineering Manager, it is my job to:
+As an Engineering Manager, it is my job to:
 1. Attract and Retain world-class talent (that’s you). This means doing a lot of interviews, talking to a lot of people.
 
 2. Give engineers and managers a sense of purpose and direction. This means focusing on building high performance teams, helping you understand where you stand and how you can measurably grow in your career, building a deeply value focused engineering org. 
@@ -38,7 +38,7 @@ You are motivated, focused, having fun, & not burning out
 If I fail at any of these — especially anything that puts retaining you at risk — you would be doing me a huge favor by letting me know as soon as possible. I want you to reflect back 10 years from now at your time spent at our organisation and consider it to be the best work you’ve ever done. If you’re still here then, I’ve done my job well.
 
 # Software Development Principles
-As an engineering manager I strongly believed in putting people over process and changing process to accommodate our needs and goals. As a senior engineering manager I will stay out of the planning loop where possible while guiding tech leads, principals and managers distill what I believe are values that are important to me, which are: 
+As an engineering manager I strongly believed in putting people over process and changing process to accommodate our needs and goals. As an engineering manager I will stay out of the planning loop where possible while guiding tech leads, principals and managers distill what I believe are values that are important to me, which are: 
 
 *Customer focus:* Are we obsessed about customer needs and working towards the ‘wow’ in our organisation’s values?. Are we being empathetic towards our customers.? 
 
