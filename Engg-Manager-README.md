@@ -113,7 +113,7 @@ I’m big on 1-on-1’s. Mostly this time is about you. Yes, I am the reason why
 
 # Skill and Will checks
 I would be doing a regular checks on skill-will matrix for you and based on that would be empowering you in an appropriate manner.
-[Skill -will Matrix](skill-will-matrix.jpg)
+![Skill -will Matrix](skill-will-matrix.jpg)
 
 # Trust Bank
 I will always fill up the trust bank to the fullest and work backwards. What that means is that I will place my trust in you blindly, but if you repeatedly make the same mistakes again and again after being given feedback then you will slowly drain that trust bank.
