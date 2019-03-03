@@ -6,7 +6,7 @@ This is inspired by [Manager README](https://hackernoon.com/12-manager-readmes-f
 Note: 'You' in this document is you the engineer/manager.
 
 # TL;DR: 
-One of my top priorities is to ensure you stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. You would have freedom and responsibilty at the same time.
+I am here to *lead people* to *build great products* using *effictive process management*. One of my top priorities is to ensure you stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. You would have freedom and responsibilty at the same time.
 
 # My Background
 I’m an engineer turned manager and have worked with a lot of early/late stage startups and also at MNCs like TCS Innovation Labs for last 8 years. This gives me the unique experience of learning what works and what doesn’t at both ends of the scale spectrum. I have a passion for using technology to build products that solve real world problems. What I am most passionate though is managing engineers and building great high performing but empathetic teams. 
