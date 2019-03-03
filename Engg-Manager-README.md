@@ -129,7 +129,7 @@ Every person is different, and therefore every project and every team are differ
 
 # Personality Quirks
 Here are some things that I am both aware of, and that may or may not impact how you work with me:
-* Based on personality tests I classify as EFNP.
+* Based on personality tests I classify as [ENFP](https://www.16personalities.com/enfps-at-work).
 * I have strong opinions on product and UX but I know my boundaries.
 * I love data and I will trust you but will always try and go on to verify the data, do not take this personally.
 * I don’t take life too seriously and very open to feedback regardless of how critical.
