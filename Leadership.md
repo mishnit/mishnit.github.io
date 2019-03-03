@@ -1,5 +1,6 @@
 ## People Management
  * [Radical Candor](http://firstround.com/review/radical-candor-the-surprising-secret-to-being-a-good-boss/)
+ * [Managing High and Low performers at the same time](https://www.businessnewsdaily.com/9736-managing-high-vs-low-performers.html)
  * [Team Performance Model: Forming Storming Norming Performing](https://www.businessballs.com/team-management/tuckman-forming-storming-norming-performing-model/)
  * [Forget Technical Debt — Here's How to Build Technical Wealth](http://firstround.com/review/forget-technical-debt-heres-how-to-build-technical-wealth/)
  * [10 things you should never put in your inmails](http://www.socialtalent.co/blog/10-things-never-put-inmails-like-ever)
