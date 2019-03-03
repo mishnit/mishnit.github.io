@@ -147,3 +147,6 @@ I am not perfect. I’ve learnt more from failures than I have from success, so 
 # No README is Perfect
 If you have suggestions on things I should cover or clarify in this README, please come and have a chat!
 
+# More
+More stuff for best practices on OKR setting, High Deliverability, Engg. Team Appraisal Framework, System Design Best Practices, Leadership and Personality types can be found [here](https://mishnit.github.io)
+
