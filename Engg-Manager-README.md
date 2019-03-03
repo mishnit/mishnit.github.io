@@ -6,7 +6,7 @@ This is inspired by [Manager README](https://hackernoon.com/12-manager-readmes-f
 Note: 'You' in this document is you the engineer/manager.
 
 # TL;DR: 
-I am here to *lead people* to *build great products* end to end using *effective process management* (3Ps). One of my top priorities is to ensure you stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. You would have freedom and responsibilty at the same time. I would keep Transparency, Effective Communication and expectations setting back and forth at the highest priority. 
+My name is Nitin. I am here to *lead people* to *build great products* end to end using *effective process management* (3Ps). One of my top priorities is to ensure you stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. You would have freedom and responsibilty at the same time. I would keep Transparency, Effective Communication and expectations setting back and forth at the highest priority.
 
 # My Background
 Hi! My name is Nitin Mishra. I am a technology enthusiast with business acumen, a wisdom seeker, influencer, author and TEDx speaker. I’m an engineer turned manager and have worked with a lot of early/late stage startups and also at MNCs like TCS Innovation Labs for last 8 years. This gives me the unique experience of learning what works and what doesn’t at both ends of the scale spectrum. I have a passion for using technology to build products that solve real world problems. What I am most passionate though is managing engineers and building great high performing but empathetic teams. I spend most of my weekends learning new stuff on medium, reddit, dzone, github, slack, firstround, infoQ and highscalability.
@@ -35,15 +35,13 @@ As an Engineering Manager, it is my job to:
 4. Develop and improve my own abilities as a leader.
 
 # How I approach my job
-Your success is ultimately my success, so I will go out of my way to try and make you successful without micro-managing. I believe that regardless of the complexity of the problem you are trying to tackle, you already have the answer in you, my role is to help you find it. I rely heavily on open questions, rather than jumping straight to advice, but if you explicitly ask for advice I am more than happy to provide it. If you need to chat, come grab me, anytime. 
+Your success is ultimately my success, so I will go out of my way to try and make you successful without micro-managing. I believe that regardless of the complexity of the problem you are trying to tackle, you already have the answer in you, my 
+role is to help you find it. I rely heavily on open questions, rather than jumping straight to advice, but if you explicitly ask for advice I am more than happy to provide it. If you need to chat, come grab me, anytime. 
 
 # How I expect you to approach your job
 *1. Engineers:* Our organisation has hired you because of your experience and skills, and I am not here to tell you how to do your job. I believe you are able to operate as a professional adult, and make smart decisions. This does not mean that I expect you to do everything on your own , I am here to provide you guidance and mentorship (either through me, or by finding the people you should be getting it from). When you need help, I expect you to not hesitate and ask for it. If you feel you made a mistake, own up to it, as will I. 
 
 *2. Managers:* Please routinely reach out to your team’s stakeholders, keep an ear to the ground about what they’re launching, and be proactive about responding to them when they reach out. Please continue to educate yourself on leadership: use the tech budget to go learn from of the best leaders in the industry. It goes without saying, but please have weekly 1:1s with your direct reports. More on 1:1’s later.
-
-# Northstar:
-My role is empowerment. I want you to think this is a great place to work, come in motivated every day to solve hard challenges. I want you to get out of bed excited. I also want to ensure the company is doing great because you are doing great and delivering great value. If that is not happening, why are we here?
 
 # If I succeed at my job:
 * You feel empowered as a leader to figure out what you need to do and how you think it should be done and then to get it done.
@@ -54,7 +52,7 @@ My role is empowerment. I want you to think this is a great place to work, come 
 * If I fail at any of these — especially anything that puts retaining you at risk — you would be doing me a huge favor by letting me know as soon as possible. I want you to reflect back 10 years from now at your time spent at our organisation and consider it to be the best work you’ve ever done. If you’re still here then, I’ve done my job well.
 
 # My Role
-I am a firm believer in People, Product, Profit, in that order. One of my top priorities is to ensure people stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. That said, with the help of others, I would like:
+I am a firm believer in People, Product, Profit, in that order. My role is empowerment. I want you to get out of bed excited coming to office. I also want to ensure the company is doing great because you are doing great and delivering great value. One of my top priorities is to ensure people stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. That said, with the help of others, I would like:
 
 # For Software Engineers
 * to ensure you work on the right things
