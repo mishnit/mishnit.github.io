@@ -118,9 +118,9 @@ I will always fill up the trust bank to the fullest and work backwards. What tha
 Finally, there should be no surprises in the up direction (to your leader), down direction (to your team) and sideway direction (to your peers).
 Please:
 
-*if there are issues, surface them as quickly as possible.*
-*if you suspect something might become an issue, do some analysis and surface them as quickly as possible.*
-*if you are told about something vague, ask for more information then do some analysis and surface them as quickly as possible.*
+* if there are issues, surface them as quickly as possible.
+* if you suspect something might become an issue, do some analysis and surface them as quickly as possible.
+* if you are told about something vague, ask for more information then do some analysis and surface them as quickly as possible.
 
 # Receiving and Providing Feedback
 Feedback should be provided and received as soon as possible. Instead of waiting for our next 1:1, or the next internal survey, or the next watercooler conversation, grab me and let's talk it out.
@@ -129,6 +129,7 @@ Every person is different, and therefore every project and every team are differ
 
 # Personality Quirks
 Here are some things that I am both aware of, and that may or may not impact how you work with me:
+
 * Based on personality tests I classify as [ENFP](https://www.16personalities.com/enfps-at-work).
 * I have strong opinions on product and UX but I know my boundaries.
 * I love data and I will trust you but will always try and go on to verify the data, do not take this personally.
