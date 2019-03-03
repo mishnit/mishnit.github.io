@@ -111,6 +111,10 @@ As an engineering manager I strongly believed in putting people over process and
 # 1-on-1's
 I’m big on 1-on-1’s. Mostly this time is about you. Yes, I am the reason why 1–1’s will now be weekly. My role will be to listen to you. I will also use this time for us to to work through your career goals and use it for feedback on my own performance as a manager. While skeptical of some parts, I have adopted a version of [Radical Candor (HHIPP)](https://firstround.com/review/radical-candor-the-surprising-secret-to-being-a-good-boss/) for feedback. I’ve been guilty of being over empathetic in the past while missing the point of giving feedback, but I’ve pivoted that to caring personally but challenging directly when I see an opportunity for improvement. While I understand it may be hard for everyone to be on board with this, I expect the same from my team and my managers.
 
+# Skill and Will checks
+I would be doing a regular checks on skill-will matrix for you and based on that would be empowering you in an appropriate manner.
+[Skill -will Matrix](skill-will-matrix.jpg)
+
 # Trust Bank
 I will always fill up the trust bank to the fullest and work backwards. What that means is that I will place my trust in you blindly, but if you repeatedly make the same mistakes again and again after being given feedback then you will slowly drain that trust bank.
 
