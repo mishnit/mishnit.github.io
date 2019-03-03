@@ -91,8 +91,7 @@ I am generally a well organised person. In order to communicate effectively with
 * grab me if it's urgent, or requires back and forth
 * call me if it's urgent and I'm out of office
 * Slack me if it's short and don't require back and forth
-* email me if it's long and don't require back and forth
-* invite me for a meeting, check out my public schedule   
+* email me if it's long and don't require back and forth 
 * being interrupted is part of my role, come talk to me even if I have headphones on
 * be patient, and if you don't hear back from me within a day, nudge me
 * think about the outcome and actionable items before you schedule a meeting with me
