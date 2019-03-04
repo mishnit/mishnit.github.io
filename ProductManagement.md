@@ -1,4 +1,3 @@
-<img src="https://mishnit.github.io/pmlogo.png">
 
 ## Content
 - [Core 1: Product Management](#core-1-product-management)
