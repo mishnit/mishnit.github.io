@@ -79,7 +79,7 @@ I am a firm believer in People, Product, Profit, in that order. My role is empow
 * to ensure you know why we do or don't do certain things for you
 * to ensure you understand how we work as an engineering group
 * to ensure you are consulted before we begin a major piece of work that affects your team
-* to ensure you know we work together as one Xplor team and not as individual functional groups
+* to ensure you know we work together as one team and not as individual functional groups
 
 # Effective Communication with Me
 I am generally a well organised person. In order to communicate effectively with me, please:
