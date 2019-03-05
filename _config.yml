@@ -4,8 +4,8 @@ relative_links:
   enabled: true
   collections: true
 include:
-	Abilities-Qualities-Values.md
-	Building-Products-and-Startups-OKRs.md
+  Abilities-Qualities-Values.md
+  Building-Products-and-Startups-OKRs.md
 	Conflict-Prevention-Resolution.md
 	Culture.md
 	Diversity-and-Gender.md
