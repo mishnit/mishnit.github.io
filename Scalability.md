@@ -30,6 +30,7 @@ An organized reading list for illustrating the patterns behind scalable, reliabl
 - [Performance](#performance)
 - [Intelligence](#intelligence)
 - [Architecture](#architecture)
+- [All Time Favorites](#favorites)
 - [Interview](#interview)
 - [Organization](#organization)
 - [Talk](#talk)
@@ -681,6 +682,9 @@ An organized reading list for illustrating the patterns behind scalable, reliabl
 	* [Architecture of Nubank](https://www.infoq.com/presentations/nubank-architecture)
 	* [Tech Stack at TransferWise](http://tech.transferwise.com/the-transferwise-stack-heartbeat-of-our-little-revolution/)
 	* [Tech Stack at Addepar](https://medium.com/build-addepar/our-tech-stack-a4f55dab4b0d)
+
+## Favorites
+* [HighScalability- All time favorites](http://highscalability.com/all-time-favorites/)
 
 ## Interview
 * [Designing Large-Scale Systems](https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/)
