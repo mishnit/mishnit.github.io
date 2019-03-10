@@ -185,7 +185,6 @@ class FSM_ProducerThread(threading.Thread):
         global queue
         global debug
         global num_of_machines
-        time_elapsed = 0.0
         nums = range(1,num_of_machines+1)
         choice_of_operations = ["fulfillOrder","activate", "cancel", "makeProgress", "complete"] 
         while len(queue)<20:
@@ -196,7 +195,7 @@ class FSM_ProducerThread(threading.Thread):
                 print len(queue), machine_id, event    #### debug mode
             else:
                 print "Producer has put event " + event + " for machine " + machine_id + " in the queue"    
-            time.sleep(0.3)
+            time.sleep(0.1)
         if debug:
             debug=False
 
@@ -215,7 +214,7 @@ class FSM_ConsumerThread(threading.Thread):
                 trigger_event_func = machine_id + '.trigger(' + '"' + event + '"' + ')'
                 eval(trigger_event_func)
                 print "consumer consumed", event, machine_id
-            time.sleep(0.3)
+            time.sleep(0.1)
         if debug:
             debug=False
 
