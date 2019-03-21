@@ -287,6 +287,7 @@
         - [add_and_search](algorithms/tree/trie/add_and_search.py)
         - [trie](algorithms/tree/trie/trie.py)
     - [binary_tree_paths](algorithms/tree/binary_tree_paths.py)
+    - [Top_View](algorithms/tree/top_view.py)
     - [bin_tree_to_list](algorithms/tree/bin_tree_to_list.py)
     - [deepest_left](algorithms/tree/deepest_left.py)
     - [invert_tree](algorithms/tree/invert_tree.py)
