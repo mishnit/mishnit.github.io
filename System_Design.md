@@ -83,23 +83,18 @@
 
 An organized reading list for illustrating the patterns behind scalable, reliable, and performant large-scale systems. Concepts are explained in the articles of prominent engineers and credible references. Case studies are taken from battle-tested systems that serve millions to billions of users.
 
-#### If your system goes slow :traffic_light:
+#### If your system goes slow
 > Understand your problems: scalability problem (fast for a single user but slow under heavy load) or performance problem (slow for a single user) by reviewing some [design principles](#principle) and checking how [scalability](#scalability) and [performance](#performance) problems are solved at tech companies. The section of [intelligence](#intelligence) are created for those who work with data and machine learning at big (data) and deep (learning) scale.
 
-#### If your system goes down :construction:
+#### If your system goes down
 > "Even if you lose all one day, you can build all over again if you retain your calm!" - Thuan Pham, CTO of Uber. So, keep calm and mind the [availability](#availability) and [stability](#stability) matters! 
 
-#### If you are having a system design interview :ocean:
+#### If you are having a system design interview
 > Look at some [interview notes](#interview) and [real-world architectures with completed diagrams](#architecture) to get a comprehensive view before designing your system on whiteboard. You can check some [talks](#talk) of engineers from tech giants to know how they build, scale, and optimize their systems. There are some selected [books](#book) for you (most of them are free)! Good luck :four_leaf_clover:
 
-#### If you are building your dream team :ferris_wheel:
+#### If you are building your dream team
 > The goal of scaling team is not growing team size but increasing team output and value. You can find out how tech companies reach that goal in various aspects: hiring, management, organization, culture, and communication in the [organization](#organization) section.
 
-#### Community power :mountain_cableway::aerial_tramway::mountain_cableway:
-
-> Contributions are greatly welcome! You may want to take a look at the [contribution guidelines](CONTRIBUTING.md).
-
-> If you find this project helpful, please share on your chat groups, [on Twitter](https://ctt.ec/V8B2p), or [on Weibo](http://t.cn/RnjFLCB) so more people can be helped! Power is gained by sharing knowledge, not hoarding it. Thank you! :hibiscus:
 
 ## Content
 - [Principle](#principle)
