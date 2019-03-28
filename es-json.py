@@ -1,10 +1,11 @@
 import requests
 import simplejson
 from elasticsearch import Elasticsearch
+from datetime import datetime
 
 r = requests.get('http://publicproxy.ias.redbus.in:8001/IASPublic/getAvRoutesObject/122/124/2019-03-29').json()
 
-es = Elasticsearch()
+es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 
 idt=1
 for c in r['SearchResponse']:
@@ -16,13 +17,38 @@ for c in r['SearchResponse']:
 		'destinationName' : "Bus To "+c['destinationName'],
 		'busType' : c['busType'],
 		'serviceName' : c['serviceName'],
-		'depTime' : c['depTime'],
-		'arrTime' : c['arrTime'],
+		'depDay' : datetime.strptime(c['depTime'],"%Y-%m-%d %H:%M:%S").strftime("%d %B, %Y"),
+		'depTime' : datetime.strptime(c['depTime'],"%Y-%m-%d %H:%M:%S").strftime("%I:%M %p"),
+		'arrDay' : datetime.strptime(c['arrTime'],"%Y-%m-%d %H:%M:%S").strftime("%d %B, %Y"),
+		'arrTime' : datetime.strptime(c['arrTime'],"%Y-%m-%d %H:%M:%S").strftime("%I:%M %p"),
+		'avSeats' : c['avSeats'],
+		'avWindowSeats' : c['avWindowSeats'],
 		'amount' : c['fareList'][0]['amount']
 		})
-	idt+=1
+		idt=idt+1
+		print(idt)
 
-	
-es.search(index='busdata', q='Bengaluru to Hyderabad sleeper', 'sort': [{'sourceName': {'destinationName': {'amount': 'avSeats'}}}],)
 
-	
+#print (es.get(index='busdata', doc_type='travel', id=5))
+
+q='cheapest bus at 9PM'
+
+if 'AM' in q or 'PM' in q:
+	print (es.search(index='busdata', q=q)['hits'])
+
+elif "fast" in q:
+	print (es.search(index='busdata', q=q)['hits'])
+
+elif "cheap" in q:
+	print (es.search(index='busdata', q=q, sort= '_score,amount:desc,avSeats:asc')['hits'])
+
+elif "window" in q: 
+	print (es.search(index='busdata', q=q)['hits'])
+
+Todo:
+#cheapest bus at 9PM
+#fastest bus at 9PM
+#windows seat available at 9PM
+#from bangalore
+#to hyderabad
+#No false positive
