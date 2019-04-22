@@ -47,36 +47,6 @@
 - [Uber Backend](designs/uber-backend.md)
 - [Ticketmaster](designs/ticketmaster.md)
 
-
-* Basics
-  - [Key Characterics](basics/key-characteristics.md)
-  - [Loading balancing](basics/load-balancing.md)
-  - [Caching](basics/caching.md)
-  - [Sharding](basics/sharding.md)
-  - [Indexes](basics/indexes.md)
-  - [Proxies](basics/proxies.md)
-  - [Queues](basics/queues.md)
-  - [Redundancy](basics/redundancy.md)
-  - [SQL vs. NoSQL](basics/sql-vs-nosql.md)
-  - [CAP Theorem](basics/cap-theorem.md)
-  - [Consistent Hashing](basics/consistent-hashing.md)
-  - [Client Server Communication](basics/client-server-communication.md)
-
-* Designs
-  - [Short URL Service](designs/short-url.md)
-  - [Pastebin](designs/pastebin.md)
-  - [Instagram](designs/instagram.md)
-  - [Dropbox](designs/dropbox.md)
-  - [Twitter](designs/twitter.md)
-  - [Youtube](designs/youtube.md)
-  - [API Rate Limiter](designs/api-rate-limiter.md)
-  - [Twitter Search](designs/twitter-search.md)
-  - [Web Crawler](designs/web-crawler.md)
-  - [Facebook Newsfeed](designs/facebook-newsfeed.md)
-  - [Yelp](designs/yelp.md)
-  - [Uber Backend](designs/uber-backend.md)
-  - [Ticketmaster](designs/ticketmaster.md)
-
 ## The Patterns Behind Scalable, Reliable, and Performant Large-Scale Systems
 
 [Atleast you should watch this before starting](https://www.youtube.com/watch?v=UzLMhqg3_Wc)
