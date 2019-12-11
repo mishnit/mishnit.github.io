@@ -15,7 +15,7 @@
 # Space Complexity: O(1) i.e. Algorithm runs in Constant Space
 
 def max_sub_array_of_size_k(k, arr):
-  max_sum , window_sum = 0, 0
+  max_sum, window_sum = 0, 0
   window_start = 0
 
   for window_end in range(len(arr)):
