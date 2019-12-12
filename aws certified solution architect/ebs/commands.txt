@@ -1,0 +1,4 @@
+See: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
+
+See: https://www.unixmen.com/how-to-measure-disk-performance-with-fio-and-ioping/
+
