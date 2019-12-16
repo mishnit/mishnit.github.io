@@ -42,7 +42,7 @@ role is to help you find it. I rely heavily on open questions, rather than jumpi
 # How I expect you to approach your job
 *1. Engineers:* Our organisation has hired you because of your experience and skills, and I am not here to tell you how to do your job. I believe you are able to operate as a professional adult, and make smart decisions. This does not mean that I expect you to do everything on your own , I am here to provide you guidance and mentorship (either through me, or by finding the people you should be getting it from). When you need help, I expect you to not hesitate and ask for it. If you feel you made a mistake, own up to it, as will I. 
 
-*2. Managers:* Please routinely reach out to your team’s stakeholders, keep an ear to the ground about what they’re launching, and be proactive about responding to them when they reach out. Please continue to educate yourself on leadership: use the tech budget to go learn from of the best leaders in the industry. It goes without saying, but please have weekly 1:1s with your direct reports. More on 1:1’s later.
+*2. Managers:* Please routinely reach out to your team’s stakeholders, keep an ear to the ground about what they’re launching, and be proactive about responding to them when they reach out. Please continue to educate yourself on leadership: use the tech budget to go learn from of the best leaders in the industry. It goes without saying, but please have weekly 1:1s with your direct reports.
 
 # If I succeed at my job:
 * You feel empowered as a leader to figure out what you need to do and how you think it should be done and then to get it done.
