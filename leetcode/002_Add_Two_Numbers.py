@@ -20,3 +20,7 @@ class Solution:
         cur = cur.next
         carry //= 10
     return dummy.next
+
+# if __name__ == '__main__':
+#     s = Solution()
+#     print s.addTwoNumbers([2,4,3], [5,6,4])
