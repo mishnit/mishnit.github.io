@@ -1,13 +1,13 @@
 class Solution:
     def twoSum(self, nums, target):
-        map = {}
+        seen = {}
         for i in range(len(nums)):
             complement = target - nums[i]
-            if map.get(complement) != None:
-                return [map[complement], i]
-            map[nums[i]] = i
-
-        return "no answer"
+            if complement in seen:
+                return [seen[complement], i]
+            else:
+                seen[nums[i]] = i
+        return []
         
 if __name__ == '__main__':
     # begin
