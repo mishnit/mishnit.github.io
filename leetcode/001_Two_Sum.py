@@ -2,9 +2,9 @@ class Solution:
     def twoSum(self, nums, target):
         seen = {}
         for i in range(len(nums)):
-            complement = target - nums[i]
-            if complement in seen:
-                return [seen[complement], i]
+            other = target - nums[i]
+            if other in seen:
+                return [seen[other], i]
             else:
                 seen[nums[i]] = i
         return []
