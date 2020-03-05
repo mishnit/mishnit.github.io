@@ -5,8 +5,7 @@ class Solution:
             other = target - nums[i]
             if other in seen:
                 return [seen[other], i]
-            else:
-                seen[nums[i]] = i
+            seen[nums[i]] = i
         return []
         
 if __name__ == '__main__':
