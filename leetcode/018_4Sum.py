@@ -1,61 +1,33 @@
-# class Solution(object):
-#     def fourSum(self, nums, target):
-#         """
-#         :type nums: List[int]
-#         :type target: int
-#         :rtype: List[List[int]]
-#         """
-
-
 class Solution(object):
-    def fourSum(self, nums, target):
-        sort_nums = sorted(nums)
-        ls = len(nums)
-        res = {}
-        pairs = {}
-        for i in range(ls - 3):
-            for j in range(i + 1, ls - 2):
-                res_2 = sort_nums[i] + sort_nums[j]
-                try:
-                    pairs[target - res_2].append([i, j])
-                except KeyError:
-                    pairs[target - res_2] = [[i, j]]
-        for key, temp in pairs.items():
-            for pair in temp:
-                j = pair[1] + 1
-                k = ls - 1
-                while j < k:
-                    current = sort_nums[j] + sort_nums[k]
-                    if current == key:
-                        result = (sort_nums[pair[0]], sort_nums[pair[1]], sort_nums[j], sort_nums[k])
-                        res[result] = True
-                        j += 1
-                    elif current < key:
-                        j += 1
-                    else:
-                        k -= 1
-        return res.keys()
+  def fourSum(self, nums, target):
+    nums.sort()
+    results = []
+    self.findNsum(nums, target, 4, [], results)
+    return results
 
-    # def fourSum(self, nums, target):
-    #     # https://leetcode.com/discuss/89989/why-is-python-o-n-3-tle
-    #     index_pairs = dict()
-    #     combos = dict()
-    #     n = len(nums)
-    #     for i in range(0,n):
-    #         for j in range(i+1,n):
-    #             sum = nums[i] + nums[j]
-    #             if index_pairs.get(target - sum) is not None:
-    #                 for pair in index_pairs[target - sum]:
-    #                     if i != pair[0] and i != pair[1] and j != pair[0] and j != pair[1]: # Avoid overuse
-    #                         combo = sorted((nums[i], nums[j], nums[pair[0]], nums[pair[1]])) # Avoid duplicate
-    #                         combos[tuple(combo)] = True
-    #             if index_pairs.get(sum) is not None:
-    #                 index_pairs[sum].append((i,j))
-    #             else:
-    #                 index_pairs[sum] = [(i,j)]
-    #     return combos.keys()
+  def findNsum(self, nums, target, N, result, results):
+    if len(nums) < N or N < 2: return
 
-if __name__ == '__main__':
-    # begin
-    s = Solution()
-    print s.fourSum([0, 0, 0, 0], 0)
+    # solve 2-sum
+    if N == 2:
+        l,r = 0,len(nums)-1
+        while l < r:
+            if nums[l] + nums[r] == target:
+                results.append(result + [nums[l], nums[r]])
+                l += 1
+                r -= 1
+                while l < r and nums[l] == nums[l - 1]:
+                    l += 1
+                while r > l and nums[r] == nums[r + 1]:
+                    r -= 1
+            elif nums[l] + nums[r] < target:
+                l += 1
+            else:
+                r -= 1
+    else:
+        for i in range(0, len(nums)-N+1):   # careful about range
+            if target < nums[i]*N or target > nums[-1]*N:  # take advantages of sorted list
+                break
+            if i == 0 or i > 0 and nums[i-1] != nums[i]:  # recursively reduce N
+                self.findNsum(nums[i+1:], target-nums[i], N-1, result+[nums[i]], results)
+    return
