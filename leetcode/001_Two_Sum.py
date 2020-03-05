@@ -1,12 +1,10 @@
-class Solution:
+class Solution(object):
     def twoSum(self, nums, target):
-        seen = {}
-        for i in range(len(nums)):
-            other = target - nums[i]
-            if other in seen:
-                return [seen[other], i]
-            seen[nums[i]] = i # this line executes as else
-        return []
+        d={}
+        for i,num in enumerate(nums):
+            if target-num in d:
+                return d[target-num], i
+            d[num]=i
         
 if __name__ == '__main__':
     # begin
