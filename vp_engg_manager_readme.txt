@@ -1,0 +1,31 @@
+Motivation for this document
+Manager README is a growing trend in Silicon Valley to help managers and their reports to better understand each other. As every person is unique, having their own personality quirks, unspoken assumptions and so forth, a document like this helps us go back to it as a point of reference to help us navigate our way around varying working styles. 
+
+The goal of this document hence is to optimize our working relationship so that we can produce the best possible value for the business.
+
+My role
+As the VP of Engineering, a one sentence definition of my role is that I serve as a productivity multiplier for the team. My role is to ensure things are running as smoothly as possible, that we untangle conflicts, be it task conflicts, relational conflicts, and so forth. I am here to keep pushing the team to their next level and once they reach it, to push everyone to the next. I am here to make everyone more expensive, that is, to be a much better version of yourselves, as well as making the company more expensive, that is, to ensure that every year we step out of this office we look back and see organisation a much better version of itself than the start of the year.
+
+What do I value most?
+Trust. Let's build trust. We can work most effectively in proportion to the trust we have for each other. If you break trust, I'll be upset, but I will talk to you. If I break trust, you will be upset, and you need to talk to me. You and I are not perfect. We will be upset with each other once in awhile. Let's mend things and grow the relationship. We're here to be a catalyst of success for each other and for the business. 
+
+Honesty. Be completely honest with me. I am here to help you, and I am here to help the entire company become better. Please tell me when something is wrong. I am here to listen and to help you solve it. I cannot guarantee I can solve everything, but you can count on me that I'll make every possible effort to make that happen. So be completely honest with me. I can only help you with reliable information.  
+
+Moral excellence. I expect everyone to be responsible adults. Perform according to what a responsible adult would do. That means that if you agree to something, such as your contract, a deadline, productive hours, and so forth, I expect you to follow through. I do not expect you to meet all your deadlines. Neither do I expect you to not have breaks in between to rest and so forth. But I expect you to be responsible. That means, your words and your actions should translate to results a responsible adult produces. Do not do unto others what you do not want others do unto you. Likewise, do to others what you want others do unto you.
+
+Respect. Treat everyone with the highest respect. If you don't, I will hold you accountable for it. It is completely okay to be frustrated with a colleague, but confront the situation as a responsible adult. If I disrespect you, please hold me accountable. Do not berate your colleagues, and do not interrupt anyone speaking.
+
+Ideas. For business to win, the best idea has to win. We will debate about many things. We will not fully agree on most things. That's fine. We are not interested in "who is right." We are interested with "what is right." That means that just because I want something done one way doesn't mean I'm right. We need to make sure the best idea wins. That means that we have to set up an environment where all ideas are heard. If you hear an idea, think about "what does that idea need for it to work?" Ideas are raw when first proposed and they can always be refined. So work on ideas so that we can come up with the best idea. After doing all these and we still fail to come to a conclusion, remember the final arbiter: the business has to win. Go with the idea that serves the business best, even if it makes things more difficult for you.
+
+You. I value you. I want you to succeed and I'll do everything in my power to make that happen. I am not perfect and I make mistakes. call me out when I do so. I want to improve and be better. So if I am hindering your progress, tell me. If I could be creating an environment for success which I am not, tell me. Because there's a lot of you, I need to ensure that while everyone is heard, I have to work on things from highest priority downwards. So if you think I have my priorities wrong, please let me know, and let's discuss. Again, I want you to succeed. Let's work together to make that happen.
+
+My Expectations
+Work outside of work. I email and text people outside office hours. I don't expect you to respond. I do it because I might forget. When it's urgent, I'll tell you and I expect you to be a responsible adult. In the same way, if you need to contact me outside of office hours, unless marked urgent, I will respond in the next business day.
+
+Overtime. I don't expect anyone to put in extra hours. If you're burning the midnight oil to get things done, it's an indication that something is wrong. The only reason why this is not wrong is if you like what you're doing and intentionally burn your midnight oil. 
+
+1:1s. We will have regular one on ones either weekly, bi-weekly, or monthly. I expect you to set the agenda for the one on ones. It's an opportunity for you to discuss with me any issues you're running into and any help I can provide you. I might have questions for you during those one on ones as well. Make the best use of one on ones. That's one of the best time to get my undivided attention.
+
+Plan. I expect people to plan the execution. The plan doesn't have to be perfect, but you shouldn't execute until there's a good plan in place. You shouldn't tell me, "it's done when it's done." That's an indication of poor planning. I expect you to think about the business and make sure we deliver. Have an estimate in mind and regularly review those estimates. Estimates become better the closer you are to the deadline. I expect you to hold yourself accountable. I understand estimates slip, but take responsibility of those. I will not hold you responsible for things outside your control. 
+
+Ownership. I expect people to take full ownership of their work. I will not micromanage you, so I expect you to take the best care of your area of responsibility. Treat your work as your baby. Nourish it. Nurture it. Love it. 
