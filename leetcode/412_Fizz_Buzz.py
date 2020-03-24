@@ -35,8 +35,25 @@ class Solution(object):
     #     return res
 
     def fizzBuzz(self, n):
-        return [str(i) * (i % 3 != 0 and i % 5 != 0) + "Fizz" * (i % 3 == 0) + "Buzz" * (i % 5 == 0) 
-                for i in range(1, n + 1)]
+        """
+        :type n: int
+        :rtype: List[str]
+        """
+        output = []
+        
+        if n == 0:
+            return output
+        
+        for i in range(1,n +1):
+            if i % 3 == 0 and i % 5 == 0:
+                output.append("FizzBuzz")
+            elif i % 3 == 0:
+                output.append("Fizz")
+            elif i % 5 == 0:
+                output.append("Buzz")
+            else:
+                output.append(str(i))
+        return output
     
     # def fizzBuzz(self, n):
     #     return ['Fizz' * (not i % 3) + 'Buzz' * (not i % 5) or str(i) for i in range(1, n+1)]
