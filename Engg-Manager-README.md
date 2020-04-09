@@ -1,9 +1,9 @@
 ## Engineering Manager README
 
 # What is this?
-This is inspired by [Manager README](https://hackernoon.com/12-manager-readmes-from-silicon-valleys-top-tech-companies-26588a660afe), a document that helps introduce you to my management style, philosophy, and expectations. The intended audience is primarily anyone who reports in to me, though anyone is free to read it — or even provide feedback on it! This is a living, incomplete (we never stop growing) and concise document. So hi! Let’s get to know me. 
+This is inspired by [Manager README](https://hackernoon.com/12-manager-readmes-from-silicon-valleys-top-tech-companies-26588a660afe), a document that helps introduce you to my management style, philosophy, and expectations. The intended audience is primarily anyone who reports in to me, though anyone is free to read it — or even provide feedback on it! This is a living, incomplete (we never stop growing) and concise document. So, Let’s get to know me.
 
-Note: 'You' in this document is you the engineer/manager.
+Note: 'You' in this document is my direct/indirect manager.
 
 # TL;DR: 
 My name is Nitin Mishra. I am currently working as Engg. Manager in REDBUS for Reprowin platform (B2B platform for Bus operators in 6 countries). I am leading my *TEAM* to build great *TECHNOLOGY* products end to end using effective processes and promoting *TALENT* of team members through their career (3Ts). One of my top priorities is to ensure you stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. You would have freedom and responsibilty at the same time. I would keep Transparency, Effective Communication and expectations setting back and forth at the highest priority. I love to code in python and Golang :)
