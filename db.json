@@ -1,0 +1,81 @@
+{
+  "api_version": "v1",
+  "last_updated_epoch": 1586849399,
+  "opid": "15926",
+  "data": [
+    {
+      "section": "Sales",
+      "section_data": [
+        {
+          "subsection": "Deviation in seat sales",
+          "subsection_data": [
+            {
+              "today_label": "Today",
+              "seat_num": "14,245",
+              "seat_label": "Seats Sold",
+              "seat_updown_icon": "down",
+              "seat_change_pct": "7%",
+              "seat_weekday_label": "Friday",
+              "revenue_label": "Revenue",
+              "currency_icon": "Rupee",
+              "revenue_num": "23,54,098",
+              "revenue_updown_icon": "down",
+              "revenue_change_pct": "4%",
+              "revenue_weekday_label": "Friday"
+            }
+          ],
+          "nav_more_num": "3",
+          "nav_link": "../sales/<opid>"
+        }
+      ]
+    },
+    {
+      "section": "R & R",
+      "section_data": [
+        {
+          "subsection": "Tags",
+          "subsection_data": [
+            {
+              "sentiment_label": "liked",
+              "tag_label": "Punctuality",
+              "user_num": "138"
+            },
+            {
+              "sentiment_label": "disliked",
+              "tag_label": "Seat Comfort",
+              "user_num": "131"
+            }
+          ],
+          "nav_more_num": "3",
+          "nav_link": "../rnr/<opid>"
+        }
+      ]
+    },
+    {
+      "section": "redDeals",
+      "section_data": [
+        {
+          "subsection": "Expiring redDeals",
+          "subsection_data": [
+            {
+              "Expiring_num": "0",
+              "offer_num": "2",
+              "offer_label": "offers",
+              "seatsold_num": "1,245"
+            },
+            {
+              "Expiring_num": "7",
+              "offer_num": "5",
+              "offer_label": "offers",
+              "seatsold_num": "2,314"
+            }
+          ],
+          "nav_more_num": "3",
+          "nav_link": "../reddeals/<opid>"
+        }
+      ]
+    }
+  ],
+  "status_code": 10.1,
+  "status_key": "SUC"
+}
