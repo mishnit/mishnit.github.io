@@ -1,14 +1,13 @@
 class Solution(object):
     def canJump(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: bool
-        """
-        # greedy
-        # https://leetcode.com/articles/jump-game/
         length = len(nums)
-        begin = length - 1
+        last = length - 1
         for i in reversed(range(length - 1)):
-            if i + nums[i] >= begin:
-                begin = i
-        return not begin
+            if i + nums[i] >= last:
+                last = i
+        return not last
+
+'''
+Time Complexity: O(n)
+Space Complexity: O(1)
+'''
