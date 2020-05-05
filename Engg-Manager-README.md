@@ -25,6 +25,26 @@ Key points that define my Leadership style are as follows:
 * I value being straight-up over being political
 * I value giving info early over giving info at last-minute
 * I value taking risks over not making mistakes
+* I believe if you cannot measure something, you cannot improve it
+* I believe any organisation can have great work culture by following below rules:
+
+🤝 Hire the best candidates
+
+📋 Create a set of rules to live by
+
+😎 Onboard new hires in style
+
+📣 Over communicate with people
+
+👥 Keep teams small
+
+🎉 Make time for fun
+
+📝 Regular sync-up meetings
+
+💬 Have 1-on-1 time with individuals
+
+🙌 Reward, recognize, & relieve
 
 # My Job
 As an Engineering Manager, it is my job to:
