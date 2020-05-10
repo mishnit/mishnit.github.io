@@ -34,3 +34,11 @@ class Solution(object):
             if inc[j] in set(arr):
                 count+=1
         return count
+
+def test_countElements():
+    s = Solution()
+    assert s.countElements([1,3,2,3,5,0]) == 3
+
+if __name__ == "__main__":
+    test_countElements()
+    print("Everything passed")
