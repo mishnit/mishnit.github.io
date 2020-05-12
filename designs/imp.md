@@ -12,7 +12,7 @@ ssssh its secret.... just go to raw mode and everything would be visible
 
 
 
-*SQL Write Master-Slave and architecture* 
+*SQL Write-Master-Slave and read-replica architecture* 
 
 1. Write happens in master and read happens from slave replicas.
 2. master-slave replication is lazy but eventual consistent.
