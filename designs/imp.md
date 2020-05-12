@@ -35,7 +35,7 @@ ssssh its secret.... just go to raw mode and everything would be visible
                                                               |
                                                         active_master_global & object_store(S3)
 
-passive_master_global-------------------------active_master_global
+passive_master_local-------------------------active_master_local
 (stand_by 1-1000)                                 (write 1-1000)
                                                /         |        \
                                          /               |              \
