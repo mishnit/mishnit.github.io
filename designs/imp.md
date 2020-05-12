@@ -1,4 +1,4 @@
-ssssh its secret.... just go to edit mode and everything would be visible
+ssssh its secret.... just go to raw mode and everything would be visible
 
 
 
