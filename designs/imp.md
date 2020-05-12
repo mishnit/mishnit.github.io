@@ -1,8 +1,18 @@
 ssssh its secret.... just go to raw mode and everything would be visible
 
 
+*Problem solving Round*
+1. Product requirements: Ask questions as PM to see future requirements (relate the problem with already existing real-world problem and solutions) 
+2. Tech requirements: Ask questions as EM to check extended feature scope (logs, analytics, highly available system with low latency apis), API requirements and all possible cases
+3. Information flow: Explain all possible use cases, each with all steps from end to end
+4. APIs - request and response
+5. Database schema tables and relationship
+6. SQL queries
 
-* Sharded Master-Slave architecture: 
+
+
+
+*Sharded Master-Slave architecture* 
 
 1. Write happens in master and read happens from slave replicas.
 2. master-slave replication is lazy but eventual consistent.
