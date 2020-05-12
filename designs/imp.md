@@ -12,7 +12,7 @@ ssssh its secret.... just go to raw mode and everything would be visible
 
 
 
-*Sharded Master-Slave architecture* 
+*SQL Write Master-Slave and architecture* 
 
 1. Write happens in master and read happens from slave replicas.
 2. master-slave replication is lazy but eventual consistent.
@@ -40,14 +40,14 @@ passive_master_global-------------------------active_master_global
                                                /         |        \
                                          /               |              \
                                     /                    |                    \
-                    shard_master_global           shard_master_global             shard_master_global
+                    shard_master_india           shard_master_uk             shard_master_usa
                      (lazy write 1-333)          (lazy write 334-666)            (lazy write 667-1000)
                            /    \                        /    \                           /    \
                           /      \                                                       /      \
-          shard_slave_india.......\.... .<consistent_hashing@SLB>..........shard_slave_india      \
+          shard_slave_india.......\.... .<consistent_hashing@LB1>..........shard_slave_usa      \
             (read 1-333)           \                                       (read 667-1000)        \
                                     \                                                              \
-                                   shard_slave_usa........<consistent_hashing@SLB>................shard_slave_usa 
+                                   shard_slave_india........<consistent_hashing@LB2>................shard_slave_usa 
                                    (read 1-333)                                                  (read 667-1000)
          
         
