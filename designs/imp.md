@@ -1,5 +1,6 @@
 ssssh its secret.... just go to raw mode and everything would be visible
 
+Note: understand difference between Message-queue v/s pub-sub v/s map-reduce usage
 
 *Problem solving Round*
 1. Product requirements: Ask questions as PM to see future requirements (relate the problem with already existing real-world problem and solutions) 
