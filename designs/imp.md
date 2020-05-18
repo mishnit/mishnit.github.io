@@ -1,7 +1,7 @@
 ssssh its secret.... just go to raw mode and everything would be visible
 
 Note: understand usage of Message-queue v/s pub-sub v/s map-reduce usage
-Note: understand differnce b/w web server and applicarion server
+Note: understand differnce b/w web server, applicarion server and client
 
 *Problem solving Round*
 1. Product requirements: Ask questions as PM to see future requirements (relate the problem with already existing real-world problem and solutions) 
