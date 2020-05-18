@@ -1,0 +1,1 @@
+Message-queue v/s pub-sub v/s map-reduce usage
