@@ -112,7 +112,7 @@ I am generally a well organised person. In order to communicate effectively with
 * be straight-up and cut the bullshit
 * be explicit rathar than assume I already have the knowledge of something
 * grab me if it's urgent, or requires back and forth
-* call me if it's urgent and I'm out of office
+* call me if it's urgent and I'm out of office/away/unavaialble
 * Slack me if it's short and don't require back and forth
 * email me if it's long and don't require back and forth 
 * being interrupted is part of my role, come talk to me even if I have headphones on
