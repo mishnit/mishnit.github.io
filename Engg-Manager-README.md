@@ -10,10 +10,10 @@ This is inspired by [Manager README](https://hackernoon.com/12-manager-readmes-f
 Note: 'You' in this document is my direct/indirect reportee.
 
 # TL;DR: 
-My name is Nitin Mishra. I am currently working as Engg. Manager in REDBUS for Reprowin platform (B2B platform for Bus operators in 6 countries). I am leading my *TEAM* to build great *TECHNOLOGY* products end to end using effective processes and promoting *TALENT* of team members through their career (3Ts). One of my top priorities is to ensure you stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. You would have freedom and responsibilty at the same time. I would keep Transparency, Effective Communication and expectations setting back and forth at the highest priority. I love to code in python and Golang :)
+My name is Nitin Mishra. I am currently working as Sr. Engineering Manager in coinswitch. I am leading my *TEAM* to build great *TECHNOLOGY* products end to end using effective processes and promoting *TALENT* of team members through their career (3Ts). One of my top priorities is to ensure you stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. You would have freedom and responsibilty at the same time. I would keep Transparency, Effective Communication and expectations setting back and forth at the highest priority. I love to code in python and Golang :)
 
 # My Background
-Hi! My name is Nitin Mishra. I am a technology enthusiast with business acumen, a wisdom seeker, influencer, author and TEDx speaker. I’m an engineer turned manager and have worked with a lot of early/late stage startups and also at MNCs like TCS Innovation Labs for last 8 years. I have been leading a strong squad which built habit-forming, end to end tech products with great customer experience at scale. This gives me the unique experience of learning what works and what doesn’t at both ends of the scale spectrum. I have a passion for using technology to build products that solve real world problems. What I am most passionate though is managing engineers and building great high performing but empathetic teams. I spend most of my weekends learning new stuff on medium, reddit, dzone, github, slack, firstround, infoQ and highscalability.
+Hi! My name is Nitin Mishra. I am a technology enthusiast with business acumen, a wisdom seeker, influencer, author and TEDx speaker. I’m an engineer turned manager and have worked with a lot of early/late stage startups and MNCs for last 10 years. I have been leading a strong squad which built habit-forming, end to end tech products with great customer experience at scale. This gives me the unique experience of learning what works and what doesn’t at both ends of the scale spectrum. I have a passion for using technology to build products that solve real world problems. What I am most passionate though is managing engineers and building great high performing but empathetic teams. I spend most of my weekends learning new stuff on medium, reddit, dzone, github, slack, firstround, infoQ and highscalability.
 
 # My Leadership Style
 Key points that define my Leadership style are as follows:
@@ -32,23 +32,17 @@ Key points that define my Leadership style are as follows:
 * I believe if you cannot measure something, you cannot improve it
 * I believe any organisation can have great work culture by following below rules:
 
+
+# My Philosophy
 🤝 Hire the best candidates
-
 📋 Create a set of rules to live by
-
 😎 Onboard new hires in style
-
 📣 Over communicate with people
-
 👥 Keep teams small
-
 🎉 Make time for fun
-
 📝 Regular sync-up meetings
-
 💬 Have 1-on-1 time with individuals
-
-🙌 Reward, recognize, & relieve
+🙌 Reward, recognize & relieve
 
 # My Job
 As an Engineering Manager, it is my job to:
@@ -57,7 +51,7 @@ As an Engineering Manager, it is my job to:
 2. Give engineers and managers a sense of purpose and direction. This means focusing on building high performance teams, helping you understand where you stand and how you can measurably grow in your career, building a deeply value focused engineering org. 
 3. Help with planning and delivering on goals. This means setting context on roadmaps and product direction so that you, always know why are you doing what you are doing and reporting back state of the world higher up the chain.
 4. Develop and improve my own abilities as a leader.
-
+5. Improve Processes and bring new strategies to deliver faster with no compromise in quality.
 
 # How I approach my job
 Your success is ultimately my success, so I will go out of my way to try and make you successful without micro-managing. I believe that regardless of the complexity of the problem you are trying to tackle, you already have the answer in you, my 
