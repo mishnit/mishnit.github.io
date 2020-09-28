@@ -30,18 +30,25 @@ Key points that define my Leadership style are as follows:
 * I value giving info early over giving info at last-minute
 * I value taking risks over not making mistakes
 * I believe if you cannot measure something, you cannot improve it
-* I believe any organisation can have great work culture by following below rules:
 
 
 # My Philosophy
 🤝 Hire the best candidates
+
 📋 Create a set of rules to live by
+
 😎 Onboard new hires in style
+
 📣 Over communicate with people
+
 👥 Keep teams small
+
 🎉 Make time for fun
+
 📝 Regular sync-up meetings
+
 💬 Have 1-on-1 time with individuals
+
 🙌 Reward, recognize & relieve
 
 # My Job
