@@ -1,4 +1,4 @@
-ssssh its secret.... just go to raw mode and everything would be visible
+just go to raw mode and everything would be visible
 
 Note: understand usage of Message-queue v/s pub-sub v/s map-reduce usage
 Note: understand differnce b/w web server, applicarion server and client
