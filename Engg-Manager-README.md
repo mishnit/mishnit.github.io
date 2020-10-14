@@ -121,6 +121,9 @@ I am generally a well organised person. In order to communicate effectively with
 * if it's more personal or more private, let's go grab a coffee or tea
 * hard truth: your requests are important to you, but may not be as important compared to others
 
+# My Daily Weekly Monthly Checklist
+![Task Checklist](https://mishnit.github.io/daily-weekly-monthly-managers-tasks.png)
+
 # Software Development Principles
 As an engineering manager I strongly believed in putting people over process and changing process to accommodate our needs and goals. As an engineering manager I will stay out of the planning loop where possible while guiding tech leads, principals and managers distill what I believe are values that are important to me, which are: 
 
