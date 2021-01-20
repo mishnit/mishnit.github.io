@@ -179,7 +179,7 @@ I am not perfect. I’ve learnt more from failures than I have from success, so 
 
 
 # Engg. Growth Framework
-![Growth Framework](https://mishnit.github.io/growth-framework.png =250x)
+![Growth Framework](https://mishnit.github.io/growth-framework.png)
 
 # No README is Perfect
 If you have suggestions on things I should cover or clarify in this README, please come and have a chat!
