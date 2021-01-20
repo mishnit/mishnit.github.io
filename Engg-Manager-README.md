@@ -177,6 +177,10 @@ I am not perfect. I’ve learnt more from failures than I have from success, so 
 
 *2. Rambling:* My conversation style is to work off of visual cues from my audience and sometimes when I don’t get a cue, I can continue to elaborate my point which can come off as rambling. I am actively learning to correct this.
 
+
+# Engg. Growth Framework
+![Growth Framework](https://mishnit.github.io/growth-framework.png =250x)
+
 # No README is Perfect
 If you have suggestions on things I should cover or clarify in this README, please come and have a chat!
 
