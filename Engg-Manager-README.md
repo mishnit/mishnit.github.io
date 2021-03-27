@@ -182,7 +182,7 @@ I am not perfect. I’ve learnt more from failures than I have from success, so 
 ![Growth Framework](https://mishnit.github.io/growth-framework.png)
 
 # Performance Evaluation
-![Perf Eval](https://mishnit.github.io/perf-eval.png)
+![Performance Evaluation](https://mishnit.github.io/perf-eval.png)
 
 # No README is Perfect
 If you have suggestions on things I should cover or clarify in this README, please come and have a chat!
