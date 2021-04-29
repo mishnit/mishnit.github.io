@@ -28,7 +28,7 @@ get timeline flow -> LB5 -> timeline service (fetch precomputed timeline from ac
 
 search flow -> LB6 -> search service -> searchdata_cache (redis cluster) -> searchdb (elastic search cluster) -> search consumer ->  message broker (kafka topic: tweet)
 
-trending -> LB7 -> trend service -> trendingdata_cache (redis cluster) -> else call trend_processor service -> message broker (kafka topic: tweet) -> stream procsesing service(spark cluster) -> trends db (mongodb)
+trending -> LB7 -> trend service -> trendingdata_cache (redis cluster) -> else call trend_processor service -> stream procsesing service(spark cluster)
 
 
 
