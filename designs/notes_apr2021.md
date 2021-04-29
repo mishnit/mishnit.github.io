@@ -19,11 +19,11 @@ follow flow from client -> LB2 -> followservices -> followerdata_cache (redis cl
 
 live user actions stream -> LB3 -> analyticsservices -> send event to message broker (Kafka) 
 
-live user checker & notifier -> LB3 -> websocket connection <- notificationservices <- send notification based on events recieved onmessage broker (kafka) <- tweet proessor service <- activeuserstimeline_cache (redis)
+live user checker & notifier -> LB3 -> websocket connection <- notificationservices <- send notification based on events recieved onmessage broker (kafka) <- tweet proessor service <- activeuserstimeline_cache (redis cluster)
 
-post tweet flow -> LB4 -> tweet injestion services (url shortener (KGS) + blob storage (s3) + metadata linking)-> tweetdb (cassandra) -> send event to message broker (kafka) -> tweet processor services (precompute timeline for active users) -> activeuserstimeline_cache (redis) 
+post tweet flow -> LB4 -> tweet injestion services (url shortener (KGS) + blob storage (S3) + metadata linking)-> tweetdb (cassandra cluster) -> send event to message broker (kafka) -> tweet processor services (precompute timeline for active users) -> activeuserstimeline_cache (redis cluster) 
 
-timeline flow -> LB5 -> timeline service (fetch precomputed timeline from redis if available) -> else call user service + graph service (join data to compute timeline for user who just became active) -> activeuserstimeline_cache (redis)
+timeline flow -> LB5 -> timeline service (fetch precomputed timeline from redis if available) -> else call user service + graph service (join data to compute timeline for user who just became active) -> activeuserstimeline_cache (redis cluster)
 
 
 
