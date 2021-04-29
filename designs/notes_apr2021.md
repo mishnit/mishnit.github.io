@@ -18,7 +18,7 @@ userdata flow from client -> LB1 -> Userservice (read from cache first, write in
 
 follow flow from client -> LB2 -> followservice (read from cache first, write int db first -> followerdata_cache (redis cluster) -> follower/following db (graphdb/SQLdb write master- read slaves cluster) 
 
-live user actions stream -> LB3 -> analyticsservice -> send event to message broker (Kafka topic: action) -> stream processing service(spark cluster) -> analytics db (hadoop) -> weekly cron service -> weekly/monthly reports
+live user actions stream -> LB3 -> analyticsservice -> send event to message broker (Kafka topic: action) -> stream processing service(spark cluster) -> analytics db (hadoop) -> daily/weekly cron service -> daily/weekly mails/reports/analytics (vendors behind another LB)
 
 live user notifier -> LB3 -> websocket connection <- notificationservice <- message broker (kafka topic: tweet) <- tweet processor service <- activeuserstimeline_cache (redis cluster)
 
