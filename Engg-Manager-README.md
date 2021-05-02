@@ -48,6 +48,7 @@ H - Hire top notch engineers
 I - Incremental Release plan to avoid rollback
 P - Performance Appraisal & quarterly recognition 
 
+
 # My Job
 As an Engineering Manager, it is my job to:
 
