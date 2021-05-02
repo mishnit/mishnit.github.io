@@ -33,23 +33,22 @@ Key points that define my Leadership style are as follows:
 
 
 # My Philosophy
-🤝 Hire the best candidates
+My philosophy: C R A F T S M A N S H I P
 
-📋 Create a set of rules to live by
+C - Customer Issue should be top priority
+R - Regular checkups to reduce miscommunication
+A - Automate Everything Possible
+F - Frequent and smaller release cycles
+T - Test plans, health check audits and alerts
+S - Set why, what, how, when for each release
+M - Monitor system performance metrics
+A - Avoid Ad-hoc tasks in the middle of sprint
+N - Negotiate scope with product manager
+S - Set priority, timeline and success criteria
+H - Hire top notch engineers
+I - Incremental Release plan to avoid rollback
+P - Performance Appraisal
 
-😎 Onboard new hires in style
-
-📣 Over communicate with people
-
-👥 Keep teams small
-
-🎉 Make time for fun
-
-📝 Regular sync-up meetings
-
-💬 Have 1-on-1 time with individuals
-
-🙌 Reward, recognize & relieve
 
 # My Job
 As an Engineering Manager, it is my job to:
