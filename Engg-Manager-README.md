@@ -36,17 +36,29 @@ Key points that define my Leadership style are as follows:
 My philosophy: C R A F T S M A N S H I P
 
 C - Customer Issue should be top priority
+
 R - Regular checkups to reduce miscommunication
+
 A - Automate Everything Possible
+
 F - Frequent and smaller release cycles
+
 T - Test plans, health check audits and alerts
+
 S - Set why, what, how, when for each release
+
 M - Monitor system performance metrics
+
 A - Avoid Ad-hoc tasks in the middle of sprint
+
 N - Negotiate scope with product manager
+
 S - Set priority, timeline and success criteria
+
 H - Hire top notch engineers
+
 I - Incremental Release plan to avoid rollback
+
 P - Performance Appraisal
 
 
