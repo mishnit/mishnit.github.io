@@ -32,35 +32,21 @@ Key points that define my Leadership style are as follows:
 * I believe if you cannot measure something, you cannot improve it
 
 
-# My Philosophy
-My philosophy: C R A F T S M A N S H I P
+# My Working Style: C R A F T S M A N S H I P
 
-C - Customer Issue should be top priority
-
-R - Regular checkups to reduce miscommunication
-
+C - Customer Issues (Adhoc task) can be handled by dev-on-call on weekly rotation
+R - Regular 10 min standup to update task status and dev/QA/stage/prod timelines
 A - Automate Everything Possible
-
 F - Frequent and smaller release cycles
-
 T - Test plans, health check audits and alerts
-
-S - Set why, what, how, when for each release
-
+S - Set why, what, how, priority and success criteria for each task before asking dev efforts
 M - Monitor system performance metrics
-
-A - Avoid Ad-hoc tasks in the middle of sprint
-
+A - Allocate additional time for code reviews and architectural discussion
 N - Negotiate scope with product manager
-
-S - Set priority, timeline and success criteria
-
+S - Stakeholders should participate in sprint planning and retrospectives
 H - Hire top notch engineers
-
 I - Incremental Release plan to avoid rollback
-
-P - Performance Appraisal
-
+P - Performance Appraisal & quarterly recognition 
 
 # My Job
 As an Engineering Manager, it is my job to:
