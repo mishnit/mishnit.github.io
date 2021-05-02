@@ -35,17 +35,29 @@ Key points that define my Leadership style are as follows:
 # My Working Style: C R A F T S M A N S H I P
 
 C - Customer Issues (Adhoc task) can be handled by dev-on-call on weekly rotation
+
 R - Regular 10 min standup to update task status and dev/QA/stage/prod timelines
+
 A - Automate Everything Possible
+
 F - Frequent and smaller release cycles
+
 T - Test plans, health check audits and alerts
+
 S - Set why, what, how, priority and success criteria for each task before asking dev efforts
+
 M - Monitor system performance metrics
+
 A - Allocate additional time for code reviews and architectural discussion
+
 N - Negotiate scope with product manager
+
 S - Stakeholders should participate in sprint planning and retrospectives
+
 H - Hire top notch engineers
+
 I - Incremental Release plan to avoid rollback
+
 P - Performance Appraisal & quarterly recognition 
 
 
