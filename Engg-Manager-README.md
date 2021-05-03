@@ -46,7 +46,7 @@ T - Test plans, health check audits and alerts
 
 S - Set why, what, how, priority and success criteria for each task before asking dev efforts
 
-M - Monitor system performance metrics
+M - Monitor and improve system performance metrics
 
 A - Allocate additional time for code reviews and architectural discussion
 
