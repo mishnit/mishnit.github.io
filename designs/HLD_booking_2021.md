@@ -28,11 +28,17 @@ LLD
 (a) Entity Relationship
 
 user:booking::1:n
+
 city:vendor::1:n
+
 vendor:booking::1:n
-vendor:seat::1:n
+
+vendor:vendor_seat::1:n
+
 vendor:datetimeslot::1:n
-seat:datetimeslot::n:n (via booked_seat)
+
+vendor_seat:datetimeslot::n:n (via booked_seat)
+
 booking:booked_seat::1:n
 
 
