@@ -42,4 +42,45 @@ vendor_seat:vendor_datetimeslot::n:n (via bookable_seat_slot)
 booking:bookable_seat_slot::1:n
 
 
+(b) API
+
+POST /user/create
+
+POST /user/login
+
+GET /user/:id
+
+PUT /user/:id
+
+POST /vendor/create
+
+POST /vendor/login
+
+GET /vendors
+
+GET /vendor/:id
+
+PUT /vendor/:id
+
+GET /bookings/vendor/:vendorid
+
+POST /booking/vendor/:vendorid
+
+GET /booking/:bookingid
+
+GET /booking/:bookingid/status
+
+PUT /booking/:bookingid
+
+PUT /booking/:bookingid/status
+
+GET /bookings/user/:userid
+
+
+
+
+
+
+
+
 
