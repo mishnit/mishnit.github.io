@@ -1,6 +1,6 @@
-Functional requirements: Hotel/Restro onboarding, hotel/restro manager can see bookings, User can search & filter hotel/restro for given criteria, user can book/cancel/update room/table for specific capacity for specific time period on a date, charge users for booking to reduce no-shows and refund same post billing
+Functional requirements: Hotel/Restro onboarding, hotel/restro manager can see bookings, User can search & filter hotel/restro for given facility/cuisine along with location and datetime, user can book/cancel/update room/table for specific capacity for specific datetime slot, charge users for booking to reduce no-shows and refund same post billing
 
-Non functional requirements: Low latency, High availability, High consistency (No >1 booking for a slot for same date range) 
+Non functional requirements: Low latency, High availability, High consistency (No >1 booking for a slot for same datetime slot) 
 
 Scale: 500k hotels/restro, 10M rooms/tables, 
 
