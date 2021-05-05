@@ -13,7 +13,7 @@ HLD
 
 (b) vendor onboarding and profile data flow from vendor (hotel/restro) app -> LB2 -> vendor_service (read from cache first, write int db first, once written push the data to message broker as producer) -> vendor_data_cache (redis cluster) -> vendor_db (write master- read slaves cluster) -> message broker (Kafka topic: new_vendor) 
 
-(c) vendor(hotel/restro) search flow from user app -> LB3 -> Search Service -> searchdata_cache (redis cluster) -> searchdb (elastic search cluster) -> search consumer pulls new vendors(hotels/restros) and updated booking data from message broker -> message broker (kafka topic: new_vendor, new_booking)
+(c) vendor(hotel/restro) search flow from user app -> LB3 -> Search Service -> searchdata_cache (redis cluster) -> searchdb (elastic search cluster) -> search consumer pulls new vendors(hotels/restros) from message broker to precompute search index on available vendors-> message broker (kafka topic: new_vendor)
 
 (d) booking confirmation flow from user app -> LB4 -> Booking Service (if desired quanity of rooms/tables are available for specific restaturant and specific datetime then mark booking as BLOCKED in bookingdata_db and send sync requests waiting for payment to finish, if payment callback is successfull, marks booking as CONFIRMED in bookingdata_db and push this data into message broker)-> Payment Service (confirms payment success/failure to booking service)-> bookingdata_cache (redis cluster) -> bookingdata_db (write master- read slaves cluster) -> message broker (Kafka topic: new_booking) -> notification service (consumes new bookng data and send notification to users)
 
