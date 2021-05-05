@@ -1,8 +1,8 @@
-Functional requirements: hotel(restro) onboarding, hotel(restro) manager can see bookings, User can search & filter hotel(restro) for given facility(cuisine) along with location and datetime, user can book/cancel/update room(table) for specific capacity for specific datetime slot, charge users for booking to reduce no-shows and refund same post billing
+Functional requirements: vendor (hotel/restro) onboarding, vendor (hotel/restro) manager can see bookings, User can search & filter vendors (hotel/restro) for given criteria (roomtype/cuisine/lotsize) along with location and datetime, user can book/cancel/update iterneries (room/table) for specific capacity for specific datetime slot, charge users for booking to reduce no-shows and refund same post billing
 
 Non functional requirements: Low latency, High availability, Row level locks to avoid race condition while blocking the slot
 
-Scale: 500k hotels(restro), 10M rooms(tables), 
+Scale: 500k vendors(hotels/restros), 10M iteneries(rooms/tables), 
 
 Services: User service, Vendor(hotel/restro) service, Booking service, search service, payment service, notification service, Booking Management Service
 
@@ -20,3 +20,20 @@ HLD
 (e) booking cancelled/availed flow from user app -> LB4 -> Booking Service (marks booking data as CANCELLED or AVAILED in DB and push this data to message broker as producer) -> bookingdata_cache (redis cluster) -> bookingdata_db (write master- read slaves cluster) -> message broker (Kafka topic: booking_availed, booking_cancelled) -> Archive Service (consumes availed/cancelled booking data and pushes this to archive_db)-> archive_db (cassandra cluster)
 
 (f) see current and past bookings data flow from user app and vendor(hotel/restro) app both -> LB5 -> Booking Management service (read from bookingdata_cache for current booking and read from archive_db for past bookings) 
+
+
+LLD
+----
+
+(a) Entity Relationship
+
+user:booking::1:n
+city:vendor::1:n
+vendor:booking::1:n
+vendor:seat::1:n
+vendor:datetimeslot::1:n
+seat:datetimeslot::n:n (via booked_seat)
+booking:booked_seat::1:n
+
+
+
