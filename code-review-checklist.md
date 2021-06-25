@@ -11,13 +11,18 @@
  
 # Testability
    [ ] Code has appropriate unit tests
+
    [ ] Tests are well-designed
 
 # Functionality and Code Structure
   [ ] The code works well
+
   [ ] The code covers edge cases
+
   [ ] The code is modular and addresses separation of concerns
+
   [ ] Law of Demeter (principle of least knowledge) is not violated
+
   [ ] Design patterns if used are correctly applied
  
 # Coding Conventions and Control Structures
