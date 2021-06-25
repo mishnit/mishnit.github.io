@@ -12,7 +12,8 @@
 - General
   [ ] The code works
   [ ] The code is easy to understand
-  [ ] Follows coding conventions
+  [ ] Follows coding conventions (Naming, commenting, indent-styles etc)
+  [ ] Follows code principles (SOLID, KISS, DRY, YAGNI etc)
   [ ] Names are simple and if possible short
   [ ] Names are spelt correctly
   [ ] Names contain units where applicable
