@@ -5,7 +5,7 @@ The developer and reviewer both need to focus on below checklist:
   - Testability
   - Functionality and Code structure
   - Coding Conventions and Control Structures
-  - Documentation
+  - [Documentation] (#Documentation)
   - Error Handling
   - Resource Leaks
   - Thread Safety
@@ -22,7 +22,7 @@ The developer and reviewer both need to focus on below checklist:
   - [ ] Law of Demeter (principle of least knowledge) is not violated
   - [ ] Design patterns if used are correctly applied
  
-## Coding Conventions and Control Structures
+# Coding Conventions and Control Structures
   - [ ] Follows coding conventions
   - [ ] Names are simple and if possible short
   - [ ] Names are spelt correctly
@@ -55,7 +55,7 @@ The developer and reviewer both need to focus on below checklist:
   - [ ] Order/index of a collection is not modified when it is being looped over
   - [ ] No methods with boolean parameters
 
-## Documentation
+# Documentation
   - [ ] The code is readable and easy to understand 
   - [ ] All methods are commented in clear language.
   - [ ] Comments exist and describe rationale or reasons for decisions in code
@@ -64,7 +64,7 @@ The developer and reviewer both need to focus on below checklist:
   - [ ] All unusual behaviour or edge case handling is commented
   - [ ] Data structures and units of measurement are explained
 
-## Error Handling
+# Error Handling
   - [ ] Variables are not accidentally used with null values
   - [ ] Arrays are checked for out of bound conditions
   - [ ] Catch clauses are fine grained and catch specific exceptions
@@ -75,11 +75,11 @@ The developer and reviewer both need to focus on below checklist:
   - [ ] Floating point numbers are not compared for equality
   - [ ] Methods return early without compromising code readability
  
-## Resource Leaks
+# Resource Leaks
   - [ ] No object exists longer than necessary
   - [ ] No memory leaks
 
-## Thread Safety
+# Thread Safety
   - [ ] Objects accessed by multiple threads are accessed only through a lock, or synchronized methods.
   - [ ] Race conditions have been handled
   - [ ] Locks are acquired and released in the right order to prevent deadlocks, even in error handling code.
@@ -90,5 +90,5 @@ The developer and reviewer both need to focus on below checklist:
   - [ ] Invalid parameter values handled such that exceptions are not thrown
   - [ ] No sensitive information is logged or visible in a stacktrace
 
-## Note
+# Note
   Managers are highly recommended to make static code analysis tools and code profiling tools available to their teammates   
