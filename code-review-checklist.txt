@@ -26,7 +26,7 @@
   [ ] Required logs are present
   [ ] Frivolous logs are absent
   [ ] Debugging code is absent
-  [ ] No System.out.println or similar calls exist
+  [ ] All print statements are commented out
   [ ] No stack traces are printed
   [ ] Variables are not accidentally used with null values
   [ ] Variables are immutable where possible
