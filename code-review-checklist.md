@@ -1,6 +1,6 @@
 The developer and reviewer both need to focus on following areas:
   
-Testability               - [ ]         - [ ] 
+- Testability               [ ]         [ ] 
 - [ ] Functionality
 - [ ] Comment and Coding Conventions
 - [ ] Documentation
