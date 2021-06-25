@@ -9,13 +9,13 @@ The developer and reviewer both need to focus on below checklist:
   - Error Handling
   - Resource Leaks
   - Thread Safety
-  - Security
+  - [Security](#Security)
  
-## Testability
+# Testability
   - [ ] Code has appropriate unit tests
   - [ ] Tests are well-designed
 
-## Functionality and Code Structure
+# Functionality and Code Structure
   - [ ] The code works well
   - [ ] The code covers edge cases
   - [ ] The code is modular and addresses separation of concerns
@@ -85,7 +85,7 @@ The developer and reviewer both need to focus on below checklist:
   - [ ] Locks are acquired and released in the right order to prevent deadlocks, even in error handling code.
   - [ ] StringBuffer is used to concatenate strings in multi-threaded code
 
-## Security
+# Security
   - [ ] All data inputs are checked (for the correct type, length/size, format and range)
   - [ ] Invalid parameter values handled such that exceptions are not thrown
   - [ ] No sensitive information is logged or visible in a stacktrace
