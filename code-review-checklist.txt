@@ -1,3 +1,14 @@
+- The main areas, a reviewer need to focus are as following:
+  [] Unit Testing
+  [] Comment and Coding Conventions
+  [] Error Handling
+  [] Resource Leaks
+  [] Thread Safety
+  [] Control Structures
+  [] Performance
+  [] Functionality
+  [] Security
+
 - General
   [ ] The code works
   [ ] The code is easy to understand
