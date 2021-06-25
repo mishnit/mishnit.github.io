@@ -1,4 +1,4 @@
-- The main areas, a reviewer need to focus are as following:
+The main areas, a reviewer need to focus are as following:
   [ ] Unit Testing
   [ ] Comment and Coding Conventions
   [ ] Error Handling
@@ -9,6 +9,7 @@
   [ ] Functionality
   [ ] Security
 
+The main areas, a developer need to focus are as following:
 - General
   [ ] The code works
   [ ] The code is easy to understand
