@@ -1,7 +1,7 @@
 ## The developer and reviewer both need to focus on below checklist:
 
 - Testability
-- Functionality
+- Functionality and Code structure
 - Comment and Coding Conventions
 - Documentation
 - Error Handling
@@ -15,10 +15,12 @@
   - [ ] Code has appropriate unit tests
   - [ ] Tests are well-designed
 
-# Functionality
+# Functionality and Code Structure
   - [ ] The code works well
   - [ ] The code covers edge cases
   - [ ] The code is modular and addresses separation of concerns
+  - [ ] Law of Demeter (principle of least knowledge) is not violated
+  - [ ] Design patterns if used are correctly applied
  
 # Comment and Coding Conventions
   - [ ] Follows coding conventions
@@ -39,7 +41,6 @@
   - [ ] No stack traces are printed
   - [ ] Variables are immutable where possible
   - [ ] Code is not repeated or duplicated
-  - [ ] Design patterns if used are correctly applied
 
 # Documentation
   - [ ] The code is readable and easy to understand 
@@ -59,6 +60,7 @@
   - [ ] Files/Sockets/Cursors and other resources are properly closed even when an exception occurs in using them
   - [ ] Null/None are not returned from any method
   - [ ] Floating point numbers are not compared for equality
+  - [ ] Methods return early without compromising code readability
 
 # Control Structures
   - [ ] There is an else block for every if clause even if it is empty
@@ -80,8 +82,6 @@
  
 # Resource Leaks
   - [ ] No memory leaks
-  - [ ] Law of Demeter (principle of least knowledge) is not violated
-  - [ ] Methods return early without compromising code readability
 
 # Thread Safety
   - [ ] Objects accessed by multiple threads are accessed only through a lock, or synchronized methods.
