@@ -1,4 +1,4 @@
-The main areas, a developer and reviewer both need to focus are as following:
+The developer and reviewer both need to focus on following areas:
   [ ] Testability
   [ ] Functionality
   [ ] Comment and Coding Conventions
