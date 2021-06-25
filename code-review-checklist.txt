@@ -54,7 +54,7 @@
   [ ] No object exists longer than necessary
   [ ] Design patterns if used are correctly applied
   [ ] No memory leaks
-  [ ] Law of Demeter is not violated
+  [ ] Law of Demeter (principle of least knowledge) is not violated
   [ ] Methods return early without compromising code readability
 
 
