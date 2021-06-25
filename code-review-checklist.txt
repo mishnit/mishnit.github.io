@@ -1,20 +1,25 @@
 The main areas, a reviewer need to focus are as following:
   [ ] Unit Testing
+  [ ] Functionality
   [ ] Comment and Coding Conventions
   [ ] Error Handling
-  [ ] Resource Leaks
-  [ ] Thread Safety
   [ ] Control Structures
   [ ] Performance
-  [ ] Functionality
+  [ ] Resource Leaks
+  [ ] Thread Safety
   [ ] Security
 
-The main areas, a developer need to focus are as following:
-- General
-  [ ] The code works
+- Unit Testing
+  [ ] Code has appropriate unit tests
+  [ ] Tests are well-designed
+
+- Functionality
+  [ ] The code works expectedly for positive scenarios
+  [ ] The code works expectedly for negative scenarios
   [ ] The code is easy to understand
-  [ ] Follows coding conventions (Naming, commenting, indent-styles etc)
-  [ ] Follows code principles (SOLID, KISS, DRY, YAGNI etc)
+
+- Comment and Coding Conventions
+  [ ] Follows coding conventions
   [ ] Names are simple and if possible short
   [ ] Names are spelt correctly
   [ ] Names contain units where applicable
@@ -30,9 +35,21 @@ The main areas, a developer need to focus are as following:
   [ ] Debugging code is absent
   [ ] All print statements are commented out
   [ ] No stack traces are printed
-  [ ] Variables are not accidentally used with null values
   [ ] Variables are immutable where possible
   [ ] Code is not repeated or duplicated
+  [ ] Design patterns if used are correctly applied
+
+- Error Handling
+  [ ] Variables are not accidentally used with null values
+  [ ] Arrays are checked for out of bound conditions
+  [ ] Catch clauses are fine grained and catch specific exceptions
+  [ ] Exceptions are not eaten if caught, unless explicitly documented otherwise
+  [ ] APIs and other public contracts check input values and fail fast
+  [ ] Files/Sockets/Cursors and other resources are properly closed even when an exception occurs in using them
+  [ ] Null/None are not returned from any method
+  [ ] Floating point numbers are not compared for equality
+
+- Control Structures
   [ ] There is an else block for every if clause even if it is empty
   [ ] No complex/long boolean expressions
   [ ] No negatively named boolean variables
@@ -41,24 +58,19 @@ The main areas, a developer need to focus are as following:
   [ ] Ideal data structures are used
   [ ] Constructors do not accept null/none values
   [ ] Collections are initialised with a specific estimated capacity
-  [ ] Arrays are checked for out of bound conditions
-  [ ] Catch clauses are fine grained and catch specific exceptions
-  [ ] Exceptions are not eaten if caught, unless explicitly documented otherwise
-  [ ] APIs and other public contracts check input values and fail fast
-  [ ] Files/Sockets/Cursors and other resources are properly closed even when an exception occurs in using them
+
+- Performance
   [ ] StringBuilder is used to concatenate strings
-  [ ] Null/None are not returned from any method
-  [ ] Floating point numbers are not compared for equality
   [ ] Loops have a set length and correct termination conditions
   [ ] Blocks of code inside loops are as small as possible
   [ ] Order/index of a collection is not modified when it is being looped over
   [ ] No methods with boolean parameters
   [ ] No object exists longer than necessary
-  [ ] Design patterns if used are correctly applied
+ 
+- Resource Leaks
   [ ] No memory leaks
   [ ] Law of Demeter (principle of least knowledge) is not violated
   [ ] Methods return early without compromising code readability
-
 
 - Documentation
   [ ] All methods are commented in clear language.
@@ -68,7 +80,7 @@ The main areas, a developer need to focus are as following:
   [ ] All unusual behaviour or edge case handling is commented
   [ ] Data structures and units of measurement are explained
 
-- Threading
+- Thread Safety
   [ ] Objects accessed by multiple threads are accessed only through a lock, or synchronized methods.
   [ ] Race conditions have been handled
   [ ] Locks are acquired and released in the right order to prevent deadlocks, even in error handling code.
@@ -78,3 +90,5 @@ The main areas, a developer need to focus are as following:
   [ ] All data inputs are checked (for the correct type, length/size, format, and range)
   [ ] Invalid parameter values handled such that exceptions are not thrown
   [ ] No sensitive information is logged or visible in a stacktrace
+
+PS: Developers are highly recommended to use static code analysis tools and code profiling tools   
