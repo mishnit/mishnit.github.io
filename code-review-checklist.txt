@@ -1,4 +1,4 @@
-The main areas, a reviewer need to focus are as following:
+The main areas, a developer and reviewer both need to focus are as following:
   [ ] Unit Testing
   [ ] Functionality
   [ ] Comment and Coding Conventions
