@@ -5,7 +5,7 @@ The developer and reviewer both need to focus on below checklist:
   - Testability
   - Functionality and Code structure
   - Coding Conventions and Control Structures
-  - [Documentation] (#Documentation)
+  - [Documentation](#Documentation)
   - Error Handling
   - Resource Leaks
   - Thread Safety
