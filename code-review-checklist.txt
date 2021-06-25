@@ -1,5 +1,5 @@
 The main areas, a developer and reviewer both need to focus are as following:
-  [ ] Unit Testing
+  [ ] Testability
   [ ] Functionality
   [ ] Comment and Coding Conventions
   [ ] Documentation
@@ -10,14 +10,15 @@ The main areas, a developer and reviewer both need to focus are as following:
   [ ] Thread Safety
   [ ] Security
  
-- Unit Testing
+- Testability
   [ ] Code has appropriate unit tests
   [ ] Tests are well-designed
 
 - Functionality
   [ ] The code works well
   [ ] The code covers edge cases
-
+  [ ] The code is modular and addresses separation of concerns
+ 
 - Comment and Coding Conventions
   [ ] Follows coding conventions
   [ ] Names are simple and if possible short
