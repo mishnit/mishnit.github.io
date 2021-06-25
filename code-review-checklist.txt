@@ -40,7 +40,7 @@ The main areas, a reviewer need to focus are as following:
   [ ] Design patterns if used are correctly applied
 
 - Documentation
-  [ ] The code is easy to understand 
+  [ ] The code is readable and easy to understand 
   [ ] All methods are commented in clear language.
   [ ] Comments exist and describe rationale or reasons for decisions in code
   [ ] All public methods/interfaces/contracts are commented describing usage
