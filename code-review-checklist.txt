@@ -17,7 +17,6 @@ The main areas, a reviewer need to focus are as following:
 - Functionality
   [ ] The code works expectedly for positive scenarios
   [ ] The code works expectedly for negative scenarios
-  [ ] The code is easy to understand
 
 - Comment and Coding Conventions
   [ ] Follows coding conventions
@@ -41,6 +40,7 @@ The main areas, a reviewer need to focus are as following:
   [ ] Design patterns if used are correctly applied
 
 - Documentation
+  [ ] The code is easy to understand 
   [ ] All methods are commented in clear language.
   [ ] Comments exist and describe rationale or reasons for decisions in code
   [ ] All public methods/interfaces/contracts are commented describing usage
