@@ -55,10 +55,6 @@
   [ ] No memory leaks
   [ ] Law of Demeter is not violated
   [ ] Methods return early without compromising code readability
-  - Java only
-    [ ] Appropriate JCIP annotations are used
-    [ ] No use of Object class, use generics instead
-    [ ] Uses final modifier to prevent mistaken assignments
 
 
 - Documentation
