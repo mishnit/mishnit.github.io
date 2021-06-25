@@ -107,8 +107,8 @@ The developer and reviewer both need to focus on below checklist:
   - Use -2 to mark LBTM (Looks bad to me). Mention what is critical and probably requires rework. Be polite while asking any question in the comment.
   
 # Note
-  Code review should be used to develop an environment of learning, which should help to avoid repeating mistakes rather blaming an individual.   
-  Every Pull request requires atleast two positive reviews (single +2 or two +1) from peers to get merged in master.
-  Managers are highly recommended to make static code analysis tools and code profiling tools available to their teammates.
-  Group code reviews can be a great exercise for knowledge sharing.
-  Ideally a reviewer should not spend more than 60 minutes at a time. 
+  - Code review should be used to develop an environment of learning, which should help to avoid repeating mistakes rather blaming an individual.   
+  - Every Pull request requires atleast two positive reviews (single +2 or two +1) from peers to get merged in master.
+  - Managers are highly recommended to make static code analysis tools and code profiling tools available to their teammates.
+  - Group code reviews can be a great exercise for knowledge sharing.
+  - Ideally a reviewer should not spend more than 60 minutes at a time. 
