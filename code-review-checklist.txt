@@ -15,8 +15,8 @@ The main areas, a developer and reviewer both need to focus are as following:
   [ ] Tests are well-designed
 
 - Functionality
-  [ ] The code works expectedly for positive scenarios
-  [ ] The code works expectedly for negative scenarios
+  [ ] The code works well
+  [ ] The code covers edge cases
 
 - Comment and Coding Conventions
   [ ] Follows coding conventions
