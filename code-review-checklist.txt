@@ -9,8 +9,7 @@ The main areas, a reviewer need to focus are as following:
   [ ] Resource Leaks
   [ ] Thread Safety
   [ ] Security
-  
-
+ 
 - Unit Testing
   [ ] Code has appropriate unit tests
   [ ] Tests are well-designed
