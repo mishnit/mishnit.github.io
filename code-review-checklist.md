@@ -1,13 +1,22 @@
 The developer and reviewer both need to focus on following areas:
   [ ] Testability
+
   [ ] Functionality
+
   [ ] Comment and Coding Conventions
+
   [ ] Documentation
+
   [ ] Error Handling
+
   [ ] Control Structures
+
   [ ] Performance
+
   [ ] Resource Leaks
+
   [ ] Thread Safety
+
   [ ] Security
  
 - Testability
