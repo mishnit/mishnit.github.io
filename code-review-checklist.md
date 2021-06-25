@@ -78,9 +78,9 @@
   - [ ] Blocks of code inside loops are as small as possible
   - [ ] Order/index of a collection is not modified when it is being looped over
   - [ ] No methods with boolean parameters
-  - [ ] No object exists longer than necessary
  
 # Resource Leaks
+  - [ ] No object exists longer than necessary
   - [ ] No memory leaks
 
 # Thread Safety
