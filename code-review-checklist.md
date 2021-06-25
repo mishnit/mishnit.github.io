@@ -10,6 +10,8 @@ The developer and reviewer both need to focus on below checklist:
   - [Resource Leaks](#resource-leaks)
   - [Thread Safety](#thread-safety)
   - [Security](#security)
+  - [Positive Review](#positive-review)
+  - [Negative Review](#negative-review)
  
 # Testability
   - [ ] Code has appropriate unit tests
@@ -96,5 +98,17 @@ The developer and reviewer both need to focus on below checklist:
   - [ ] New short-lived access token can be renewed by using Long-Lived refresh token
   - [ ] Database contains only hashed values for passwords, secret keys and token
 
+# Positive Review
+  - Use +1 to mark LGTM (Looks good to me)
+  - Use +2 to mark LPTM (Looks perfect to me)
+
+# Negative Review
+  - Use -1 to mark ABSC (Accepted but small change). Mention what is wrong and how it can be fixed in the comment. 
+  - Use -2 to mark LBTM (Looks bad to me). Mention what is critical and probably requires rework. Be polite while asking any question in the comment.
+  
 # Note
-  Managers are highly recommended to make static code analysis tools and code profiling tools available to their teammates   
+  Code review should be used to develop an environment of learning, which should help to avoid repeating mistakes rather blaming an individual.   
+  Every Pull request requires atleast two positive reviews (single +2 or two +1) from peers to get merged in master.
+  Managers are highly recommended to make static code analysis tools and code profiling tools available to their teammates.
+  Group code reviews can be a great exercise for knowledge sharing.
+  Ideally a reviewer should not spend more than 60 minutes at a time. 
