@@ -21,7 +21,7 @@
   [ ] All variables are in the smallest scope possible
   [ ] All class, variable, and method modifiers are correct.
   [ ] There is no commented out code
-  [ ] There is no dead code (inaccessible at Runtime)
+  [ ] There is no dead/unused code (inaccessible at Runtime)
   [ ] No code can be replaced with library functions
   [ ] Required logs are present
   [ ] Frivolous logs are absent
