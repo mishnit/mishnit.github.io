@@ -88,7 +88,7 @@ The main areas, a reviewer need to focus are as following:
   [ ] StringBuffer is used to concatenate strings in multi-threaded code
 
 - Security
-  [ ] All data inputs are checked (for the correct type, length/size, format, and range)
+  [ ] All data inputs are checked (for the correct type, length/size, format and range)
   [ ] Invalid parameter values handled such that exceptions are not thrown
   [ ] No sensitive information is logged or visible in a stacktrace
 
