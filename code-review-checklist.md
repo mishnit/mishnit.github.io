@@ -5,8 +5,7 @@
 - Comment and Coding Conventions
 - Documentation
 - Error Handling
-- Control Structures
-- Performance
+- Control Structures and Performance
 - Resource Leaks
 - Thread Safety
 - Security
@@ -62,7 +61,7 @@
   - [ ] Floating point numbers are not compared for equality
   - [ ] Methods return early without compromising code readability
 
-# Control Structures
+# Control Structures and Performance
   - [ ] There is an else block for every if clause even if it is empty
   - [ ] No complex/long boolean expressions
   - [ ] No negatively named boolean variables
@@ -71,8 +70,6 @@
   - [ ] Ideal data structures are used
   - [ ] Constructors do not accept null/none values
   - [ ] Collections are initialised with a specific estimated capacity
-
-# Performance
   - [ ] StringBuilder is used to concatenate strings
   - [ ] Loops have a set length and correct termination conditions
   - [ ] Blocks of code inside loops are as small as possible
