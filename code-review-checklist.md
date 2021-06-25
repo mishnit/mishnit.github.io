@@ -1,24 +1,24 @@
-The developer and reviewer both need to focus on following areas:
+## The developer and reviewer both need to focus on following areas:
   
-- Testability               [ ]         [ ] 
-- [ ] Functionality
-- [ ] Comment and Coding Conventions
-- [ ] Documentation
-- [ ] Error Handling
-- [ ] Control Structures
-- [ ] Performance
-- [ ] Resource Leaks
-- [ ] Thread Safety
-- [ ] Security
- 
 - Testability
-  [ ] Code has appropriate unit tests
-  [ ] Tests are well-designed
-
 - Functionality
-  [ ] The code works well
-  [ ] The code covers edge cases
-  [ ] The code is modular and addresses separation of concerns
+- Comment and Coding Conventions
+- Documentation
+- Error Handling
+- Control Structures
+- Performance
+- Resource Leaks
+- Thread Safety
+- Security
+ 
+# Testability
+  - [ ] Code has appropriate unit tests
+  - [ ] Tests are well-designed
+
+# Functionality
+  - [ ] The code works well
+  - [ ] The code covers edge cases
+  - [ ] The code is modular and addresses separation of concerns
  
 - Comment and Coding Conventions
   [ ] Follows coding conventions
