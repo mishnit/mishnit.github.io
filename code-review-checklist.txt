@@ -1,13 +1,13 @@
 - The main areas, a reviewer need to focus are as following:
-  [] Unit Testing
-  [] Comment and Coding Conventions
-  [] Error Handling
-  [] Resource Leaks
-  [] Thread Safety
-  [] Control Structures
-  [] Performance
-  [] Functionality
-  [] Security
+  [ ] Unit Testing
+  [ ] Comment and Coding Conventions
+  [ ] Error Handling
+  [ ] Resource Leaks
+  [ ] Thread Safety
+  [ ] Control Structures
+  [ ] Performance
+  [ ] Functionality
+  [ ] Security
 
 - General
   [ ] The code works
@@ -35,6 +35,7 @@
   [ ] No complex/long boolean expressions
   [ ] No negatively named boolean variables
   [ ] No empty blocks of code
+  [ ] No empty destructor exists 
   [ ] Ideal data structures are used
   [ ] Constructors do not accept null/none values
   [ ] Collections are initialised with a specific estimated capacity
