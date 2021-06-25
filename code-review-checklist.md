@@ -88,4 +88,5 @@
   - [ ] Invalid parameter values handled such that exceptions are not thrown
   - [ ] No sensitive information is logged or visible in a stacktrace
 
-PS: Developers are highly recommended to use static code analysis tools and code profiling tools   
+# Note
+Managers are highly recommended to make static code analysis tools and code profiling tools available to their teammates   
