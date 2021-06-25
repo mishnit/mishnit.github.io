@@ -2,12 +2,14 @@ The main areas, a reviewer need to focus are as following:
   [ ] Unit Testing
   [ ] Functionality
   [ ] Comment and Coding Conventions
+  [ ] Documentation
   [ ] Error Handling
   [ ] Control Structures
   [ ] Performance
   [ ] Resource Leaks
   [ ] Thread Safety
   [ ] Security
+  
 
 - Unit Testing
   [ ] Code has appropriate unit tests
@@ -38,6 +40,14 @@ The main areas, a reviewer need to focus are as following:
   [ ] Variables are immutable where possible
   [ ] Code is not repeated or duplicated
   [ ] Design patterns if used are correctly applied
+
+- Documentation
+  [ ] All methods are commented in clear language.
+  [ ] Comments exist and describe rationale or reasons for decisions in code
+  [ ] All public methods/interfaces/contracts are commented describing usage
+  [ ] All edge cases are described in comments
+  [ ] All unusual behaviour or edge case handling is commented
+  [ ] Data structures and units of measurement are explained
 
 - Error Handling
   [ ] Variables are not accidentally used with null values
@@ -71,14 +81,6 @@ The main areas, a reviewer need to focus are as following:
   [ ] No memory leaks
   [ ] Law of Demeter (principle of least knowledge) is not violated
   [ ] Methods return early without compromising code readability
-
-- Documentation
-  [ ] All methods are commented in clear language.
-  [ ] Comments exist and describe rationale or reasons for decisions in code
-  [ ] All public methods/interfaces/contracts are commented describing usage
-  [ ] All edge cases are described in comments
-  [ ] All unusual behaviour or edge case handling is commented
-  [ ] Data structures and units of measurement are explained
 
 - Thread Safety
   [ ] Objects accessed by multiple threads are accessed only through a lock, or synchronized methods.
