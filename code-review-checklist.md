@@ -65,6 +65,8 @@ The developer and reviewer both need to focus on below checklist:
   - [ ] Data structures and units of measurement are explained
 
 # Error Handling
+  - [ ] All data inputs are checked (for the correct type, length/size, format and range)
+  - [ ] Invalid parameter values handled such that exceptions are not thrown
   - [ ] Variables are not accidentally used with null values
   - [ ] Arrays are checked for out of bound conditions
   - [ ] Catch clauses are fine grained and catch specific exceptions
@@ -86,9 +88,13 @@ The developer and reviewer both need to focus on below checklist:
   - [ ] StringBuffer is used to concatenate strings in multi-threaded code
 
 # Security
-  - [ ] All data inputs are checked (for the correct type, length/size, format and range)
-  - [ ] Invalid parameter values handled such that exceptions are not thrown
   - [ ] No sensitive information is logged or visible in a stacktrace
+  - [ ] Encryption if used anywhere is strong enough
+  - [ ] Secret keys, passwords and tokens etc are not hard coded
+  - [ ] Short-Lived access token and Long-Lived refresh token are being used for session security
+  - [ ] Auth tokens are being stored via httponly and secure cookies only
+  - [ ] New short-lived access token can be renewed by using Long-Lived refresh token
+  - [ ] Database contains only hashed values for passwords, secret keys and token
 
 # Note
   Managers are highly recommended to make static code analysis tools and code profiling tools available to their teammates   
