@@ -103,7 +103,7 @@ The developer and reviewer both need to focus on below checklist:
   - Reviewees are highly recommended to use static code analysis tools and code profiling tools.
   - Group code reviews can be a great exercise for knowledge sharing.
   - Reviewer should not review more than 400 lines of code at once. 
-  - Reviewer may use abbreviation in the beginning of comment [ref](#https://web.stanford.edu/~ouster/cgi-bin/cs190-spring15/reviewCodes.php)   
+  - Reviewer may use abbreviation in the beginning of comment [ref](https://web.stanford.edu/~ouster/cgi-bin/cs190-spring15/reviewCodes.php)   
   - Balance giving explicit directions with just pointing out problems and letting the developer decide. Use questions or recommendations to drive dialog.
   - Don’t push your personal opinion and preferences as facts. Technical facts and data overrule opinions and personal preferences.
   - Encourage developers to simplify code or add code comments instead of just explaining the complexity to you.
