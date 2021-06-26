@@ -97,14 +97,6 @@ The developer and reviewer both need to focus on below checklist:
   - [ ] Auth tokens are being stored via httponly and secure cookies only
   - [ ] New short-lived access token can be renewed by using Long-Lived refresh token
   - [ ] Database contains only hashed values for passwords, secret keys and token
-
-# Positive Review
-  - Use +1 to mark LGTM (Looks good to me)
-  - Use +2 to mark LPTM (Looks perfect to me)
-
-# Negative Review
-  - Use -1 to mark FAN (Fixes are needed). Mention what is wrong and how it can be fixed in the comment. 
-  - Use -2 to mark LBTM (Looks bad to me). Mention what is critical and probably requires lot of rework. Be polite while asking any question in the comment.
   
 # Note
   - Code review should be used to develop an environment of learning, which should help to avoid repeating mistakes rather blaming an individual.   
