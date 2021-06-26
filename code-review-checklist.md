@@ -103,12 +103,18 @@ The developer and reviewer both need to focus on below checklist:
   - Use +2 to mark LPTM (Looks perfect to me)
 
 # Negative Review
-  - Use -1 to mark ABSC (Accepted but small change). Mention what is wrong and how it can be fixed in the comment. 
-  - Use -2 to mark LBTM (Looks bad to me). Mention what is critical and probably requires rework. Be polite while asking any question in the comment.
+  - Use -1 to mark FAN (Fixes are needed). Mention what is wrong and how it can be fixed in the comment. 
+  - Use -2 to mark LBTM (Looks bad to me). Mention what is critical and probably requires lot of rework. Be polite while asking any question in the comment.
   
 # Note
   - Code review should be used to develop an environment of learning, which should help to avoid repeating mistakes rather blaming an individual.   
   - Every Pull request requires atleast two positive reviews (single +2 or two +1) from peers to get merged in master.
-  - Managers are highly recommended to make static code analysis tools and code profiling tools available to their teammates.
+  - Reviewees are highly recommended to use static code analysis tools and code profiling tools.
   - Group code reviews can be a great exercise for knowledge sharing.
-  - Ideally a reviewer should not spend more than 60 minutes at a time. 
+  - Reviewer should not review more than 400 lines of code at once. 
+  - Balance giving explicit directions with just pointing out problems and letting the developer decide. Use questions or recommendations to drive dialog.
+  - Don’t push your personal opinion and preferences as facts. Technical facts and data overrule opinions and personal preferences.
+  - Encourage developers to simplify code or add code comments instead of just explaining the complexity to you.
+  - Avoid sarcasm and Emojis. Be polite. Avoid, “Have you. even tested it?“. Try, “The code breaks when X. Could you please address this?”
+  - Don’t ask a developer to fix the code which he is not touching in the current PR. If that piece concerns you, create a ticket and add it in your backlog.
+  - Don’t overwhelm with an avalanche of comments. When a person makes an error, chances are high that they have made the same error in several places in their changeset. Don’t repeat the same comments again and again.
