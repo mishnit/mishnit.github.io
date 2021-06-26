@@ -10,8 +10,7 @@ The developer and reviewer both need to focus on below checklist:
   - [Resource Leaks](#resource-leaks)
   - [Thread Safety](#thread-safety)
   - [Security](#security)
-  - [Positive Review](#positive-review)
-  - [Negative Review](#negative-review)
+  - [Code of Conduct](#code-of-conduct)
  
 # Testability
   - [ ] Code has appropriate unit tests
@@ -98,12 +97,13 @@ The developer and reviewer both need to focus on below checklist:
   - [ ] New short-lived access token can be renewed by using Long-Lived refresh token
   - [ ] Database contains only hashed values for passwords, secret keys and token
   
-# Note
+# Code of Conduct
   - Code review should be used to develop an environment of learning, which should help to avoid repeating mistakes rather blaming an individual.   
-  - Every Pull request requires atleast two positive reviews (single +2 or two +1) from peers to get merged in master.
+  - Every Pull request requires atleast two approvals from peers in order to get merged in master.
   - Reviewees are highly recommended to use static code analysis tools and code profiling tools.
   - Group code reviews can be a great exercise for knowledge sharing.
   - Reviewer should not review more than 400 lines of code at once. 
+  - Reviewer may use abbreviation in the beginning of comment [ref](#https://web.stanford.edu/~ouster/cgi-bin/cs190-spring15/reviewCodes.php)   
   - Balance giving explicit directions with just pointing out problems and letting the developer decide. Use questions or recommendations to drive dialog.
   - Don’t push your personal opinion and preferences as facts. Technical facts and data overrule opinions and personal preferences.
   - Encourage developers to simplify code or add code comments instead of just explaining the complexity to you.
