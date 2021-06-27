@@ -24,11 +24,11 @@ The framework has 4 different ladders:
 * **Engineering Manager**: is also known as dev manager, is responsible for the consistent delivery, career growth and level of happiness of the team
 
 
-| Level | [Developer](Developer.md) | [Tech Lead](TechLead.md) | [Technical Program Manager](TechnicalProgramManager.md) | [Engineering Manager](EngineeringManager.md) |
-| :---: | :---: | :---: | :---: | :---: |  :---: |
-| L1 | [D1](TIPPS.md#d1---software-engineer-1) | | | |
-| L2 | [D2](TIPPS.md#d2---software-engineer-2) | | | |
-| L3 | [D3](TIPPS.md#d3---developer-3) | | | |
+| Level | [Developer](Developer.md) | [Tech Lead](TechLead.md) | [Engineering Manager](EngineeringManager.md) |
+| :---: | :---: | :---: |  :---: |
+| L1 | [D1](TIPPS.md#d1---software-engineer-1) | | |
+| L2 | [D2](TIPPS.md#d2---software-engineer-2) | | |
+| L3 | [D3](TIPPS.md#d3---developer-3) | | |
 | L4 | [D4](TIPPS.md#d4---developer-4) | [TL4](TIPPS.md#tl1---tech-lead-4) | |
 | L5 | [D5](TIPPS.md#d5---staff-engineer) | [TL5](TIPPS.md#tl2---tech-lead-5) | [Engineering Manager](TIPPS.md#engineering-manager) |
 | L6 | [D6](TIPPS.md#d6---senior-staff-engineer) | [TL6](TIPPS.md#tl3---tech-lead-6) | [Director of Engineering](TIPPS.md#director-of-engineering) |
