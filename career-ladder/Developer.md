@@ -12,16 +12,12 @@ The framework relies heavily in radar charts to show visually the different pers
 
 The chart shown above has the following 5 axes:
 * **Technology**: knowledge of the tech stack and tools
-* **System**: level of ownership of the system(s)
+* **Influence**: scope of influence of the position
 * **People**: relationship with the team(s)
 * **Process**: level of engagement with the development process
-* **Influence**: scope of influence of the position
-
-The **influence** axis can be seen as a *different dimension* since it is orthogonal and applies to all the other axes.
+* **System**: level of ownership of the system(s)
 
 Each axis has 5 different levels of performance. It is important to highlight that every level includes the previous one(s). For example, someone that *evangelizes* technology, *specializes* and *adopts* it as well.
-
-Keep reading to better understand each level.
 
 # Levels
 
