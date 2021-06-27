@@ -57,7 +57,7 @@ Each axis has 5 different levels of performance. It is important to highlight th
 4. **Evolves**: evolves the architecture to support future requirements and defines its SLAs
 5. **Leads**: leads the technical excellence of the system and creates plans to mitigate outages
 
-
+# Ladders
 
 The framework has 4 different ladders:
 
