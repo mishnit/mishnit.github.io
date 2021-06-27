@@ -25,13 +25,13 @@ Each axis has 5 different levels of performance. It is important to highlight th
 4. **Masters**: has very deep knowledge about the whole technology stack of the system
 5. **Creates**: designs and creates new technologies that are widely used either by internal or external teams
 
-## System
+## Influence
 
-1. **Enhances**: successfully pushes new features and bug fixes to improve and extend the system
-2. **Designs**: designs and implements medium to large size features while reducing the system's tech debt
-3. **Owns**: owns the production operation and monitoring of the system and is aware of its SLAs
-4. **Evolves**: evolves the architecture to support future requirements and defines its SLAs
-5. **Leads**: leads the technical excellence of the system and creates plans to mitigate outages
+1. **Subsystem**: makes an impact on one or more subsystems
+2. **Team**: makes an impact on the whole team, not just on specific parts of it
+3. **Multiple Teams**: makes an impact not only his/her team but also on other teams
+4. **Company**: makes an impact on the whole tech organization
+5. **Community**: makes an impact on the tech community
 
 ## People
 
@@ -49,13 +49,14 @@ Each axis has 5 different levels of performance. It is important to highlight th
 4. **Adjusts**: adjusts the team processes, listening to feedback and guiding the team through the changes
 5. **Defines**: defines the right processes for the team's maturity level, balancing agility and discipline
 
-## Influence
+## System
 
-1. **Subsystem**: makes an impact on one or more subsystems
-2. **Team**: makes an impact on the whole team, not just on specific parts of it
-3. **Multiple Teams**: makes an impact not only his/her team but also on other teams
-4. **Company**: makes an impact on the whole tech organization
-5. **Community**: makes an impact on the tech community
+1. **Enhances**: successfully pushes new features and bug fixes to improve and extend the system
+2. **Designs**: designs and implements medium to large size features while reducing the system's tech debt
+3. **Owns**: owns the production operation and monitoring of the system and is aware of its SLAs
+4. **Evolves**: evolves the architecture to support future requirements and defines its SLAs
+5. **Leads**: leads the technical excellence of the system and creates plans to mitigate outages
+
 
 
 The framework has 4 different ladders:
