@@ -29,10 +29,10 @@ The framework has 3 different paths:
 | L1 | [Software Engineer I](TIPPS.md#software-engineer-i) | | |
 | L2 | [Software Engineer II](TIPPS.md#software-engineer-ii) | | |
 | L3 | [Senior Software Engineer I](TIPPS.md#senior-software-engineer-i) | | |
-| L4 | [Senior Software Engineer II](TIPPS.md#senior-software-engineer-ii) | [TL4](TIPPS.md#tech-lead) | |
-| L5 | [Staff Engineer](TIPPS.md#staff-engineer) | [TL5](TIPPS.md#senior-tech-lead) | [Engineering Manager](TIPPS.md#engineering-manager) |
-| L6 | [Senior Staff Engineer](TIPPS.md#senior-staff-engineer) | [TL6](TIPPS.md#architect) | [Director of Engineering](TIPPS.md#director-of-engineering) |
-| L7 | [Principal Engineer](TIPPS.md#principal-engineer) | [TL7](TIPPS.md#senior-architect) | [VP of engineering](TIPPS.md#vp-of-engineering) |
+| L4 | [Senior Software Engineer II](TIPPS.md#senior-software-engineer-ii) | [Tech Lead](TIPPS.md#tech-lead) | |
+| L5 | [Staff Engineer](TIPPS.md#staff-engineer) | [Senior Tech Lead](TIPPS.md#senior-tech-lead) | [Engineering Manager](TIPPS.md#engineering-manager) |
+| L6 | [Senior Staff Engineer](TIPPS.md#senior-staff-engineer) | [Architect](TIPPS.md#architect) | [Director of Engineering](TIPPS.md#director-of-engineering) |
+| L7 | [Principal Engineer](TIPPS.md#principal-engineer) | [Senior Architect](TIPPS.md#senior-architect) | [VP of engineering](TIPPS.md#vp-of-engineering) |
 
 ## Software Engineer I
 
