@@ -19,12 +19,12 @@ Each axis has 5 different levels of performance. It is important to highlight th
 
 The framework has 3 different paths:
 
-* **Individual Contributor**: is also known as developer or software engineer, requires a deep level of technical expertise
-* **Tech Lead**: is also known as dev lead, is the owner of the system and requires a unique balance between hands-on development, architecture knowledge and production support
-* **Engineering Manager**: is also known as dev manager, is responsible for the consistent delivery, career growth and level of happiness of the team
+* **Maker**: is also known as individual contributor or software engineer, requires a deep level of technical expertise
+* **Leader**: is also known as tech lead, is the owner of the system and requires a unique balance between hands-on development, architecture knowledge and production support
+* **Manager**: is also known as engg manager, is responsible for the consistent delivery, career growth and level of happiness of the team
 
 
-| Level | Individual Contributor | Tech Lead | Engineering Manager |
+| Level | Maker | Leader | Manager |
 | :---: | :---: | :---: |  :---: |
 | L1 | [Software Engineer I](TIPPS.md#software-engineer-i) | | |
 | L2 | [Software Engineer II](TIPPS.md#software-engineer-ii) | | |
