@@ -1,10 +1,6 @@
 # TIPPS Framework
 
-This framework allows software engineering managers to have meaningful conversations with their direct reports around the expectations of each position and how to plan for the next level in their career ladder.
-
-Although the framework uses roles and levels that are somewhat standard in the US tech industry, every company is different. Please use the information provided as a baseline and feel free adjust it to your needs.
-
-The framework relies heavily in radar charts to show visually the different perspectives and expectations of a given position:
+TIPPS framework sets expectations of each position and helps transitioning to the next level in their career.
 
 ![Template Chart](charts/template.png)
 
