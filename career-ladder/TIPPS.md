@@ -150,7 +150,7 @@ If you are confused about the difference between a [Tech Lead](TechLead.md) and 
 
 ## TL4 - Tech Lead 4
 
-![Tech Lead 4](/charts/techlead-4.png)
+![Tech Lead 4](charts/techlead-4.png)
 
 * **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
 * **Owns**: owns the production operation and monitoring of the system and is aware of its SLAs
@@ -160,7 +160,7 @@ If you are confused about the difference between a [Tech Lead](TechLead.md) and 
 
 ## TL5 - Tech Lead 5
 
-![Tech Lead 5](/charts/techlead-5.png)
+![Tech Lead 5](charts/techlead-5.png)
 
 * **Evangelizes**: researches, creates proofs of concept and introduces new technologies to the team
 * **Evolves**: evolves the architecture to support future requirements and defines its SLAs
@@ -170,7 +170,7 @@ If you are confused about the difference between a [Tech Lead](TechLead.md) and 
 
 ## TL6 - Tech Lead 6
 
-![Tech Lead 6](/charts/techlead-6.png)
+![Tech Lead 6](charts/techlead-6.png)
 
 * **Masters**: has very deep knowledge about the whole technology stack of the system
 * **Leads**: leads the technical excellence of the system and creates plans to mitigate outages
@@ -180,7 +180,7 @@ If you are confused about the difference between a [Tech Lead](TechLead.md) and 
 
 ## TL7 - Tech Lead 7
 
-![Tech Lead 7](/charts/techlead-7.png)
+![Tech Lead 7](charts/techlead-7.png)
 
 * **Masters**: has very deep knowledge about the whole technology stack of the system
 * **Leads**: leads the technical excellence of the system and creates plans to mitigate outages
@@ -190,7 +190,7 @@ If you are confused about the difference between a [Tech Lead](TechLead.md) and 
 
 ## TPM4 - Technical Program Manager 4
 
-![Technical Program Manager 4](/charts/technicalprogrammanager-4.png)
+![Technical Program Manager 4](charts/technicalprogrammanager-4.png)
 
 * **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
 * **Designs**: designs and implements medium to large size features while reducing the system's tech debt
@@ -200,7 +200,7 @@ If you are confused about the difference between a [Tech Lead](TechLead.md) and 
 
 ## TPM5 - Technical Program Manager 5
 
-![Technical Program Manager 5](/charts/technicalprogrammanager-5.png)
+![Technical Program Manager 5](charts/technicalprogrammanager-5.png)
 
 * **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
 * **Designs**: designs and implements medium to large size features while reducing the system's tech debt
@@ -210,7 +210,7 @@ If you are confused about the difference between a [Tech Lead](TechLead.md) and 
 
 ## TPM6 - Technical Program Manager 6
 
-![Technical Program Manager 6](/charts/technicalprogrammanager-6.png)
+![Technical Program Manager 6](charts/technicalprogrammanager-6.png)
 
 * **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
 * **Owns**: owns the production operation and monitoring of the system and is aware of its SLAs
@@ -220,7 +220,7 @@ If you are confused about the difference between a [Tech Lead](TechLead.md) and 
 
 ## TPM7 - Technical Program Manager 7
 
-![Technical Program Manager 7](/charts/technicalprogrammanager-7.png)
+![Technical Program Manager 7](charts/technicalprogrammanager-7.png)
 
 * **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
 * **Evolves**: evolves the architecture to support future requirements and defines its SLAs
