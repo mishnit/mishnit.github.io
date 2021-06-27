@@ -70,13 +70,13 @@ If you are confused about the difference between a [Tech Lead](TechLead.md) and 
 
 | Level | Seniority | [Developer](Developer.md) | [Tech Lead](TechLead.md) | [Technical Program Manager](TechnicalProgramManager.md) | [Engineering Manager](EngineeringManager.md) |
 | :---: | :---: | :---: | :---: | :---: |  :---: |
-| 1 | Junior | [D1](Developer.md#d1---developer-1) | | | |
-| 2 | Junior | [D2](Developer.md#d2---developer-2) | | | |
-| 3 | Junior | [D3](Developer.md#d3---developer-3) | | | |
-| 4 | Senior | [D4](Developer.md#d4---developer-4) | [TL4](TechLead.md#tl4---tech-lead-4) | [TPM4](TechnicalProgramManager.md#tpm4---technical-program-manager-4) | |
-| 5 | Senior | [D5](Developer.md#d5---developer-5) | [TL5](TechLead.md#tl5---tech-lead-5) | [TPM5](TechnicalProgramManager.md#tpm5---technical-program-manager-5) | [EM5](EngineeringManager.md#em5---engineering-manager-5) |
-| 6 | Senior | [D6](Developer.md#d6---developer-6) | [TL6](TechLead.md#tl6---tech-lead-6) | [TPM6](TechnicalProgramManager.md#tpm6---technical-program-manager-6) | [EM6](EngineeringManager.md#em6---engineering-manager-6) |
-| 7 | Senior | [D7](Developer.md#d7---developer-7) | [TL7](TechLead.md#tl7---tech-lead-7) | [TPM7](TechnicalProgramManager.md#tpm7---technical-program-manager-7) | [EM7](EngineeringManager.md#em7---engineering-manager-7) |
+| 1 | Junior | [D1](TIPPS.md#d1---developer-1) | | | |
+| 2 | Junior | [D2](TIPPS.md#d2---developer-2) | | | |
+| 3 | Junior | [D3](TIPPS.md#d3---developer-3) | | | |
+| 4 | Senior | [D4](TIPPS.md#d4---developer-4) | [TL4](TIPPS.md#tl4---tech-lead-4) | [TPM4](TIPPS.md#tpm4---technical-program-manager-4) | |
+| 5 | Senior | [D5](TIPPS.md#d5---developer-5) | [TL5](TIPPS.md#tl5---tech-lead-5) | [TPM5](TIPPS.md#tpm5---technical-program-manager-5) | [EM5](TIPPS.md#em5---engineering-manager-5) |
+| 6 | Senior | [D6](TIPPS.md#d6---developer-6) | [TL6](TIPPS.md#tl6---tech-lead-6) | [TPM6](TIPPS.md#tpm6---technical-program-manager-6) | [EM6](TIPPS.md#em6---engineering-manager-6) |
+| 7 | Senior | [D7](TIPPS.md#d7---developer-7) | [TL7](TIPPS.md#tl7---tech-lead-7) | [TPM7](TIPPS.md#tpm7---technical-program-manager-7) | [EM7](TIPPS.md#em7---engineering-manager-7) |
 
 ## D1 - Developer 1
 
