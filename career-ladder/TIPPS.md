@@ -26,17 +26,17 @@ The framework has 4 different ladders:
 
 | Level | [Developer](Developer.md) | [Tech Lead](TechLead.md) | [Engineering Manager](EngineeringManager.md) |
 | :---: | :---: | :---: |  :---: |
-| L1 | [D1](TIPPS.md#d1---software-engineer-1) | | |
-| L2 | [D2](TIPPS.md#d2---software-engineer-2) | | |
-| L3 | [D3](TIPPS.md#d3---developer-3) | | |
-| L4 | [D4](TIPPS.md#d4---developer-4) | [TL4](TIPPS.md#tl1---tech-lead-4) | |
-| L5 | [D5](TIPPS.md#d5---staff-engineer) | [TL5](TIPPS.md#tl2---tech-lead-5) | [Engineering Manager](TIPPS.md#engineering-manager) |
-| L6 | [D6](TIPPS.md#d6---senior-staff-engineer) | [TL6](TIPPS.md#tl3---tech-lead-6) | [Director of Engineering](TIPPS.md#director-of-engineering) |
-| L7 | [D7](TIPPS.md#d7---principal-engineer) | [TL7](TIPPS.md#tl4---tech-lead-7) | [VP of engineering](TIPPS.md#vp-of-engineering) |
+| L1 | [Software Engineer I](TIPPS.md#software-engineer-i) | | |
+| L2 | [Software Engineer II](TIPPS.md#software-engineer-ii) | | |
+| L3 | [Senior Software Engineer I](TIPPS.md#senior-software-engineer-i) | | |
+| L4 | [Senior Software Engineer II](TIPPS.md#senior-software-engineer-ii) | [TL4](TIPPS.md#tl1---tech-lead-4) | |
+| L5 | [Staff Engineer](TIPPS.md#staff-engineer) | [TL5](TIPPS.md#tl2---tech-lead-5) | [Engineering Manager](TIPPS.md#engineering-manager) |
+| L6 | [Senior Staff Engineer](TIPPS.md#senior-staff-engineer) | [TL6](TIPPS.md#tl3---tech-lead-6) | [Director of Engineering](TIPPS.md#director-of-engineering) |
+| L7 | [Principal Engineer](TIPPS.md#principal-engineer) | [TL7](TIPPS.md#tl4---tech-lead-7) | [VP of engineering](TIPPS.md#vp-of-engineering) |
 
-## Developer 1
+## Software Engineer I
 
-![Developer 1](charts/developer-1.png)
+![Software Engineer I](charts/developer-1.png)
 
 * **Adopts**: actively learns and adopts the technology and tools defined by the team
 * **Enhances**: successfully pushes new features and bug fixes to improve and extend the system
@@ -44,9 +44,9 @@ The framework has 4 different ladders:
 * **Follows**: follows the team processes, delivering a consistent flow of features to production
 * **Subsystem**: makes an impact on one or more subsystems or team pods
 
-## Developer 2
+## Software Engineer II
 
-![Developer 2](charts/developer-2.png)
+![Software Engineer II](charts/developer-2.png)
 
 * **Adopts**: actively learns and adopts the technology and tools defined by the team
 * **Designs**: designs and implements medium to large size features while reducing the system's tech debt
@@ -54,9 +54,9 @@ The framework has 4 different ladders:
 * **Enforces**: enforces the team processes, making sure everybody understands the benefits and tradeoffs
 * **Subsystem**: makes an impact on one or more subsystems or team pods
 
-## Developer 3
+## Senior Software Engineer I
 
-![Developer 3](charts/developer-3.png)
+![Senior Software Engineer I](charts/developer-3.png)
 
 * **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
 * **Designs**: designs and implements medium to large size features while reducing the system's tech debt
@@ -64,9 +64,9 @@ The framework has 4 different ladders:
 * **Challenges**: challenges the team processes, looking for ways to improve them
 * **Team**: makes an impact on the whole team, not just on specific parts of it
 
-## Developer 4
+## Senior Software Engineer II
 
-![Developer 4](charts/developer-4.png)
+![Senior Software Engineer II](charts/developer-4.png)
 
 * **Evangelizes**: researches, creates proofs of concept and introduces new technologies to the team
 * **Owns**: owns the production operation and monitoring of the system and is aware of its SLAs
@@ -74,9 +74,9 @@ The framework has 4 different ladders:
 * **Challenges**: challenges the team processes, looking for ways to improve them
 * **Team**: makes an impact on the whole team, not just on specific parts of it
 
-## Developer 5
+## Staff Engineer
 
-![Developer 5](charts/developer-5.png)
+![Staff Engineer](charts/developer-5.png)
 
 * **Masters**: has very deep knowledge about the whole technology stack of the system
 * **Evolves**: evolves the architecture to support future requirements and defines its SLAs
@@ -84,9 +84,9 @@ The framework has 4 different ladders:
 * **Adjusts**: adjusts the team processes, listening to feedback and guiding the team through the changes
 * **Multiple Teams**: makes an impact not only on the whole team but also on other teams
 
-## Developer 6
+## Senior Staff Engineer
 
-![Developer 6](charts/developer-6.png)
+![Senior Staff Engineer](charts/developer-6.png)
 
 * **Creates**: designs and creates new technologies that are widely used either by internal or external teams
 * **Leads**: leads the technical excellence of the system and creates plans to mitigate outages
@@ -94,9 +94,9 @@ The framework has 4 different ladders:
 * **Adjusts**: adjusts the team processes, listening to feedback and guiding the team through the changes
 * **Company**: makes an impact on the whole tech organization
 
-## Developer 7
+## Principal Engineer
 
-![Developer 7](charts/developer-7.png)
+![Principal Engineer](charts/developer-7.png)
 
 * **Creates**: designs and creates new technologies that are widely used either by internal or external teams
 * **Leads**: leads the technical excellence of the system and creates plans to mitigate outages
