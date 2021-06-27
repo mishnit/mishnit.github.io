@@ -21,21 +21,20 @@ The framework has 4 different ladders:
 
 * **Developer**: is also known as programmer or software engineer, requires a deep level of technical expertise
 * **Tech Lead**: is also known as dev lead, is the owner of the system and requires a unique balance between hands-on development, architecture knowledge and production support
-* **Technical Program Manager**: is responsible for coordinating and driving to completion initiatives that expand multiple teams
 * **Engineering Manager**: is also known as dev manager, is responsible for the consistent delivery, career growth and level of happiness of the team
 
 
-| Level | Seniority | [Developer](Developer.md) | [Tech Lead](TechLead.md) | [Technical Program Manager](TechnicalProgramManager.md) | [Engineering Manager](EngineeringManager.md) |
+| Level | [Developer](Developer.md) | [Tech Lead](TechLead.md) | [Technical Program Manager](TechnicalProgramManager.md) | [Engineering Manager](EngineeringManager.md) |
 | :---: | :---: | :---: | :---: | :---: |  :---: |
-| 1 | Junior | [D1](TIPPS.md#d1---developer-1) | | | |
-| 2 | Junior | [D2](TIPPS.md#d2---developer-2) | | | |
-| 3 | Junior | [D3](TIPPS.md#d3---developer-3) | | | |
-| 4 | Senior | [D4](TIPPS.md#d4---developer-4) | [TL4](TIPPS.md#tl4---tech-lead-4) | [TPM4](TIPPS.md#tpm4---technical-program-manager-4) | |
-| 5 | Senior | [D5](TIPPS.md#d5---developer-5) | [TL5](TIPPS.md#tl5---tech-lead-5) | [TPM5](TIPPS.md#tpm5---technical-program-manager-5) | [EM5](TIPPS.md#em5---engineering-manager-5) |
-| 6 | Senior | [D6](TIPPS.md#d6---developer-6) | [TL6](TIPPS.md#tl6---tech-lead-6) | [TPM6](TIPPS.md#tpm6---technical-program-manager-6) | [EM6](TIPPS.md#em6---engineering-manager-6) |
-| 7 | Senior | [D7](TIPPS.md#d7---developer-7) | [TL7](TIPPS.md#tl7---tech-lead-7) | [TPM7](TIPPS.md#tpm7---technical-program-manager-7) | [EM7](TIPPS.md#em7---engineering-manager-7) |
+| L1 | [D1](TIPPS.md#d1---software-engineer-1) | | | |
+| L2 | [D2](TIPPS.md#d2---software-engineer-2) | | | |
+| L3 | [D3](TIPPS.md#d3---developer-3) | | | |
+| L4 | [D4](TIPPS.md#d4---developer-4) | [TL4](TIPPS.md#tl1---tech-lead-4) | |
+| L5 | [D5](TIPPS.md#d5---staff-engineer) | [TL5](TIPPS.md#tl2---tech-lead-5) | [Engineering Manager](TIPPS.md#engineering-manager) |
+| L6 | [D6](TIPPS.md#d6---senior-staff-engineer) | [TL6](TIPPS.md#tl3---tech-lead-6) | [Director of Engineering](TIPPS.md#director-of-engineering) |
+| L7 | [D7](TIPPS.md#d7---principal-engineer) | [TL7](TIPPS.md#tl4---tech-lead-7) | [VP of engineering](TIPPS.md#vp-of-engineering) |
 
-## D1 - Developer 1
+## Developer 1
 
 ![Developer 1](charts/developer-1.png)
 
@@ -45,7 +44,7 @@ The framework has 4 different ladders:
 * **Follows**: follows the team processes, delivering a consistent flow of features to production
 * **Subsystem**: makes an impact on one or more subsystems or team pods
 
-## D2 - Developer 2
+## Developer 2
 
 ![Developer 2](charts/developer-2.png)
 
@@ -55,7 +54,7 @@ The framework has 4 different ladders:
 * **Enforces**: enforces the team processes, making sure everybody understands the benefits and tradeoffs
 * **Subsystem**: makes an impact on one or more subsystems or team pods
 
-## D3 - Developer 3
+## Developer 3
 
 ![Developer 3](charts/developer-3.png)
 
@@ -65,7 +64,7 @@ The framework has 4 different ladders:
 * **Challenges**: challenges the team processes, looking for ways to improve them
 * **Team**: makes an impact on the whole team, not just on specific parts of it
 
-## D4 - Developer 4
+## Developer 4
 
 ![Developer 4](charts/developer-4.png)
 
@@ -75,7 +74,7 @@ The framework has 4 different ladders:
 * **Challenges**: challenges the team processes, looking for ways to improve them
 * **Team**: makes an impact on the whole team, not just on specific parts of it
 
-## D5 - Developer 5
+## Developer 5
 
 ![Developer 5](charts/developer-5.png)
 
@@ -85,7 +84,7 @@ The framework has 4 different ladders:
 * **Adjusts**: adjusts the team processes, listening to feedback and guiding the team through the changes
 * **Multiple Teams**: makes an impact not only on the whole team but also on other teams
 
-## D6 - Developer 6
+## Developer 6
 
 ![Developer 6](charts/developer-6.png)
 
@@ -95,7 +94,7 @@ The framework has 4 different ladders:
 * **Adjusts**: adjusts the team processes, listening to feedback and guiding the team through the changes
 * **Company**: makes an impact on the whole tech organization
 
-## D7 - Developer 7
+## Developer 7
 
 ![Developer 7](charts/developer-7.png)
 
@@ -105,7 +104,7 @@ The framework has 4 different ladders:
 * **Adjusts**: adjusts the team processes, listening to feedback and guiding the team through the changes
 * **Community**: makes an impact on the tech community
 
-## TL4 - Tech Lead 4
+## Tech Lead 4
 
 ![Tech Lead 4](charts/techlead-4.png)
 
@@ -115,7 +114,7 @@ The framework has 4 different ladders:
 * **Adjusts**: adjusts the team processes, listening to feedback and guiding the team through the changes
 * **Subsystem**: makes an impact on one or more subsystems or team pods
 
-## TL5 - Tech Lead 5
+## Tech Lead 5
 
 ![Tech Lead 5](charts/techlead-5.png)
 
@@ -125,7 +124,7 @@ The framework has 4 different ladders:
 * **Defines**: defines the right processes for the team's maturity level, balancing agility and discipline
 * **Team**: makes an impact on the whole team, not just on specific parts of it
 
-## TL6 - Tech Lead 6
+## Tech Lead 6
 
 ![Tech Lead 6](charts/techlead-6.png)
 
@@ -135,7 +134,7 @@ The framework has 4 different ladders:
 * **Defines**: defines the right processes for the team's maturity level, balancing agility and discipline
 * **Multiple Teams**: makes an impact not only on the whole team but also on other teams
 
-## TL7 - Tech Lead 7
+## Tech Lead 7
 
 ![Tech Lead 7](charts/techlead-7.png)
 
@@ -145,47 +144,7 @@ The framework has 4 different ladders:
 * **Defines**: defines the right processes for the team's maturity level, balancing agility and discipline
 * **Company**: makes an impact on the whole tech organization
 
-## TPM4 - Technical Program Manager 4
-
-![Technical Program Manager 4](charts/technicalprogrammanager-4.png)
-
-* **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
-* **Designs**: designs and implements medium to large size features while reducing the system's tech debt
-* **Coordinates**: coordinates team members providing effective feedback and moderating discussions
-* **Adjusts**: adjusts the team processes, listening to feedback and guiding the team through the changes
-* **Multiple Teams**: makes an impact not only on the whole team but also on other teams
-
-## TPM5 - Technical Program Manager 5
-
-![Technical Program Manager 5](charts/technicalprogrammanager-5.png)
-
-* **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
-* **Designs**: designs and implements medium to large size features while reducing the system's tech debt
-* **Coordinates**: coordinates team members providing effective feedback and moderating discussions
-* **Defines**: defines the right processes for the team's maturity level, balancing agility and discipline
-* **Multiple Teams**: makes an impact not only on the whole team but also on other teams
-
-## TPM6 - Technical Program Manager 6
-
-![Technical Program Manager 6](charts/technicalprogrammanager-6.png)
-
-* **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
-* **Owns**: owns the production operation and monitoring of the system and is aware of its SLAs
-* **Manages**: manages the team members' career, expectations, performance and level of happiness
-* **Defines**: defines the right processes for the team's maturity level, balancing agility and discipline
-* **Company**: makes an impact on the whole tech organization
-
-## TPM7 - Technical Program Manager 7
-
-![Technical Program Manager 7](charts/technicalprogrammanager-7.png)
-
-* **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
-* **Evolves**: evolves the architecture to support future requirements and defines its SLAs
-* **Manages**: manages the team members' career, expectations, performance and level of happiness
-* **Defines**: defines the right processes for the team's maturity level, balancing agility and discipline
-* **Community**: makes an impact on the tech community
-
-## EM5 - Engineering Manager 5
+## Engineering Manager
 
 ![Engineering Manager 5](charts/engineeringmanager-5.png)
 
@@ -195,7 +154,7 @@ The framework has 4 different ladders:
 * **Adjusts**: adjusts the team processes, listening to feedback and guiding the team through the changes
 * **Team**: makes an impact on the whole team, not just on specific parts of it
 
-## EM6 - Engineering Manager 6
+## Director of Engineering
 
 ![Engineering Manager 5](charts/engineeringmanager-6.png)
 
@@ -205,7 +164,7 @@ The framework has 4 different ladders:
 * **Defines**: defines the right processes for the team's maturity level, balancing agility and discipline
 * **Team**: makes an impact on the whole team, not just on specific parts of it
 
-## EM7 - Engineering Manager 7
+## VP of Engineering
 
 ![Engineering Manager 5](charts/engineeringmanager-7.png)
 
