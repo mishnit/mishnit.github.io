@@ -60,10 +60,10 @@ Each axis has 5 different levels of performance. It is important to highlight th
 
 The framework has 4 different ladders:
 
-* **Developer**: role also known as programmer or software engineer, requires a deep level of technical expertise
-* **Tech Lead**: role also known as dev lead, is the owner of the system and requires a unique balance between hands-on development, architecture knowledge and production support
-* **Technical Program Manager**: role responsible for coordinating and driving to completion initiatives that expand multiple teams
-* **Engineering Manager**: role also known as dev manager, is responsible for the consistent delivery, career growth and level of happiness of the team
+* **Developer**: is also known as programmer or software engineer, requires a deep level of technical expertise
+* **Tech Lead**: is also known as dev lead, is the owner of the system and requires a unique balance between hands-on development, architecture knowledge and production support
+* **Technical Program Manager**: is responsible for coordinating and driving to completion initiatives that expand multiple teams
+* **Engineering Manager**: is also known as dev manager, is responsible for the consistent delivery, career growth and level of happiness of the team
 
 
 | Level | Seniority | [Developer](Developer.md) | [Tech Lead](TechLead.md) | [Technical Program Manager](TechnicalProgramManager.md) | [Engineering Manager](EngineeringManager.md) |
