@@ -17,7 +17,7 @@ Each axis has 5 different levels of performance. It is important to highlight th
 
 # Ladders
 
-The framework has 4 different ladders:
+The framework has 3 different ladders:
 
 * **Individual Contributor**: is also known as developer or software engineer, requires a deep level of technical expertise
 * **Tech Lead**: is also known as dev lead, is the owner of the system and requires a unique balance between hands-on development, architecture knowledge and production support
