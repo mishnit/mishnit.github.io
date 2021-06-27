@@ -1,6 +1,6 @@
 # TIPPS Framework
 
-TIPPS framework sets expectations of each position and helps transitioning to the next level in their career.
+TIPPS framework helps engineers setting expectations from their role and transitioning to the next level in their career progression.
 
 ![Template Chart](charts/template.png)
 
