@@ -13,14 +13,16 @@ class Solution(object):
             r -= 1
     return answer
 
-def testsortedSquares():
-    s = Solution()
-    assert s.sortedSquares([-3,-2,0,1,5]) == [0,1,4,9,25], "test_1 failed"
-    assert s.sortedSquares([-3,-2,-1,4]) == [1,4,9,16], "test_2 failed"
-    print ("everything passed")
+class Test(object):
+    def testsortedSquares(self):
+        s = Solution()
+        assert s.sortedSquares([-3,-2,0,1,5]) == [0,1,4,9,25], "test_1 failed"
+        assert s.sortedSquares([-3,-2,-1,4]) == [1,4,9,16], "test_2 failed"
+        print ("everything passed")
 
 if __name__ == '__main__':
-    testsortedSquares()
+    t = Test()
+    t.testsortedSquares()
 
 # Time Complexity: O(N)
 # Space Complexity: O(N)
