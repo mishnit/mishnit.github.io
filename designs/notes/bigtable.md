@@ -12,13 +12,13 @@ Bigtable allows for multiple versions of the same data. These versions are index
 ## Integrations
 Bigtable uses the Sorted String Table (SSTable) file format for its indexes. Refer to Chapter 3: Storage and Retrieval in Designing Data-Intensive Applications for more information on SSTables.
 
-Bigtable uses the [Google File System](https://github.com/jguamie/system-design/blob/master/notes/google-file-system.md) to store log and data files.
+Bigtable uses the [Google File System](https://github.com/mishnit/mishnit.github.io/blob/master/designs/notes/google-file-system.md) to store log and data files.
 
-Bigtable uses the [Chubby Lock Service](https://github.com/jguamie/system-design/blob/master/notes/chubby-lock-service.md) to ensure a single active master, discover tablet servers, store Bigtable schema information, and store access control lists.
+Bigtable uses the [Chubby Lock Service](https://github.com/mishnit/mishnit.github.io/blob/master/designs/notes/chubby-lock-service.md) to ensure a single active master, discover tablet servers, store Bigtable schema information, and store access control lists.
 
 Bigtable depends on Borg, Google's cluster management system, for scheduling jobs, managing resources on shared machines, dealing with machine failures, and monitoring machine health.
 
-Bigtable can be used as an input source and/or output target for [MapReduce](https://github.com/jguamie/system-design/blob/master/notes/map-reduce.md) jobs.
+Bigtable can be used as an input source and/or output target for [MapReduce](https://github.com/mishnit/mishnit.github.io/blob/master/designs/notes/map-reduce.md) jobs.
 ## Design
 Bigtable has three major components: a client library, one master server, and many tablet servers.
 ### Master
@@ -29,7 +29,7 @@ Each tablet server will manage between 10 to 1,000 tablets. The tablet server ha
 Clients communicate directly with tablet servers through the client library for all their read and write requests. Clients do not rely on the Bigtable master for tablet location information. Clients only communicate with the master on schema changes; therefore, the master is typically lightly loaded.
 ### Tablet Location
 Bigtable uses a three-level hierarchy to store tablet location information. This hierarchy can store up to 2<sup>34</sup> tablets.
-<img src="https://github.com/jguamie/system-design/blob/master/images/bigtable-tablet-location.png" align="middle" width="60%">
+<img src="https://github.com/mishnit/mishnit.github.io/blob/master/designs/images/bigtable-tablet-location.png" align="middle" width="60%">
 
 1. The first level is the Root tablet. The Root tablet location is stored in a Chubby file. The Root tablet contains mappings of all the User tablets to their respective METADATA tablet. The Root tablet is never split to maintain a three-level hierarchy.
 2. The second level consists of the METADATA tablets. Each METADATA tablet contains the location of a set of User tablets. Each User tablet location is stored under a row key and contains the tablet's table identifier and its end row. The metadata contains the list of SSTables that make up a tablet. Each METADATA row stores about 1 KB in memory. Each METADATA tablet has a max size of 128 MB. 
@@ -43,7 +43,7 @@ When a new master starts up, it executes the following steps:
 1. The master requests each tablet server to report on which tablets are assigned to it.
 1. The master scans the METADATA tablets to learn of its sets of tablets. When the master encounters tablets that are not assigned to a live tablet server, the master will assign it accordingly.
 ## Transactions
-Bigtable will only support single-row [transactions](https://github.com/jguamie/system-design/blob/master/notes/transactions.md). Bigtable does not support general transactions across a range of row keys.
+Bigtable will only support single-row [transactions](https://github.com/mishnit/mishnit.github.io/blob/master/designs/notes/transactions.md). Bigtable does not support general transactions across a range of row keys.
 ## Locality Groups
 Clients can group multiple column families into a single locality group. A separate SSTable is generated for each locality group in a tablet. Locality groups allow for more efficient reads of column families that are typically read together.
 ## Compression
