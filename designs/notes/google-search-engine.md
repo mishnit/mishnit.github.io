@@ -17,7 +17,7 @@ Anchor text allows for categorization of non-text content as well e.g., images, 
 
 Anchor text expands the search coverage of downloaded documents. In Google's crawl of 24 million pages, more than 259 million anchors were indexed--about 10x more coverage.
 ## Google Architecture
-<img src="https://github.com/jguamie/system-design/blob/master/images/google-architecture.png" align="middle" width="45%">
+<img src="https://github.com/mishnit/mishnit.github.io/blob/master/designs/images/google-architecture.png" align="middle" width="45%">
 
 Most of Google is implemented using C/C++ in a Linux environment.
 1. **URL Server**. The *URL Server* sends lists of URLs to be fetched to the *Crawlers*. Other systems refer to the *URL Server* as the *URL Frontier*.
