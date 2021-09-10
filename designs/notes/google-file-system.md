@@ -6,7 +6,7 @@ The Google File System (GFS) is a scalable, distributed file system.
 * Most client applications prioritize processing data in bulk at a high rate. Not many have low latency requirements for an individual read/write.
 ## Design
 Each GFS cluster has a single master and multiple chunk servers (3 replicas at default).
-![gfs-architecture](https://github.com/jguamie/system-design/blob/master/images/gfs-architecture.png)
+![gfs-architecture](https://github.com/mishnit/mishnit.github.io/blob/master/designs/images/gfs-architecture.png)
 ### Master
 * In terms of data, the master is solely responsible for the file system metadata. The master is not involved in data mutation operations--the most common operation. This allows for a simple, centralized master that does not become a bottleneck.
 * The master sends HeartBeat messages to each chunkserver to provide instructions and collect state.
@@ -32,7 +32,7 @@ Each GFS cluster has a single master and multiple chunk servers (3 replicas at d
 * Master startup time is minimized by keeping the log small and replaying from the last checkpoint.
 * The checkpoint is a compact B-tree. Older checkpoints can be deleted after the creation of a new checkpoint. A few checkpoints are kept to safeguard against catastrophes.
 ## Leases and Mutation Order
-<img src="https://github.com/jguamie/system-design/blob/master/images/gfs-control-and-data-flow.png" align="middle" width="50%">
+<img src="https://github.com/mishnit/mishnit.github.io/blob/master/designs/images/gfs-control-and-data-flow.png" align="middle" width="50%">
 
 These are the steps in which mutations are applied.
 1. The client requests for the primary chunkserver that hold a lease to a chunk as well as the replicas. If a chunkserver doesn't have the lease, the master grants a lease to one of the replicas. This replica becomes the primary.
