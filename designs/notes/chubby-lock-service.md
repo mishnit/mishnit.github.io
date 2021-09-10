@@ -10,9 +10,9 @@ Chubby's goal is to allow clients to synchronize their activities and agree to b
 
 Chubby uses the Paxos distributed consensus protocol to solve for asynchronous consensus. Each Chubby instance (cell) is dedicated to a single data center and typically serves about 10,000 machines.
 
-These notes do not go into the details of Paxos distributed consensus. To learn about Paxos, read [Paxos Made Simple](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf) by Leslie Lamport. Also, Raft is very similar to Paxos. Refer to the notes on [Raft Distributed Consensus](https://github.com/jguamie/system-design/blob/master/notes/raft-distributed-consensus.md).
+These notes do not go into the details of Paxos distributed consensus. To learn about Paxos, read [Paxos Made Simple](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf) by Leslie Lamport. Also, Raft is very similar to Paxos. Refer to the notes on [Raft Distributed Consensus](https://github.com/mishnit/mishnit.github.io/blob/master/designs/notes/raft-distributed-consensus.md).
 ## Design
-<img src="https://github.com/jguamie/system-design/blob/master/images/chubby-system.png" align="middle" width="50%">
+<img src="https://github.com/mishnit/mishnit.github.io/blob/master/designs/images/chubby-system.png" align="middle" width="50%">
 
 Chubby wasn't designed to be a library that only provides Paxos distributed consensus, but instead as library that accesses a centralized lock service. This makes it easier for developers to maintain their existing program structures. Minimal effort is required to elect a master and write to an existing file server.
 
@@ -39,7 +39,7 @@ With distributed systems, receiving messages out of order is a problem that need
 
 The client passes this sequencer to the appropriate file servers. The file servers are expected to validate the sequencer and protect the client's operations in the given lock mode.
 
-<img src="https://github.com/jguamie/system-design/blob/master/images/chubby-sequencer.png" align="middle" width="75%">
+<img src="https://github.com/mishnit/mishnit.github.io/blob/master/designs/images/chubby-sequencer.png" align="middle" width="75%">
 
 For file servers that do not support sequencers, Chubby provides a lock-delay period--typically one minute. The lock-delay protects from regular problems caused by message delays and restarts.
 ## Caching
