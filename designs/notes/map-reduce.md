@@ -11,7 +11,7 @@ MapReduce is a programming model and system for processing large data sets.
 ### Master
 For each map and reduce task, the master stores the state (Idle, In-Progress, or Completed) and worker machine identity. The master assigns tasks to the workers. The master propagates intermediate file locations from map tasks to reduce tasks.
 ## Execution Order
-<img src="https://github.com/jguamie/system-design/blob/master/images/map-reduce-execution-order.png" align="middle" width="90%">
+<img src="https://github.com/mishnit/mishnit.github.io/blob/master/designs/images/map-reduce-execution-order.png" align="middle" width="90%">
 
 1. MapReduce library in the user program splits input files into *M* tasks. Copies of the program are started on a cluster of machines.
 1. One of the program copies becomes the master. The rest become workers. The master assigns *M* map tasks and *R* reduce tasks to the workers.
