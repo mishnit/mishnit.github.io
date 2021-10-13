@@ -36,7 +36,7 @@ Key points that define my Leadership style are as follows:
 
 C - Customer Issues (P0 Adhoc) need to be handled by dev-on-call on highest priority (without impacting sprint timelines)
 
-R - Review HLD, LLD, infra, code and logs atleast once a week to understand current system level bottlenecks
+R - Retrospect sprint performance, HLD, LLD, infra, code reviews and periodically to plan better and understand current system level bottlenecks
 
 A - Automate Everything Possible to save bandwidth and speedup releases i.e. linting, testcases, alerts
 
@@ -50,15 +50,15 @@ M - Monitor, improve and scale system performance KPIs periodically
 
 A - Allocate additional time for code reviews, architectural discussion and documentation
 
-N - Negotiate scope with product manager but before that deep dive into problem and possible solution and edge cases
+N - Negotiate scope with product manager but before that deep dive into problem and possible solutions with edge cases
 
-S - Story owners to participate in sprint planning, retrospectives and daily standup to update task status and associated dev/QA/stage/prod timelines
+S - Story owners to be created during sprint planning. Daily standup to unblock dependencies, descope and/or update dev/QA/stage/prod timelines
 
 H - Hire top notch engineers, do 1:1 fortnightly, draft individual career roadmap, give feedback, track progress, reward and recognize
 
 I - Incremental controlled rollout for each release with killswitch and fallback options, ensuring backward and forward compatibility 
 
-P - Plan 6 sprints per quarter in advance. Breakdown multi sprint stories in 2-3 phase releases.
+P - Plan 6 sprints per quarter in advance and get it reviewed. Breakdown multi sprint stories in 2/3 phase releases.
 
 TIP: Try to keep capitalizable efforts (planned product/tech releases) >= 70% at team level, while non-capitalizable efforts (optimizations, bug fixes, tech debt, Adhoc) and overhead (onboarding, KT, planning, 1:1, meetings) at team level <= 30%.
 
