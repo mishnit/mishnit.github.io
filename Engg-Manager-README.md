@@ -10,7 +10,7 @@ This is inspired by [Manager README](https://hackernoon.com/12-manager-readmes-f
 Note: 'You' in this document is my direct/indirect reportee.
 
 # TL;DR: 
-My name is Nitin Mishra. I am currently working as Sr. Engineering Manager in coinswitch. I am leading my *TEAM* to build great *TECHNOLOGY* products end to end using effective processes and promoting *TALENT* of team members through their career (3Ts). One of my top priorities is to ensure you stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. You would have freedom and responsibilty at the same time. I would keep Transparency, Effective Communication and expectations setting back and forth at the highest priority. I love to code in python and Golang :)
+My name is Nitin Mishra. I am currently working as Sr. Engineering Manager in coinswitch kuber. I am leading my *TEAM* to build great *TECHNOLOGY* products end to end using effective processes and promoting *TALENT* of team members through their career (3Ts). One of my top priorities is to ensure you stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. You would have freedom and responsibilty at the same time. I would keep Transparency, Effective Communication and expectations setting back and forth at the highest priority. I love to code in python and Golang :)
 
 # My Background
 Hi! My name is Nitin Mishra. I am a technology enthusiast with business acumen, a wisdom seeker, influencer, author and TEDx speaker. I’m an engineer turned manager and have worked with a lot of early/late stage startups and MNCs for last 10 years. I have been leading a strong squad which built habit-forming, end to end tech products with great customer experience at scale. This gives me the unique experience of learning what works and what doesn’t at both ends of the scale spectrum. I have a passion for using technology to build products that solve real world problems. What I am most passionate though is managing engineers and building great high performing but empathetic teams. I spend most of my weekends learning new stuff on medium, reddit, dzone, github, slack, firstround, infoQ and highscalability.
@@ -34,31 +34,31 @@ Key points that define my Leadership style are as follows:
 
 # My Working Style: C R A F T S M A N S H I P
 
-C - Customer Issues (Adhoc task) can be handled by dev-on-call on weekly rotation
+C - Customer Issues (P0 Adhoc) need to be handled by dev-on-call on highest priority (without impacting sprint timelines)
 
-R - Regular 10 min standup to update task status and dev/QA/stage/prod timelines
+R - Review HLD, LLD, infra, code and logs atleast once a week to understand current system level bottlenecks
 
-A - Automate Everything Possible
+A - Automate Everything Possible to save bandwidth and speedup releases i.e. linting, testcases, alerts
 
 F - Frequent and smaller release cycles
 
 T - Test plans, health check audits and alerts
 
-S - Set why, what, how, priority and success criteria for each task before asking dev efforts
+S - Set why, what, how, priority and success criteria for each task before efforts estimation
 
-M - Monitor and improve system performance metrics
+M - Monitor, improve and scale system performance KPIs periodically
 
-A - Allocate additional time for code reviews and architectural discussion
+A - Allocate additional time for code reviews, architectural discussion and documentation
 
 N - Negotiate scope with product manager
 
-S - Stakeholders should participate in sprint planning and retrospectives
+S - Story owners to participate in sprint planning, retrospectives and daily standup to update task status and associated dev/QA/stage/prod timelines
 
-H - Hire top notch engineers
+H - Hire top notch engineers, do 1:1 fortnightly, draft individual career roadmap, give feedback, track progress, reward and recognize
 
-I - Incremental Release plan to avoid rollback
+I - Incremental controlled rollout for each release with killswitch and fallback options, ensuring backward and forward compatibility 
 
-P - Performance Appraisal & quarterly recognition 
+P - Plan 6 sprints per quarter in advance. keep capitalizable (planned product/tech releases), non-capitalizable(optimizations, bug fixes, tech debt) and overhead (onboarding, KT, planning, 1:1, meetings) efforts at team level in the proportion of 70:15:15
 
 
 # My Job
