@@ -58,7 +58,9 @@ H - Hire top notch engineers, do 1:1 fortnightly, draft individual career roadma
 
 I - Incremental controlled rollout for each release with killswitch and fallback options, ensuring backward and forward compatibility 
 
-P - Plan 6 sprints per quarter in advance. keep capitalizable (planned product/tech releases), non-capitalizable(optimizations, bug fixes, tech debt) and overhead (onboarding, KT, planning, 1:1, meetings) efforts at team level in the proportion of 70:15:15
+P - Plan 6 sprints per quarter in advance.
+
+TIP: Try to keep capitalizable efforts (planned product/tech releases) >= 70% at team level, while non-capitalizable efforts (optimizations, bug fixes, tech debt, Adhoc) and overhead (onboarding, KT, planning, 1:1, meetings) at team level <= 30%.
 
 
 # My Job
