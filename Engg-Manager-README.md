@@ -36,7 +36,7 @@ Key points that define my Leadership style are as follows:
 
 C - Customer Issues (P0 Adhoc) need to be handled by dev-on-call on highest priority (without impacting sprint timelines)
 
-R - Retrospect sprint performance, HLD, LLD, infra, code reviews and periodically to plan better and understand current system level bottlenecks
+R - Retrospect sprint performance, HLD, LLD, infra, code reviews and logs periodically to plan better and understand current system level bottlenecks
 
 A - Automate Everything Possible to save bandwidth and speedup releases i.e. linting, testcases, alerts
 
