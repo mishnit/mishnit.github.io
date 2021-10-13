@@ -98,7 +98,7 @@ I am a firm believer in People, Product, Profit, in that order. My role is empow
 * to ensure you feel it's a safe and supportive workplace
 * to ensure you upskill yourself
 
-# For Tech & QA Leads (My Direct Reports)
+# For Tech & QA Leads
 * to ensure you get the coaching and mentorship you need to succeed in your role
 * to ensure you lead instead of manage your team
 * to ensure you have the autonomy to lead and drive your team
