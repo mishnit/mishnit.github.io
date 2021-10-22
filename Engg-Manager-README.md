@@ -73,8 +73,9 @@ As an Engineering Manager, it is my job to:
 5. Improve Processes and bring new strategies to deliver faster with no compromise in quality.
 
 # How I approach my job
-Your success is ultimately my success, so I will go out of my way to try and make you successful without micro-managing. I believe that regardless of the complexity of the problem you are trying to tackle, you already have the answer in you, my 
-role is to help you find it. I rely heavily on open questions, rather than jumping straight to advice, but if you explicitly ask for advice I am more than happy to provide it. If you need to chat, come grab me, anytime. 
+Your success is ultimately my success, so I will go out of my way to try and make you successful without micro-managing. I believe that regardless of the complexity of the problem you are trying to tackle, you already have the answer in you, my role is to help you find it. I rely heavily on open questions, rather than jumping straight to advice, but if you explicitly ask for advice I am more than happy to provide it. If you need to chat, come grab me, anytime.
+
+I follow deep dive > plan > engineering > measure pattern. 
 
 # How I expect you to approach your job
 *1. Engineers:* Our organisation has hired you because of your experience and skills, and I am not here to tell you how to do your job. I believe you are able to operate as a professional adult, and make smart decisions. This does not mean that I expect you to do everything on your own , I am here to provide you guidance and mentorship (either through me, or by finding the people you should be getting it from). When you need help, I expect you to not hesitate and ask for it. If you feel you made a mistake, own up to it, as will I. 
