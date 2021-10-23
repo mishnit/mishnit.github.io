@@ -58,7 +58,7 @@ H - Hire top notch engineers, do 1:1 fortnightly, draft individual career roadma
 
 I - Incremental controlled rollout for each release with killswitch and fallback options, ensuring backward and forward compatibility 
 
-P - Plan 6 sprints per quarter in advance and get it reviewed. Breakdown multi sprint stories in 2/3 phase releases.
+P - Plan 6 sprints per quarter in advance and get it reviewed. Breakdown story points for each sprint in 3 buckets product, tech optimizations and adhoc in 4:1:1 proportion. Breakdown multi sprint stories in 2-3 phase releases.
 
 TIP: Try to keep capitalizable efforts (planned product/tech releases) >= 70% at team level, while non-capitalizable efforts (optimizations, bug fixes, tech debt, Adhoc) and overhead (onboarding, KT, planning, 1:1, meetings) at team level <= 30%.
 
