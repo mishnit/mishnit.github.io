@@ -64,16 +64,27 @@ P - Plan 6 sprints per quarter in advance and get it reviewed. Breakdown story p
 An EM should keep an eye on the following: 
 
 (a) Tech System Health Metrics - Latency/ Availability/Single point of failures
+
 (b) Delivery - PRD/TRD review, Sprint planning, Standup notes, Delivery status, Retrospection
+
 (c) Post production bugs
+
 (d) code quality - code review practices
+
 (e) code coverage - unit test cases quality
+
 (f) support tickets volume, frequency and impact, on-call effort reduction
+
 (g) team health (every 2 week 1:1 with teammates, hear more talk less)
+
 (h) high performers and weak performers
+
 (i) Tech Mentorship - Teammates should learn and use some new skill in tech
+
 (j) Hiring and attrition metrics
+
 (k) Tech debts
+
 (l) Publish RCA for recent outages, sev-1 issues 
 
 TIP: Try to keep capitalizable efforts (planned product/tech releases) >= 70% at team level, while non-capitalizable efforts (optimizations, bug fixes, tech debt, Adhoc) and overhead (onboarding, KT, planning, 1:1, meetings) at team level <= 30%.
