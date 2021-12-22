@@ -36,7 +36,7 @@ Key points that define my Leadership style are as follows:
 
 C - Customer Issues (P0 Adhoc) need to be handled by dev-on-call on highest priority (without impacting sprint timelines)
 
-R - Retrospect sprint performance, HLD, LLD, infra, code reviews and logs periodically to plan better and understand current system level bottlenecks
+R - Retrospect system performance; HLD, LLD, infra, code reviews and logs periodically to plan better and understand current system level bottlenecks
 
 A - Automate Everything Possible to save bandwidth and speedup releases i.e. linting, testcases, alerts
 
@@ -60,6 +60,22 @@ I - Incremental controlled rollout for each release with killswitch and fallback
 
 P - Plan 6 sprints per quarter in advance and get it reviewed. Breakdown story points for each sprint in 3 buckets product, tech optimizations and adhoc in 4:1:1 proportion. Breakdown multi sprint stories in 2-3 phase releases.
 
+
+An EM should keep an eye on the following: 
+
+(a) Tech System Health Metrics - Latency/ Availability/Single point of failures
+(b) Delivery - PRD/TRD review, Sprint planning, Standup notes, Delivery status, Retrospection
+(c) Post production bugs
+(d) code quality - code review practices
+(e) code coverage - unit test cases quality
+(f) support tickets volume, frequency and impact, on-call effort reduction
+(g) team health (every 2 week 1:1 with teammates, hear more talk less)
+(h) high performers and weak performers
+(i) Tech Mentorship - Teammates should learn and use some new skill in tech
+(j) Hiring and attrition metrics
+(k) Tech debts
+(l) Publish RCA for recent outages, sev-1 issues 
+
 TIP: Try to keep capitalizable efforts (planned product/tech releases) >= 70% at team level, while non-capitalizable efforts (optimizations, bug fixes, tech debt, Adhoc) and overhead (onboarding, KT, planning, 1:1, meetings) at team level <= 30%.
 
 
@@ -75,7 +91,8 @@ As an Engineering Manager, it is my job to:
 # How I approach my job
 Your success is ultimately my success, so I will go out of my way to try and make you successful without micro-managing. I believe that regardless of the complexity of the problem you are trying to tackle, you already have the answer in you, my role is to help you find it. I rely heavily on open questions, rather than jumping straight to advice, but if you explicitly ask for advice I am more than happy to provide it. If you need to chat, come grab me, anytime.
 
-I follow deep dive > plan > engineering > measure pattern. 
+I follow this strategy:
+deep dive -> Set goal -> plan -> engineering -> measure
 
 # How I expect you to approach your job
 *1. Engineers:* Our organisation has hired you because of your experience and skills, and I am not here to tell you how to do your job. I believe you are able to operate as a professional adult, and make smart decisions. This does not mean that I expect you to do everything on your own , I am here to provide you guidance and mentorship (either through me, or by finding the people you should be getting it from). When you need help, I expect you to not hesitate and ask for it. If you feel you made a mistake, own up to it, as will I. 
