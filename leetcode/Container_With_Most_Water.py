@@ -1,5 +1,5 @@
 # Given heights of the bars inside the container, Return the maximum amount of water a container can store 
-# Tip: 
+# Tip: choose two lines such that we could maximize the min of two heights and the distance between the bars.
 
 class Solution(object):
     def maxArea(self, heights):
