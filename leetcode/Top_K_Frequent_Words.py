@@ -1,29 +1,30 @@
+# Given an array of elements (could be either strings or numbers) and an integer k, return the k most frequent elements.
+# Tip: Use hashmap to count frequency
+
 class Solution(object):
-#     def topKFrequent(self, words, k):
-#         """
-#         :type words: List[str]
-#         :type k: int
-#         :rtype: List[str]
-#         """
-#         counter = collections.Counter(words)
-#         res = sorted(counter.items(), cmp=cmp_frequency, reverse=True)
-#         return [k for k, _ in res[:k]]
+    def topKFrequent(self, elements, k):
+        count = {}
+        freq = [[] for i in range(len(elements) + 1)]
 
-# def cmp_frequency(x, y):
-#     if x[1] != y[1]:
-#         return cmp(x[1], y[1])
-#     return cmp(y[0], x[0])
+        for ele in elements:
+            count[ele] = 1 + count.get(ele, 0)
+        for ele, c in count.items():
+            freq[c].append(ele)
 
-    # def topKFrequent(self, words, k):
-    #     count = collections.Counter(words)
-    #     candidates = count.keys()
-    #     candidates.sort(key = lambda w: (-count[w], w))
-    #     return candidates[:k]
-
-    def topKFrequent(self, words, k):
-        count = collections.Counter(words)
-        # Note that python heapq only support min heap
-        # So, we can make the value negative to create a max heap
-        heap = [(-freq, word) for word, freq in count.items()]
-        heapq.heapify(heap)
-        return [heapq.heappop(heap)[1] for _ in xrange(k)]
+        res = []
+        for i in range(len(freq) - 1, 0, -1):
+            for ele in freq[i]:
+                res.append(ele)
+                if len(res) == k:
+                    return res
+    
+class Test (object):
+    def testtopKFrequent(self):
+        s = Solution()
+        assert s.topKFrequent([1],1) == [1], "Fail"
+        assert s.topKFrequent([1,1,1,2,2,3],2) == [1,2], "Fail"
+        print "everything passed"
+        
+if __name__ == '__main__':
+    t = Test()
+    t.testtopKFrequent()
