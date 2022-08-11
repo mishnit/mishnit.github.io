@@ -1,71 +1,65 @@
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+# Given the head of a singly linked list, reverse the list, and return the reversed list.
 
+class Node(object):
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 
-class Solution(object):
-    # def reverseList(self, head):
-    #     """
-    #     :type head: ListNode
-    #     :rtype: ListNode
-    #     """
-    #     # iteratively
-    #     if head is None:
-    #         return
-    #     stack = []
-    #     pos = start = head
-    #     while pos is not None:
-    #         stack.append(pos)
-    #         pos = pos.next
-    #     while len(stack) > 0:
-    #         if len(stack) >= 2:
-    #             stack[0].val, stack[-1].val = stack[-1].val, stack[0].val
-    #             stack.pop(0)
-    #             stack.pop()
-    #         else:
-    #             stack.pop()
-    #     return head
-    #
-    # def reverseList(self, head):
-    #     # recursively
-    #     if head is None:
-    #         return head
-    #     stack = []
-    #     pos = head
-    #     while pos is not None:
-    #         stack.append(pos)
-    #         pos = pos.next
-    #     pre_head = ListNode(-1)
-    #     self.do_reverse(stack, pre_head)
-    #     return pre_head.next
-    #
-    # def do_reverse(self, stack, curr_head):
-    #     if len(stack) == 0:
-    #         curr_head.next = None
-    #         return
-    #     node = stack.pop()
-    #     curr_head.next = node
-    #     curr_head = node
-    #     self.do_reverse(stack, curr_head)
+class LinkedList:
+    def __init__(self):  
+        self.head = None
 
-    # def reverseList(self, head):
-    #     # simple iteratively without extra space
-    #     prev, curr = None, head
-    #     while curr is not None:
-    #         next_temp = curr.next
-    #         curr.next = prev
-    #         prev = curr
-    #         curr = next_temp
-    #     return prev
+    def insertNode(self, data):
+        if data:
+            newNode = Node(data)
+            if(self.head):
+                current = self.head
+                while(current.next):
+                    current = current.next
+                current.next = newNode
+            else:
+                self.head = newNode
+            
+    def insertNodes(self, datas):
+        for data in datas:
+            self.insertNode(data)
 
-    def reverseList(self, head):
-        # recursion
-        # simple recursively without extra space
-        if head is None or head.next is None:
-            return head
-        p = self.reverseList(head.next)
-        head.next.next = head
-        head.next = None
-        return p
+    def printLL(self):
+        out =[]
+        current = self.head
+        while(current):
+            out.append(current.val)
+            current = current.next
+        return out
+
+    def reverseLL(self):
+        if self.head is None or self.head.next is None:
+            return self.head
+        prev = None
+        curr = self.head
+        while curr:
+            temp = curr.next
+            curr.next = prev
+            prev = curr
+            curr = temp
+        self.head = prev
+        
+    def reverseAndPrintLL(self):
+        self.reverseLL()
+        self.printLL()
+    
+class Test (object):
+    def testReverseLL(self, input, output):
+        LL = LinkedList()
+        LL.insertNodes(input)
+        LL.reverseLL()
+        assert LL.printLL() == output, "Fail"
+        
+if __name__ == '__main__':
+    t = Test()
+    t.testReverseLL([1,2,3,4,5], [5,4,3,2,1])
+    t.testReverseLL([1,2], [2,1])
+    t.testReverseLL([],[])
+    print "everything passed"
+    
+# O(n)
