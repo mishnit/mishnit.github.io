@@ -27,4 +27,5 @@ if __name__ == '__main__':
     t = Test()
     t.testLengthLCS()
 
+    
 # O(n)
