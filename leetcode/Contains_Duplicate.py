@@ -15,3 +15,5 @@ class Test (object):
 if __name__ == '__main__':
     t = Test()
     t.testhasDuplicate()
+
+# O(n)
