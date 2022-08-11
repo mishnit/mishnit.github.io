@@ -1,4 +1,4 @@
-# Return indices of two unique numbers whose sum is equal to target (Only one solution exist)
+# Return indices of two unique numbers whose sum is equal to target (Only one guaranteed solution exist)
 # Tip: Convert array into tuple using enumerate and use hashmap to track indices of num and target minus num 
 
 class Solution(object):
