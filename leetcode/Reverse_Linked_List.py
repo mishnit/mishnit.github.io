@@ -35,6 +35,7 @@ class LinkedList:
             prev = curr
             curr = temp
         self.head = prev
+        
     def printLL(self):
         out =[]
         current = self.head
@@ -56,5 +57,6 @@ if __name__ == '__main__':
     t.testReverseLL([1,2], [2,1])
     t.testReverseLL([],[])
     print "everything passed"
+    
     
 # O(n)
