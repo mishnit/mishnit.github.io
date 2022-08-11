@@ -29,8 +29,8 @@ class Solution(object):
 class Test (object):
     def testtopKFrequent(self):
         s = Solution()
-        #assert s.topKFrequent([1],1) == [1], "Fail"
-        #assert s.topKFrequent([1,1,1,2,2,3],2) == [1,2], "Fail"
+        assert s.topKFrequent([1],1) == [1], "Fail"
+        assert s.topKFrequent([1,1,1,2,2,3],2) == [1,2], "Fail"
         assert s.topKFrequent(['wicket','ball','wicket','ball','bat','bat'],2) == ['bat','ball'], "Fail" #chronologically
         print "everything passed"
         
