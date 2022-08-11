@@ -1,5 +1,5 @@
 # Return indices of two unique numbers whose sum is equal to target (Only one guaranteed solution exist)
-# Tip: Convert array into tuple using enumerate and use hashmap to track indices of num and target minus num 
+# Tip: Convert array into tuple using enumerate and use hashmap to find value and track indices of num and target minus num 
 
 class Solution(object):
     def twoSum(self, nums, target):
