@@ -1,10 +1,10 @@
 class Solution(object):
-  def sortedSquares(self, A):
-    answer = [0] * len(A)
+  def sortedSquares(self, nums):
+    answer = [0] * len(nums)
     l = 0
-    r = len(A) - 1
+    r = len(nums) - 1
     while l <= r:
-        left, right = abs(A[l]), abs(A[r])
+        left, right = abs(nums[l]), abs(nums[r])
         if left > right:
             answer[r - l] = left * left
             l += 1
