@@ -10,7 +10,7 @@ class Solution(object):
             d[num]=i
     
 class Test (object):
-    def testtwoSum(self):
+    def testTwoSum(self):
         s = Solution()
         assert s.twoSum([3, 2, 4], 6) == [1,2], "Fail"
         assert s.twoSum([2, 7, 11, 15], 9) == [0,1], "Fail"
@@ -19,4 +19,4 @@ class Test (object):
         
 if __name__ == '__main__':
     t = Test()
-    t.testtwoSum()
+    t.testTwoSum()
