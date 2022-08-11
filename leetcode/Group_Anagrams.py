@@ -1,4 +1,7 @@
-class Solution(object):
+# Given an array of strings, group the anagrams together.
+# Tip: Use hashmap to keep sorted_word as key and group of anagram as value. preserve the order of words. 
+
+class Solution (object):
     def groupAnagrams(self, strs):
         res = []
         dict = {}
@@ -12,3 +15,16 @@ class Solution(object):
                 dict[sorted_word] = idx
                 idx += 1
         return res
+
+    
+class Test (object):
+    def testgroupAnagrams(self):
+        s = Solution()
+        assert s.groupAnagrams(['']) == [['']], "Fail"
+        assert s.groupAnagrams(['a']) == [['a']], "Fail"
+        assert s.groupAnagrams(['eat','tea','tan','ate','nat','bat']) == [['eat','tea','ate'],['tan','nat'],['bat']], "Fail"
+        print "everything passed"
+        
+if __name__ == '__main__':
+    t = Test()
+    t.testgroupAnagrams()
