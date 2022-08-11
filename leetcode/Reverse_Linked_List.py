@@ -10,15 +10,14 @@ class LinkedList:
         self.head = None
 
     def insertNode(self, data):
-        if data:
-            newNode = Node(data)
-            if(self.head):
-                current = self.head
-                while(current.next):
-                    current = current.next
-                current.next = newNode
-            else:
-                self.head = newNode
+        newNode = Node(data)
+        if(self.head):
+            current = self.head
+            while(current.next):
+                current = current.next
+            current.next = newNode
+        else:
+            self.head = newNode
             
     def insertNodes(self, datas):
         for data in datas:
