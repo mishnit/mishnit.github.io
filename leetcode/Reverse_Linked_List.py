@@ -24,14 +24,6 @@ class LinkedList:
         for data in datas:
             self.insertNode(data)
 
-    def printLL(self):
-        out =[]
-        current = self.head
-        while(current):
-            out.append(current.val)
-            current = current.next
-        return out
-
     def reverseLL(self):
         if self.head is None or self.head.next is None:
             return self.head
@@ -43,10 +35,13 @@ class LinkedList:
             prev = curr
             curr = temp
         self.head = prev
-        
-    def reverseAndPrintLL(self):
-        self.reverseLL()
-        self.printLL()
+    def printLL(self):
+        out =[]
+        current = self.head
+        while(current):
+            out.append(current.val)
+            current = current.next
+        return out
     
 class Test (object):
     def testReverseLL(self, input, output):
