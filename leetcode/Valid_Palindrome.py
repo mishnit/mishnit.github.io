@@ -18,7 +18,7 @@ class Test (object):
         s = Solution()
         assert s.isPalindrome("") == True, "Fail"
         assert s.isPalindrome("A man, a plan, a canal: Panama") == True, "Fail" # "amanaplanacanalpanama"
-        assert s.isPalindrome("race a car") == False, "Fail"
+        assert s.isPalindrome("race a car") == False, "Fail" # "raceacar"
         print "everything passed"
         
 if __name__ == '__main__':
