@@ -25,3 +25,10 @@ class Test (object):
 if __name__ == '__main__':
     t = Test()
     t.testisAnagram()
+
+
+# Tip2: Just sort and check  
+
+# class Solution (object):
+#     def isAnagram(self, str1, str2):
+#         return sorted(str1) == sorted(str2)
