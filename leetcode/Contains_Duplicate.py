@@ -10,7 +10,7 @@ class Test (object):
         s = Solution()
         assert s.hasDuplicate([2,2,3]) == True, "Fail"
         assert s.hasDuplicate([2,3]) == False, "Fail"
-        print "evrything passed"
+        print "everything passed"
         
 if __name__ == '__main__':
     t = Test()
