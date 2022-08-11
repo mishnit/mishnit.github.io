@@ -1,5 +1,5 @@
 # Are Given 2 Strings Anagram of each other?
-# Tip: Use hashmap to count frequncy 
+# Tip: Use hashmap to count frequency 
 
 class Solution (object):
     def isAnagram(self, str1, str2):
