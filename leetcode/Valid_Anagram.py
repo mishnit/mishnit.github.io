@@ -1,5 +1,6 @@
 # Are Given 2 Strings Anagram of each other?
 # Tip: Use hashmap to count frequency 
+# Solution1: O(n)
 
 class Solution (object):
     def isAnagram(self, str1, str2):
@@ -28,6 +29,7 @@ if __name__ == '__main__':
 
 
 # Tip2: Just sort and check  
+# Solution2: O(nlgn)
 
 # class Solution (object):
 #     def isAnagram(self, str1, str2):
