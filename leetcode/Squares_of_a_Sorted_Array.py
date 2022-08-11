@@ -1,15 +1,17 @@
+# Given a sorted array, return sorted squares of these numbers (array can have negative numbers too)
+# Tip: Use two pointers to keep track of min and max for absolute value of numbers
+
 class Solution(object):
   def sortedSquares(self, nums):
     answer = [0] * len(nums)
     l = 0
     r = len(nums) - 1
     while l <= r:
-        left, right = abs(nums[l]), abs(nums[r])
-        if left > right:
-            answer[r - l] = left * left
+        if abs(nums[l]) > abs(nums[r]):
+            answer[r - l] = abs(nums[l]) * abs(nums[l])
             l += 1
         else:
-            answer[r - l] = right * right
+            answer[r - l] = abs(nums[r]) * abs(nums[r])
             r -= 1
     return answer
 
