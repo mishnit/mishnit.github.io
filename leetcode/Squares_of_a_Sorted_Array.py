@@ -26,5 +26,6 @@ if __name__ == '__main__':
     t = Test()
     t.testsortedSquares()
 
+    
 # Time Complexity: O(N)
 # Space Complexity: O(N)
