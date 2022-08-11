@@ -1,47 +1,69 @@
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+# You are given the heads of two sorted linked lists list1 and list2. Merge into single sorted linkedlist.
 
-# class Solution(object):
-#     def mergeTwoLists(self, l1, l2):
-#         """
-#         :type l1: ListNode
-#         :type l2: ListNode
-#         :rtype: ListNode
-#         """
+class Node(object):
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+class LinkedList:
+    def __init__(self, head=None):  
+        self.head = head
+
+    def insertNode(self, data):
+        newNode = Node(data)
+        if(self.head):
+            current = self.head
+            while(current.next):
+                current = current.next
+            current.next = newNode
+        else:
+            self.head = newNode
+            
+    def insertNodes(self, datas):
+        for data in datas:
+            self.insertNode(data)
+
+    def printLL(self):
+        out =[]
+        current = self.head
+        while(current):
+            out.append(current.val)
+            current = current.next
+        return out
+
 class Solution(object):
-    def mergeTwoLists(self, l1, l2):
-        # dummy head
-        pos = dummyHead = ListNode(-1)
-        while l1 is not None and l2 is not None:
-            if l1.val <= l2.val:
-                pos.next = l1
-                l1 = l1.next
+    def mergeSortedLL(self, head1, head2):
+        dummy = Node()
+        tail = dummy
+        while head1 and head2:
+            if head1.val < head2.val:
+                tail.next = head1
+                head1 = head1.next
             else:
-                pos.next = l2
-                l2 = l2.next
-            pos = pos.next
-        # merge residual l1
-        if l1 is not None:
-            pos.next = l1
-        # merge residual l2
-        if l2 is not None:
-            pos.next = l2
-        return dummyHead.next
-
-
-    # def mergeTwoLists(self, l1, l2):
-    #     # recursive
-    #     if l1 is None:
-    #         return l2
-    #     elif l2 is None:
-    #         return l1
-    #     if l1.val <= l2.val:
-    #         l1.next = self.mergeTwoLists(l1.next, l2)
-    #         return l1
-    #     else:
-    #         l2.next = self.mergeTwoLists(l1, l2.next)
-    #         return l2
-
+                tail.next = head2
+                head2 = head2.next
+            tail = tail.next
+        if head1:
+            tail.next = head1
+        elif head2:
+            tail.next = head2
+        return dummy.next
+    
+class Test (object):
+    def testMergeSortedLL(self, LL1_data, LL2_data, merged_LL_data):
+        LL1 = LinkedList()
+        LL1.insertNodes(LL1_data)
+        LL2 = LinkedList()
+        LL2.insertNodes(LL2_data)
+        s = Solution()
+        LL3 = LinkedList(s.mergeSortedLL(LL1.head,LL2.head))
+        assert LL3.printLL() == merged_LL_data, "Fail"
+        
+if __name__ == '__main__':
+    t = Test()
+    t.testMergeSortedLL([1,2,4], [1,3,4], [1,1,2,3,4,4])
+    t.testMergeSortedLL([], [], [])
+    t.testMergeSortedLL([], [0], [0])
+    print "everything passed"
+    
+# O(n)
