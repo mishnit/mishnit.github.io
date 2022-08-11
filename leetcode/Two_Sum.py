@@ -20,3 +20,5 @@ class Test (object):
 if __name__ == '__main__':
     t = Test()
     t.testTwoSum()
+
+# O(n)
