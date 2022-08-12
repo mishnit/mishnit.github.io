@@ -48,9 +48,11 @@ class Test (object):
     def testMergeSortedLL(self, LL1_data, LL2_data, merged_LL_data):
         if len(LL1_data)!=0 and len(LL2_data)!=0:
             LL1 = LLNode(LL1_data[0])
-            LL1.insertNodes(LL1_data[1:])
+            if len(LL1_data)>0:
+                LL1.insertNodes(LL1_data[1:])
             LL2 = LLNode(LL2_data[0])
-            LL2.insertNodes(LL2_data[1:])
+            if len(LL2_data)>0:
+                LL2.insertNodes(LL2_data[1:])
             s = Solution()
             LL3=LLNode()
             LL3 = s.mergeSortedLL(LL1,LL2)
