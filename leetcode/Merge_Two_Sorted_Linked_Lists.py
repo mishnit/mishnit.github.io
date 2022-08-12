@@ -1,6 +1,6 @@
 # You are given the heads of two sorted linked lists list1 and list2. Merge into single sorted linkedlist.
 
-class Node(object):
+class LLNode(object):
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
@@ -10,7 +10,7 @@ class LinkedList:
         self.head = head
 
     def insertNode(self, data):
-        newNode = Node(data)
+        newNode = LLNode(data)
         if(self.head):
             current = self.head
             while(current.next):
@@ -33,7 +33,7 @@ class LinkedList:
 
 class Solution(object):
     def mergeSortedLL(self, head1, head2):
-        dummy = Node()
+        dummy = LLNode()
         tail = dummy
         while head1 and head2:
             if head1.val < head2.val:
