@@ -54,16 +54,22 @@ class Solution(object):
     
 class Test (object):
     def testInvertTree(self, Actual_Tree_Data, Invert_Tree_Data):
-        root = TreeNode(Actual_Tree_Data[0])
-        root.insertNodes(Actual_Tree_Data[1:])
-        s= Solution()
-        root = s.invertTree(root)
-        assert s.printLevelOrder(root) == Invert_Tree_Data, "Fail"
+        if len(Actual_Tree_Data)!=0:
+            root = TreeNode(Actual_Tree_Data[0])
+            if len(Actual_Tree_Data)>0:
+                root.insertNodes(Actual_Tree_Data[1:])
+            s= Solution()
+            root = s.invertTree(root)
+            assert s.printLevelOrder(root) == Invert_Tree_Data, "Fail"
+         else:
+            assert Actual_Tree_Data == Invert_Tree_Data, "Fail"
         
 if __name__ == '__main__':
     t = Test()
     t.testInvertTree([4,2,7,1,3,6,9], [4,7,2,9,6,3,1])
     t.testInvertTree([2,1,3], [2,3,1])
+    t.testInvertTree([0], [0])
+    t.testInvertTree([], [])
     print "everything passed"
     
 # O(n)
