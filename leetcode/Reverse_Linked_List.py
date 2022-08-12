@@ -5,56 +5,55 @@ class LLNode(object):
         self.val = val
         self.next = next
 
-class LinkedList:
-    def __init__(self):  
-        self.head = None
-
     def insertNode(self, data):
-        newNode = LLNode(data)
-        if(self.head):
-            current = self.head
+        if self.val:
+            current = self
             while(current.next):
                 current = current.next
-            current.next = newNode
+            current.next = LLNode(data)
         else:
-            self.head = newNode
+            self = LLNode(data)
             
     def insertNodes(self, datas):
         for data in datas:
-            self.insertNode(data)
-
-    def reverseLL(self):
-        if self.head is None or self.head.next is None:
-            return self.head
-        prev = None
-        curr = self.head
-        while curr:
-            temp = curr.next
-            curr.next = prev
-            prev = curr
-            curr = temp
-        self.head = prev
+                self.insertNode(data)
         
     def printLL(self):
         out =[]
-        current = self.head
+        current = self
         while(current):
             out.append(current.val)
             current = current.next
         return out
     
+class Solution(object):
+    def reverseLL(self, head):
+        if head is None or head.next is None:
+            return head
+        prev = None
+        curr = head
+        while curr:
+            temp = curr.next
+            curr.next = prev
+            prev = curr
+            curr = temp
+        return prev
+    
 class Test (object):
     def testReverseLL(self, input, output):
-        LL = LinkedList()
-        LL.insertNodes(input)
-        LL.reverseLL()
+        if len(input)!=0:
+            LL = LLNode(input[0])
+            LL.insertNodes(input[1:])
+            s = Solution()
+            LL = s.reverseLL(LL)
+        else:
+            LL= LLNode()
         assert LL.printLL() == output, "Fail"
         
 if __name__ == '__main__':
     t = Test()
     t.testReverseLL([1,2,3,4,5], [5,4,3,2,1])
     t.testReverseLL([1,2], [2,1])
-    t.testReverseLL([],[])
     print "everything passed"
     
     
