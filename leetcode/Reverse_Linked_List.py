@@ -1,6 +1,6 @@
 # Given the head of a singly linked list, reverse the list, and return the reversed list.
 
-class Node(object):
+class LLNode(object):
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
@@ -10,7 +10,7 @@ class LinkedList:
         self.head = None
 
     def insertNode(self, data):
-        newNode = Node(data)
+        newNode = LLNode(data)
         if(self.head):
             current = self.head
             while(current.next):
