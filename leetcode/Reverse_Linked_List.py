@@ -43,17 +43,21 @@ class Test (object):
     def testReverseLL(self, input, output):
         if len(input)!=0:
             LL = LLNode(input[0])
-            LL.insertNodes(input[1:])
+            if len(input)>0:
+                LL.insertNodes(input[1:])
             s = Solution()
             LL = s.reverseLL(LL)
+            assert LL.printLL() == output, "Fail"
         else:
-            LL= LLNode()
-        assert LL.printLL() == output, "Fail"
+            assert input == output, "Fail"
+        
         
 if __name__ == '__main__':
     t = Test()
     t.testReverseLL([1,2,3,4,5], [5,4,3,2,1])
     t.testReverseLL([1,2], [2,1])
+    t.testReverseLL([], [])
+    t.testReverseLL([0], [0])
     print "everything passed"
     
     
