@@ -5,32 +5,27 @@ class LLNode(object):
         self.val = val
         self.next = next
 
-class LinkedList:
-    def __init__(self, head=None):  
-        self.head = head
-
     def insertNode(self, data):
-        newNode = LLNode(data)
-        if(self.head):
-            current = self.head
+        if self.val:
+            current = self
             while(current.next):
                 current = current.next
-            current.next = newNode
+            current.next = LLNode(data)
         else:
-            self.head = newNode
+            self = LLNode(data)
             
     def insertNodes(self, datas):
         for data in datas:
-            self.insertNode(data)
-
+                self.insertNode(data)
+        
     def printLL(self):
         out =[]
-        current = self.head
+        current = self
         while(current):
             out.append(current.val)
             current = current.next
         return out
-
+    
 class Solution(object):
     def mergeSortedLL(self, head1, head2):
         dummy = LLNode()
@@ -51,13 +46,20 @@ class Solution(object):
     
 class Test (object):
     def testMergeSortedLL(self, LL1_data, LL2_data, merged_LL_data):
-        LL1 = LinkedList()
-        LL1.insertNodes(LL1_data)
-        LL2 = LinkedList()
-        LL2.insertNodes(LL2_data)
-        s = Solution()
-        LL3 = LinkedList(s.mergeSortedLL(LL1.head,LL2.head))
-        assert LL3.printLL() == merged_LL_data, "Fail"
+        if len(LL1_data)!=0 and len(LL2_data)!=0:
+            LL1 = LLNode(LL1_data[0])
+            LL1.insertNodes(LL1_data[1:])
+            LL2 = LLNode(LL2_data[0])
+            LL2.insertNodes(LL2_data[1:])
+            s = Solution()
+            LL3=LLNode()
+            LL3 = s.mergeSortedLL(LL1,LL2)
+            assert LL3.printLL() == merged_LL_data, "Fail"
+        elif len(LL1_data)==0:
+            assert LL2_data == merged_LL_data, "Fail"
+        else:
+            assert LL1_data == merged_LL_data, "Fail" 
+
         
 if __name__ == '__main__':
     t = Test()
