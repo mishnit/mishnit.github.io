@@ -6,20 +6,24 @@ class TreeNode:
         self.left = left
         self.right = right
 
-    def insertNode(self, data):
-        if self.val:
-            if data < self.val:
-                if self.left is None:
-                    self.left = TreeNode(data)
+    def insertNode(self, data): #level order insertion
+        if self:
+            q = []
+            q.append(self)
+            while (len(q)):
+                temp = q[0]
+                q.pop(0)
+                if (not temp.left):
+                    temp.left = TreeNode(data)
+                    break
                 else:
-                    self.left.insertNode(data)
-            elif data > self.val:
-                    if self.right is None:
-                        self.right = TreeNode(data)
-                    else:
-                        self.right.insertNode(data)
-            else:
-                self.val = data
+                    q.append(temp.left)
+ 
+                if (not temp.right):
+                    temp.right = TreeNode(data)
+                    break
+                else:
+                    q.append(temp.right)
 
     def insertNodes(self, datas):
         for data in datas:
