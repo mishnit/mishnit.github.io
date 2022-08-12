@@ -1,51 +1,72 @@
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+# Given the head of a linked list, determine if the linked list has a cycle in it.
 
+class LLNode(object):
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+    def insertNode(self, data):
+        if self.val:
+            current = self
+            while(current.next):
+                current = current.next
+            current.next = LLNode(data)
+        else:
+            self = LLNode(data)
+            
+    def insertNodes(self, datas):
+        for data in datas:
+                self.insertNode(data)
+                
+    def updateTail(self, tail_index):
+        if self.val and tail_index>=0:
+            current = self
+            while(current.next):
+                current = current.next
+            tail = self
+            for i in range(tail_index):
+                tail = tail.next
+            current.next = tail
+        
+    def printLL(self):
+        out =[]
+        current = self
+        while(current):
+            out.append(current.val)
+            current = current.next
+        return out
+    
 class Solution(object):
-    # def hasCycle(self, head):
-    #     """
-    #     :type head: ListNode
-    #     :rtype: bool
-    #     """
-    #     # Add max and check if reach max
-    #     if head is None:
-    #         return False
-    #     count = 0
-    #     max = 100000
-    #     pos = head
-    #     while pos is not None:
-    #         count += 1
-    #         pos = pos.next
-    #         if count > max:
-    #             return True
-    #     return False
-
-    # def hasCycle(self, head):
-    #     # Hash or set
-    #     dic = {}
-    #     pos = head
-    #     while pos is not None:
-    #         try:
-    #             dic[pos]
-    #             return True
-    #         except KeyError:
-    #             dic[pos] = pos
-    #         pos = pos.next
-    #     return False
-
     def hasCycle(self, head):
-        # Two points
-        try:
-            fast = head.next.next
-            slow = head.next
-
-            while fast != slow:
+            fast = head
+            slow = head
+            while fast and fast.next:
                 fast = fast.next.next
                 slow = slow.next
-
-            return True
-        except:
+                if slow == fast:
+                    return True
             return False
+    
+class Test (object):
+    def testHasCycle(self, LL_data, tail_index, output):
+        if len(LL_data)!=0:
+            LL = LLNode(LL_data[0])
+            if len(LL_data)>0:
+                LL.insertNodes(LL_data[1:])
+            LL.updateTail(tail_index)
+            s = Solution()
+            assert s.hasCycle(LL)==output, "Fail"
+        else:
+            assert False == output, "Fail"
+        
+        
+if __name__ == '__main__':
+    t = Test()
+    t.testHasCycle([3,2,0,-4], 0, True)
+    t.testHasCycle([1,2], 0, True)
+    t.testHasCycle([1], 1, False)
+    t.testHasCycle([], 2, False)
+    print "everything passed"
+    
+    
+# O(n)
