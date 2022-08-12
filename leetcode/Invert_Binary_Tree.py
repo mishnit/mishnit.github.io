@@ -61,7 +61,7 @@ class Test (object):
             s= Solution()
             root = s.invertTree(root)
             assert s.printLevelOrder(root) == Invert_Tree_Data, "Fail"
-         else:
+        else:
             assert Actual_Tree_Data == Invert_Tree_Data, "Fail"
         
 if __name__ == '__main__':
