@@ -1,4 +1,4 @@
-# Given start and end times od all meeting-ids. find max meetings which can be accommodated in one room. return meetingids.
+# Given start and end times of all meeting-ids. find max meetings which can be accommodated in one room. return meetingids.
 
 class Interval(object):
     def __init__(self, s=0, e=0, p=0):
