@@ -25,7 +25,7 @@ HLD
 
 (a) vendor onboarding and profile data flow from vendor (hotel/restro) app -> API_Gateway -> vendor_service (read from cache first, write int db first, once written push the data to message broker as producer) -> vendor_data_cache (redis cluster) -> vendor_db (write master-read slaves SQL cluster) -> message broker (Kafka topic: new_vendor) 
 
-(b) vendor(hotel/restro) search flow from user app -> API_Gateway -> Search Service -> searchdata_cache (redis cluster) -> searchdb (elastic search cluster) -> search consumer pulls new vendors(hotels/restros) from message broker to precompute search index on available vendors-> message broker (kafka topic: new_vendor)
+(b) vendor(hotel/restro) search flow from user app -> API_Gateway -> Search Service -> searchdata_cache (redis cluster) -> searchdb (elastic search cluster) -> search consumer pulls available itenaries (room/table) of the vendors(hotels/restros) from message broker to precompute search index on available vendors-> message broker (kafka topic: new_vendor)
 
 (c) User onboarding and profile data flow from user app -> API_Gateway -> Userservice (read from cache first, write int db first) -> userdata_cache (redis cluster) -> userdb (write master- read slaves cluster)
 
