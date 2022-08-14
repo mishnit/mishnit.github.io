@@ -1,8 +1,18 @@
-Functional requirements: vendor (hotel/restro) onboarding, vendor (hotel/restro) manager can see bookings, User can search & filter vendors (hotel/restro) for given criteria (roomtype/cuisine) along with location and datetime, user can book/cancel/update iterneries (room/table) for specific capacity for specific datetime slot, charge users for booking to reduce no-shows and refund same post billing
+Functional requirements:
+vendor (hotel/restro) onboarding
+vendor (hotel/restro) manager can see bookings
+Users can search & filter vendors (hotel/restro) for given criteria (roomtype/cuisine) along with location and datetime
+users can book/view/cancel/update their bookings (room/table) for specific capacity for specific datetime slot
+vendor can charge users for booking to reduce no-shows and refund same post billing
 
-Non functional requirements: Low latency, High availability, Row level locks to avoid race condition while blocking the slot
+Non functional requirements: 
+Low latency
+High availability
+Row level locks to avoid race condition while blocking the slot
 
-Scale: 500k vendors(hotels/restros), 10M iteneries(rooms/tables), 
+Scale:
+500k vendors(hotels/restros)
+10M iteneries(rooms/tables) 
 
 Services: User service, Vendor(hotel/restro) service, Booking service, search service, payment service, notification service, Booking Management Service
 
