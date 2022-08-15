@@ -14,7 +14,7 @@ Booking status = {reserved, confirmed, completed, cancelled}
 
 Here, Reserved means a locked booking where payment is in progress, once payment is done status would be confirmed else cancelled. completed means booking was utilised successfully by the user.
 
-Concurrency: rather using lock on row we would decrement(reserved/confirmed) and increment(completed/cancelled) available itenery in the table  
+Concurrency: use locks on row to decrement(reserved/confirmed) and increment(completed/cancelled) available itenery in the table  
 
 Choice of DB (Sql v/s Nosql):
 
