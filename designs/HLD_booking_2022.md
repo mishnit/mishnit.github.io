@@ -20,9 +20,9 @@ Choice of DB (Sql v/s Nosql):
 
 PACELC: In case of network partition choose between Availablity & Consistence else choose between Latancy and Consistency
 
-postgres -> PCEC system (strong consistency, Synchronous replication) -> Strictly Cant afford stale reads
+postgres -> PCEC system (strong consistency, Synchronous replication) -> Strictly Cant afford stale reads even with partition
 
-cassendra -> PAEL system (strong availability, Asynchronous replication) ->  Can afford stale reads but provides low latency
+cassendra -> PAEL system (strong availability, Asynchronous replication) ->  Can afford stale reads but provides low latency even with partition
 
 Mongodb -> PAEC system (strong availability, Synchronous replication) -> Strictly Cant afford stale reads unless there is network partition
 
