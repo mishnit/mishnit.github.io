@@ -43,6 +43,9 @@ Bonus: Dynamic pricing engine to set prices based on supply demand analytics
 LLD
 ----
 
+Tables of vendor_db -> city, vendor(hotel/restro), facilities(amenity/offer), iteneries(room/table), itenery_facility(room_amenity/table_offer)
+
+
 (a) Entity Relationship
 
 user:booking::1:n
