@@ -8,11 +8,20 @@ users can book/view/cancel/update their bookings (room/table) for specific capac
 vendor can charge users for booking to reduce no-shows and refund same post billing.
 
 Non functional requirements: 
-Low latency.
-High availability.
+Low latency. High availability.
+
 Booking status = {reserved, confirmed, completed, cancelled}
+
 Here, Reserved means a locked booking where payment is in progress, once payment is done status would be confirmed else cancelled. completed means booking was utilised successfully by the user.
+
 Concurrency: rather using lock on row we would decrement(reserved/confirmed) and increment(completed/cancelled) available itenery in the table  
+
+Choice of DB (Sql v/s Nosql):
+
+PACELC: In case of network partition choose between Availablity & Consistence else choose between Latancy and Consistency
+postgres -> PCEC system (strong consistency, Synchronous replication) -> Cant afford stale reads
+cassendra -> PAEL system (strong availability, Asynchronous replication) -> Can afford stale reads
+Mongodb -> PAEC system (strong availability, Synchronous replication) -> Cant afford stale reads unless there is netwrodk partition
 
 Scale:
 500k vendors(hotels/restros)
