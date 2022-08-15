@@ -45,9 +45,11 @@ LLD
 
 (a) Tables 
 
-Tables of vendor_db -> city, vendor(hotel/restro), facility(amenity/offer), itenery(room-type/table-type), itenery_facility(room_amenity/table_offer), vendor_available_itenary(vendor-room-type/restro-table-type)
+Tables of vendor_db -> city, vendor(hotel/restro), facility(amenity/offer), itenery(room-type/table-type), itenery_facility(room_amenity/table_offer)
 
-Tables of Booking_db -> 
+Tables of Booking_db -> vendor_available_itenary(vendor-room-type/restro-table-type), vendor_datetimeslot, active_booking, inactive_booking (completed/cancelled bokking)
+
+
 
 (b) Entity Relationship
 
