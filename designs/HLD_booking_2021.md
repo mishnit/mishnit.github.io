@@ -45,7 +45,7 @@ LLD
 
 (a) Tables 
 
-Tables of vendor_db -> city, vendor(hotel/restro), facilities(amenity/offer), iteneries(room/table), itenery_facility(room_amenity/table_offer)
+Tables of vendor_db -> city, vendor(hotel/restro), facility(amenity/offer), itenery(room/table), itenery_facility(room_amenity/table_offer), vendor_itenary(vendor-room/restro-table)
 
 Tables of Booking_db -> 
 
