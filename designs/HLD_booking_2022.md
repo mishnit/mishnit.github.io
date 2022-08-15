@@ -57,7 +57,7 @@ HLD
 
 (e) booking cancelled/availed flow from user app -> API_Gateway -> Booking Service (marks booking data as CANCELLED or AVAILED in DB, invalidates cache and push this data to message broker as producer) -> Active_bookingdata_cache (redis cluster) -> bookingdata_db (write master- read slaves cluster) -> message broker (Kafka topic: booking_availed, booking_cancelled) -> notification service (consumes cancelled bookng data and send notification to users) -> Archive Booking Service (consumes availed/cancelled booking data and pushes this to archive_db) -> archive_db (cassandra cluster)
 
-(f) see current and past bookings data flow from user app and vendor(hotel/restro) app both -> API_Gateway -> Booking Management service (read from Active_bookingdata_cache for current booking and read from archive_db for past bookings) 
+(f) see current and past bookings data flow from user app and vendor(hotel/restro) app both -> API_Gateway -> Booking Management service -> read from Active_bookingdata_cache for current booking and read from archive_db for past bookings (archieve db has partitions, partition key need to be userid and vendorid to fetch bookings by userid or bookings by vendorid )
 
 (g) Analytics -> Spark streaming consumer consumes from kafka and pushes into hadoop cluster
 
