@@ -19,9 +19,12 @@ Concurrency: use locks on row to decrement(reserved/confirmed) and increment(com
 Choice of DB (Sql v/s Nosql):
 
 PACELC: In case of network partition choose between Availablity & Consistence else choose between Latancy and Consistency
-postgres -> PCEC system (strong consistency, Synchronous replication) -> Cant afford stale reads
-cassendra -> PAEL system (strong availability, Asynchronous replication) -> Can afford stale reads
-Mongodb -> PAEC system (strong availability, Synchronous replication) -> Cant afford stale reads unless there is netwrodk partition
+
+postgres -> PCEC system (strong consistency, Synchronous replication) -> Strictly Cant afford stale reads
+
+cassendra -> PAEL system (strong availability, Asynchronous replication) ->  Can afford stale reads but provides low latency
+
+Mongodb -> PAEC system (strong availability, Synchronous replication) -> Strictly Cant afford stale reads unless there is network partition
 
 Scale:
 500k vendors(hotels/restros)
