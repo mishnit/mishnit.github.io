@@ -48,6 +48,7 @@ HLD
 
 (g) Analytics -> Spark streaming consumer consumes from kafka and pushes into hadoop cluster
 
+(h) payment service -> sync or async?
 
 Bonus: Dynamic pricing engine to set prices based on supply demand analytics
 
