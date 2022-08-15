@@ -64,7 +64,9 @@ vendor:vendor_available_itenary::1:n
 vendor:vendor_datetimeslot::1:n
 
 vendor_available_itenary:vendor_datetimeslot::n:n (via available_itenary_datetimeslot)
+
   -> available_itenary_datetimeslot:vendor_available_itenary::1:n
+  
   -> available_itenary_datetimeslot:vendor_datetimeslot::1:n
 
 booking:available_itenary_datetimeslot::1:n
