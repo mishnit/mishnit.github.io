@@ -47,7 +47,9 @@ LLD
 
 Tables of vendor_db -> city, vendor(hotel/restro), facility(amenity/offer), itenery(room-type/table-type), itenery_facility(room_amenity/table_offer)
 
-Tables of Booking_db -> vendor_available_itenary(bookable-vendor-room-type/bookable-restro-table-type), vendor_datetimeslot, active_booking, inactive_booking (completed/cancelled booking)
+Tables of Booking_db -> vendor_available_itenary(bookable-vendor-room-type/bookable-restro-table-type), vendor_datetimeslot, active_booking (reserved/booked booking), inactive_booking (completed/cancelled booking). 
+
+Booking status: reserved means a locked booking where payment is in progress, once payment is done status would be booked else cancelled. completed means booking was fulfilled successfully.
 
 
 
