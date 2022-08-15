@@ -45,7 +45,7 @@ LLD
 
 (a) Tables 
 
-Tables of vendor_db -> city, vendor(hotel/restro), facility(amenity/offer), itenery(room-type/table-type), itenery_facility(room_amenity/table_offer), vendor_itenary(vendor-room-type/restro-table-type)
+Tables of vendor_db -> city, vendor(hotel/restro), facility(amenity/offer), itenery(room-type/table-type), itenery_facility(room_amenity/table_offer), vendor_available_itenary(vendor-room-type/restro-table-type)
 
 Tables of Booking_db -> 
 
@@ -57,11 +57,11 @@ city:vendor::1:n
 
 vendor:booking::1:n
 
-vendor:vendor_itenary::1:n
+vendor:vendor_available_itenary::1:n
 
 vendor:vendor_datetimeslot::1:n
 
-vendor_itenary:vendor_datetimeslot::n:n (via bookable_itenary_slot)
+vendor_available_itenary:vendor_datetimeslot::n:n (via bookable_itenary_slot)
 
 booking:bookable_itenary_slot::1:n
 
