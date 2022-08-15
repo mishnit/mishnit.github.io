@@ -17,7 +17,11 @@ Scale:
 
 Out of scope: Analytics 
 
+Capacity:
+
 Services: User service, Vendor(hotel/restro) service, Active_Booking_service, search service, payment service, notification service, Booking Management Service, archieve_Booking_service
+
+----------------
 
 Booking status = {reserved, confirmed, completed, cancelled}
 
