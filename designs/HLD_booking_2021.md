@@ -43,10 +43,13 @@ Bonus: Dynamic pricing engine to set prices based on supply demand analytics
 LLD
 ----
 
+(a) Tables 
+
 Tables of vendor_db -> city, vendor(hotel/restro), facilities(amenity/offer), iteneries(room/table), itenery_facility(room_amenity/table_offer)
 
+Tables of Booking_db -> 
 
-(a) Entity Relationship
+(b) Entity Relationship
 
 user:booking::1:n
 
@@ -63,7 +66,7 @@ vendor_itenary:vendor_datetimeslot::n:n (via bookable_itenary_slot)
 booking:bookable_itenary_slot::1:n
 
 
-(b) API
+(c) API
 
 POST /user/create
 
