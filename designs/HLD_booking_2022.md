@@ -1,16 +1,18 @@
 Functional requirements:
-vendor (hotel/restro) onboarding
-vendor info can be updated in system 
-vendor (hotel/restro) manager can view bookings
-User Onboarding
-Users can search & filter vendors (hotel/restro) for given criteria (roomtype/cuisine) along with location and datetime
-users can book/view/cancel/update their bookings (room/table) for specific capacity for specific datetime slot
-vendor can charge users for booking to reduce no-shows and refund same post billing
+vendor (hotel/restro) onboarding.
+vendor info can be updated in system.
+vendor (hotel/restro) manager can view bookings.
+User Onboarding.
+Users can search & filter vendors (hotel/restro) for given criteria (roomtype/cuisine) along with location and datetime.
+users can book/view/cancel/update their bookings (room/table) for specific capacity for specific datetime slot.
+vendor can charge users for booking to reduce no-shows and refund same post billing.
 
 Non functional requirements: 
-Low latency
-High availability
-Row level locks to avoid race condition while blocking the slot
+Low latency.
+High availability.
+Booking status = {reserved, confirmed, completed, cancelled}
+Here, Reserved means a locked booking where payment is in progress, once payment is done status would be confirmed else cancelled. completed means booking was utilised successfully by the user.
+Concurrency: rather using lock on row we would decrement(reserved/confirmed) and increment(completed/cancelled) available itenery in the table  
 
 Scale:
 500k vendors(hotels/restros)
@@ -47,9 +49,7 @@ LLD
 
 Tables of vendor_db -> city, vendor(hotel/restro), facility(amenity/offer), itenery(room-type/table-type), itenery_facility(room_amenity/table_offer)
 
-Tables of Booking_db -> vendor_available_itenary(bookable-vendor-room-type/bookable-restro-table-type), vendor_datetimeslot, active_booking (reserved/booked booking), inactive_booking (completed/cancelled booking). 
-
-Booking status: reserved means a locked booking where payment is in progress, once payment is done status would be booked else cancelled. completed means booking was fulfilled successfully.
+Tables of Booking_db -> vendor_available_itenary(bookable-vendor-room-type/bookable-restro-table-type), vendor_datetimeslot, active_booking (reserved/confirmed booking), inactive_booking (completed/cancelled booking). 
 
 
 
