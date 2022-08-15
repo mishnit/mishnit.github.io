@@ -8,7 +8,7 @@ users can book/view/cancel/update their bookings (room/table) for specific capac
 vendor can charge users for booking to reduce no-shows and refund same post billing.
 
 Non functional requirements: 
-Low latency. High availability.
+Low latency, High availability
 
 Booking status = {reserved, confirmed, completed, cancelled}
 
