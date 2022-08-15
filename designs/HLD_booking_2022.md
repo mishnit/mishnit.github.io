@@ -16,7 +16,14 @@ Here, Reserved means a locked booking where payment is in progress, once payment
 
 Concurrency: use locks on row to decrement(reserved/confirmed) and increment(completed/cancelled) available itenery in the table  
 
-Choice of DB (Sql v/s Nosql):if data has relations/joins/concurrency/transaction then go with sql else nosql. In nosql if its write heavy go with cassandra else mongodb for read heavy.
+Choice of DB (Sql v/s Nosql):
+if data has many to many relationship go with graphdb 
+
+else if search is expected go with elastic search db 
+
+else if relations/joins/concurrency/transaction then go with sql
+
+else nosql (In nosql if its write heavy go with cassandra else mongodb for read heavy)
 
 PACELC: In case of network partition choose between Availablity & Consistence else choose between Latancy and Consistency
 
