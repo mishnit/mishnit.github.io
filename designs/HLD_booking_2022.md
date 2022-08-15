@@ -14,7 +14,7 @@ Booking status = {reserved, confirmed, completed, cancelled}
 
 Here, Reserved means a locked booking where payment is in progress, once payment is done status would be confirmed else cancelled. completed means booking was utilised successfully by the user.
 
-handle Concurrency in sql : use serializable locks at row level
+handle Concurrency in sql : use serializable locks at row level to decrement(reserved/confirmed) and increment(completed/cancelled) available itenery in the table.
 
 handle concurrency in nosql: use redis to simply decrement(reserved/confirmed) and increment(completed/cancelled) available itenery in the table. redis being single threaded would be race condition safe.  
 
