@@ -10,6 +10,15 @@ vendor can charge users for booking to reduce no-shows and refund same post bill
 Non functional requirements: 
 Low latency, High availability
 
+
+Scale:
+500k vendors(hotels/restros)
+10M iteneries(rooms/tables) 
+
+Out of scope: Analytics 
+
+Services: User service, Vendor(hotel/restro) service, Active_Booking_service, search service, payment service, notification service, Booking Management Service, archieve_Booking_service
+
 Booking status = {reserved, confirmed, completed, cancelled}
 
 Here, Reserved means a locked booking where payment is in progress, once payment is done status would be confirmed else cancelled. completed means booking was utilised successfully by the user.
@@ -36,13 +45,6 @@ cassendra -> PAEL system (strong availability, Asynchronous replication) ->  Can
 
 Mongodb -> PAEC system (strong availability, Synchronous replication) -> Strictly Cant afford stale reads unless there is network partition
 
-Scale:
-500k vendors(hotels/restros)
-10M iteneries(rooms/tables) 
-
-Out of scope: Analytics 
-
-Services: User service, Vendor(hotel/restro) service, Active_Booking_service, search service, payment service, notification service, Booking Management Service, archieve_Booking_service
 
 HLD
 ----
