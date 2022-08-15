@@ -66,9 +66,9 @@ POST /user/create
 
 POST /user/login
 
-GET /user/:id
+GET /user/:userid
 
-PUT /user/:id
+PUT /user/:userid
 
 POST /vendor/create
 
@@ -76,9 +76,11 @@ POST /vendor/login
 
 GET /vendors
 
-GET /vendor/:id
+GET /vendor/:vendorid
 
-PUT /vendor/:id
+PUT /vendor/:vendorid
+
+PUT /vendor/:vendorid/itenery/:iteneryid
 
 GET /bookings/vendor/:vendorid
 
