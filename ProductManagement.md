@@ -382,6 +382,7 @@ wireframes, mockups, diagrams and prototypes.
  - [ ] [Pragmatic Marketing Courses](https://www.pragmaticmarketing.com/courses) - Product Management and Marketing Training
  - [ ] [Cursos PM3 (Portuguese Only)](https://www.cursospm3.com.br) - The first course 100% in Portuguese about Product Management. It was made by product professionals and the course covers from the basics until the most advanced topics with +40 hours of content.
  - [ ] [Product Management Weekly Tips](https://www.linkedin.com/learning/product-management-weekly-tips/welcome) - Free Product Management Weekly Tip Videos From Linkedin Learning
+ - [ ] [Skillcombo - Product Management](https://skillcombo.com/topic/product-management/free/) - Free Product Management Online courses
 
 ## Online Blogs
  - [ ] [The Cranky Product Manager](http://crankypm.com/) - A blog on product management, product marketing, and the ugly side of software product development. As of April 2015, the author, Sue Raisty, no longer writes, but she has a large backlog of great posts.
