@@ -10,7 +10,7 @@ This is inspired by [Manager README](https://hackernoon.com/12-manager-readmes-f
 Note: 'You' in this document is my direct/indirect reportee.
 
 # TL;DR: 
-My name is Nitin Mishra. I am currently working as Engineering Manager in phonepe. I am leading my *TEAM* to build great *TECHNOLOGY* products end to end using effective processes and promoting *TALENT* of team members through their career (3Ts). One of my top priorities is to ensure you stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. You would have freedom and responsibilty at the same time. I would keep Transparency, Effective Communication and expectations setting back and forth at the highest priority. I love to code in python and Golang :)
+My name is Nitin Mishra. I am currently working as Engineering Manager in phonepe. I am leading a group of talented *people* to build great *product* end to end using effective *processes* (3Ps). One of my top priorities is to ensure you stay motivated and stay challenged. My goal is to work with you to find the right amount of stretch so you don't get bored and you don't get too stressed. You would have freedom and responsibilty at the same time. I would keep Transparency, Effective Communication and expectations setting back and forth at the highest priority. I love to code in python and Golang :)
 
 # My Background
 Hi! My name is Nitin Mishra. I am a technology enthusiast with business acumen, a wisdom seeker, influencer, author and TEDx speaker. I’m an engineer turned manager and have worked with a lot of early/late stage startups and MNCs for last 10 years. I have been leading a strong squad which built habit-forming, end to end tech products with great customer experience at scale. This gives me the unique experience of learning what works and what doesn’t at both ends of the scale spectrum. I have a passion for using technology to build products that solve real world problems. What I am most passionate though is managing engineers and building great high performing but empathetic teams. I spend most of my weekends learning new stuff on medium, reddit, dzone, github, slack, firstround, infoQ and highscalability.
@@ -34,9 +34,9 @@ Key points that define my Leadership style are as follows:
 
 # My Working Style: C R A F T S M A N S H I P
 
-C - Customer Issues (P0 Adhoc) need to be handled by dev-on-call on highest priority (without impacting sprint timelines)
+C - Customer Issues need to be handled via on-call folks on the highest priority (P0 Adhoc)
 
-R - Retrospect system performance; HLD, LLD, infra, code reviews and logs periodically to plan better and understand current system level bottlenecks
+R - Review System Health and Performance issues monthly to keep an eye on current system level bottlenecks and plan their fixes
 
 A - Automate Everything Possible to save bandwidth and speedup releases i.e. linting, testcases, alerts
 
@@ -67,7 +67,7 @@ An EM should keep an eye on the following:
 
 (b) Delivery - PRD/TRD review, Sprint planning, Standup notes, Delivery status, Retrospection
 
-(c) Post production bugs
+(c) Post production bugs and No. of dev-qa cycles
 
 (d) code quality - code review practices
 
@@ -77,13 +77,13 @@ An EM should keep an eye on the following:
 
 (g) team health (every 2 week 1:1 with teammates, hear more talk less)
 
-(h) high performers and weak performers
+(h) high performers and weak performers for every sprint
 
 (i) Tech Mentorship - Teammates should learn and use some new skill in tech
 
 (j) Hiring and attrition metrics
 
-(k) Tech debts
+(k) Tech debts analysis
 
 (l) Publish RCA for recent outages, sev-1 issues 
 
