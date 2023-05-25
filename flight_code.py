@@ -31,7 +31,7 @@ headers = {
 params = {
     'pfm': 'PWA',
     'lob': 'B2C',
-    'crId': '11125da1381-a503-5cb9-9075-e9f5e03d7f44',
+    'crId': '11125da1382-a503-5cb9-9075-e9f5e03d7f44',
     'cur': 'INR',
     'lcl': 'en',
     'shd': 'true',
@@ -54,7 +54,6 @@ def getFlightsByPriceAndDuration(SRC, DST, yyyymmdd):
     jsondata = response.json()
     hashmap = {}
     if response.status_code != 200:
-        print ("API call failed, Try changing headers and params")
         return
     if 'journeyMap' in response.json() and 'cardList' in response.json() and len(list(jsondata['journeyMap'])) >0 and len(list(jsondata['cardList'][0]))>0:
         for key in list(jsondata['journeyMap']):
@@ -100,7 +99,7 @@ def sortFlightsByPrice(flight_map):
 def printTop10FlightsSortedByPriceAboveLayoverTime(SRC, DST, yyyymmdd, minimum_layover_time):
     flights = getFlightsByPriceAndDuration(SRC, DST, yyyymmdd)
     if flights == None:
-        print ("Error: REPEAT_HIT_WITH_SAME_CRID")
+        print ("Error: REPEAT_HIT_WITH_SAME_CRID. Try changing crId..")
         return
     filtered_flights = filterFlightsByLayover(flights, minimum_layover_time)
     sorted_flights = sortFlightsByPrice(filtered_flights)
@@ -111,4 +110,4 @@ def printTop10FlightsSortedByPriceAboveLayoverTime(SRC, DST, yyyymmdd, minimum_l
         print(flight, "\n")
 
 if __name__ == '__main__':
-    printTop10FlightsSortedByPriceAboveLayoverTime('DEL', 'HYD', 20230628, 120)
+    printTop10FlightsSortedByPriceAboveLayoverTime('DEL', 'JAI', 20230828, 120)
