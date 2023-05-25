@@ -31,7 +31,7 @@ headers = {
 params = {
     'pfm': 'PWA',
     'lob': 'B2C',
-    'crId': '11125da1382-a503-5cb9-9075-e9f5e03d7f44',
+    'crId': '12125dn1382-a503-5cb9-9075-e9f5e03d7f44',
     'cur': 'INR',
     'lcl': 'en',
     'shd': 'true',
@@ -70,8 +70,8 @@ def getFlightsByPriceAndDuration(SRC, DST, yyyymmdd):
                     try:
                         layover_minute = int(layover_pre_split.rstrip().replace("m", ""))
                     except Exception as e:
-                        pass
-            hashmap[key]["layover"] = int(layover_minute)
+                        layover_minute = "Multiple Layovers"
+            hashmap[key]["layover"] = layover_minute
             hashmap[key]["duration"] = int(jsondata['journeyMap'][key]['duration']["h"])*60 + int(jsondata['journeyMap'][key]['duration']["m"])
         for data in jsondata['cardList'][0]:
             key = data['journeyKeys'][0]
@@ -80,8 +80,9 @@ def getFlightsByPriceAndDuration(SRC, DST, yyyymmdd):
     return
 
 def filterFlightsByLayover(flight_map, minimum_layover_minutes):
-    for k in [key for key in flight_map if 'layover' not in flight_map[key]]:
-        del flight_map[k]
+    for key in list(flight_map):
+        if flight_map[key]["layover"] == "Multiple Layovers":
+            del flight_map[key]
     for key in list(flight_map):
         if flight_map[key]["layover"] < minimum_layover_minutes and flight_map[key]["layover"] > 0:
             del flight_map[key]
@@ -110,4 +111,4 @@ def printTop10FlightsSortedByPriceAboveLayoverTime(SRC, DST, yyyymmdd, minimum_l
         print(flight, "\n")
 
 if __name__ == '__main__':
-    printTop10FlightsSortedByPriceAboveLayoverTime('DEL', 'JAI', 20230828, 120)
+    printTop10FlightsSortedByPriceAboveLayoverTime('DEL', 'HYD', 20230528, 120)
