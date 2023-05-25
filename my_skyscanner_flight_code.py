@@ -31,7 +31,7 @@ headers = {
 params = {
     'pfm': 'PWA',
     'lob': 'B2C',
-    'crId': '12125dn1382-a503-5cb9-9075-e9f5e03d7f44',
+    'crId': '12425bn1382-a503-5cb9-9075-e9f5e03d7f44',
     'cur': 'INR',
     'lcl': 'en',
     'shd': 'true',
@@ -79,12 +79,11 @@ def getFlightsByPriceAndDuration(SRC, DST, yyyymmdd):
         return hashmap
     return
 
-def filterFlightsByLayover(flight_map, minimum_layover_minutes):
+def filterFlightsByLayover(flight_map, minimum_layover_minutes_if_any_layover, direct_flight_only_flag):
     for key in list(flight_map):
-        if flight_map[key]["layover"] == "Multiple Layovers":
+        if flight_map[key]["layover"] == "Multiple Layovers" or (direct_flight_only_flag and flight_map[key]["layover"] > 0):
             del flight_map[key]
-    for key in list(flight_map):
-        if flight_map[key]["layover"] < minimum_layover_minutes and flight_map[key]["layover"] > 0:
+        elif flight_map[key]["layover"] != "Multiple Layovers" and flight_map[key]["layover"] < minimum_layover_minutes_if_any_layover and flight_map[key]["layover"] > 0:
             del flight_map[key]
     return flight_map
 
@@ -97,12 +96,12 @@ def sortFlightsByPrice(flight_map):
         if len(list) ==11:
             return list
 
-def printTop10FlightsSortedByPriceAboveLayoverTime(SRC, DST, yyyymmdd, minimum_layover_time):
+def printTop10FlightsSortedByPriceAboveLayoverTime(SRC, DST, yyyymmdd, minimum_layover_time_if_any_layover, direct_flight_only_flag):
     flights = getFlightsByPriceAndDuration(SRC, DST, yyyymmdd)
     if flights == None:
         print ("Error: REPEAT_HIT_WITH_SAME_CRID. Try changing crId..")
         return
-    filtered_flights = filterFlightsByLayover(flights, minimum_layover_time)
+    filtered_flights = filterFlightsByLayover(flights, minimum_layover_time_if_any_layover, direct_flight_only_flag)
     sorted_flights = sortFlightsByPrice(filtered_flights)
     if sorted_flights == None:
         print("No flight found")
@@ -111,4 +110,4 @@ def printTop10FlightsSortedByPriceAboveLayoverTime(SRC, DST, yyyymmdd, minimum_l
         print(flight, "\n")
 
 if __name__ == '__main__':
-    printTop10FlightsSortedByPriceAboveLayoverTime('DEL', 'HYD', 20230528, 120)
+    printTop10FlightsSortedByPriceAboveLayoverTime('DEL', 'HYD', 20230528, 120, False)
