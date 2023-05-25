@@ -31,7 +31,7 @@ headers = {
 params = {
     'pfm': 'PWA',
     'lob': 'B2C',
-    'crId': '11114da1381-a503-4cb9-9075-e9f5e03d7f544',
+    'crId': '11125da1381-a503-5cb9-9075-e9f5e03d7f44',
     'cur': 'INR',
     'lcl': 'en',
     'shd': 'true',
@@ -53,44 +53,62 @@ def getFlightsByPriceAndDuration(SRC, DST, yyyymmdd):
     response = requests.get(url, params=params, headers=headers)
     jsondata = response.json()
     hashmap = {}
-    if response.status_code==200 and 'journeyMap' in response.json() and 'cardList' in response.json():
-        for key in jsondata['journeyMap']:
+    if response.status_code != 200:
+        print ("API call failed, Try changing headers and params")
+        return
+    if 'journeyMap' in response.json() and 'cardList' in response.json() and len(list(jsondata['journeyMap'])) >0 and len(list(jsondata['cardList'][0]))>0:
+        for key in list(jsondata['journeyMap']):
             hashmap[key] = {}
-            layover_min = 0
+            layover_minute = 0
             if  jsondata['journeyMap'][key]['layover'] != "":
                 layover_pre_split = jsondata['journeyMap'][key]['layover'].replace(" Technical stop over", '').split(" Layover")[0].rstrip()
                 if 'h' in layover_pre_split and 'm' in layover_pre_split:
                     layover_split = layover_pre_split.split("h")
-                    layover_min = (60 * int(layover_split[0])) + int(layover_split[1].lstrip().replace("m", ''))
+                    layover_minute = (60 * int(layover_split[0])) + int(layover_split[1].lstrip().replace("m", ''))
                 elif 'h' in layover_pre_split: # only hour
-                    layover_min = (60 * int(layover_pre_split.replace("h",'')))
+                    layover_minute = (60 * int(layover_pre_split.replace("h",'')))
                 else: # only minute
-                    layover_min = int(layover_pre_split.rstrip().replace("m", ""))
-            hashmap[key]["layover"] = int(layover_min)
+                    try:
+                        layover_minute = int(layover_pre_split.rstrip().replace("m", ""))
+                    except Exception as e:
+                        pass
+            hashmap[key]["layover"] = int(layover_minute)
             hashmap[key]["duration"] = int(jsondata['journeyMap'][key]['duration']["h"])*60 + int(jsondata['journeyMap'][key]['duration']["m"])
-        for key in jsondata['cardList'][0]:
-            hashmap[key['journeyKeys'][0]]["final_price"] = int(key['finalFare'].lstrip("₹ ").replace(",",""))
+        for data in jsondata['cardList'][0]:
+            key = data['journeyKeys'][0]
+            hashmap[key]["fare"] = int(data['fare'])
         return hashmap
+    return
 
 def filterFlightsByLayover(flight_map, minimum_layover_minutes):
+    for k in [key for key in flight_map if 'layover' not in flight_map[key]]:
+        del flight_map[k]
     for key in list(flight_map):
         if flight_map[key]["layover"] < minimum_layover_minutes and flight_map[key]["layover"] > 0:
             del flight_map[key]
     return flight_map
 
 def sortFlightsByPrice(flight_map):
-    list =[["flight_key", "final_price", "duration_in_minutes", "layover_in_minutes"]]
-    for s in sorted(flight_map, key=lambda x: flight_map[x]["final_price"]):
-        list.append([s, flight_map[s]["final_price"], flight_map[s]["duration"], flight_map[s]["layover"]])
+    for k in [key for key in flight_map if 'fare' not in flight_map[key]]:
+        del flight_map[k]
+    list =[["flight_key", "price", "duration_in_minutes", "layover_in_minutes"]]
+    for s in sorted(flight_map, key=lambda x: flight_map[x]["fare"]):
+        list.append([s, flight_map[s]["fare"], flight_map[s]["duration"], flight_map[s]["layover"]])
         if len(list) ==11:
             return list
 
-def getTop10FlightsSortedByPriceAboveLayoverTime(SRC, DST, yyyymmdd, minimum_layover_time):
+def printTop10FlightsSortedByPriceAboveLayoverTime(SRC, DST, yyyymmdd, minimum_layover_time):
     flights = getFlightsByPriceAndDuration(SRC, DST, yyyymmdd)
+    if flights == None:
+        print ("Error: REPEAT_HIT_WITH_SAME_CRID")
+        return
     filtered_flights = filterFlightsByLayover(flights, minimum_layover_time)
-    return sortFlightsByPrice(filtered_flights)
+    sorted_flights = sortFlightsByPrice(filtered_flights)
+    if sorted_flights == None:
+        print("No flight found")
+        return
+    for flight in sorted_flights:
+        print(flight, "\n")
 
 if __name__ == '__main__':
-    flight_data = getTop10FlightsSortedByPriceAboveLayoverTime('DEL', 'BOM', 20230528, 120)
-    for fd in flight_data:
-        print(fd, "\n")
+    printTop10FlightsSortedByPriceAboveLayoverTime('DEL', 'HYD', 20230628, 120)
