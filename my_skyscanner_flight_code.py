@@ -1,4 +1,7 @@
 import requests
+import random
+import struct
+import socket
 
 headers = {
     'authority': 'flights-cb.makemytrip.com',
@@ -24,14 +27,13 @@ headers = {
     'src': 'mmt',
     'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
     'x-user-cc': 'IN',
-    'x-user-ip': '125.16.129.65',
+    'x-user-ip': '',
     'x-user-rc': 'NEWDELHI',
 }
 
 params = {
     'pfm': 'PWA',
     'lob': 'B2C',
-    'crId': '12425bn1382-a503-5cb9-9075-e9f5e03d7f44',
     'cur': 'INR',
     'lcl': 'en',
     'shd': 'true',
@@ -43,12 +45,20 @@ params = {
     'currency': 'inr',
     'language': 'eng',
     'cmpId': '',
-    'it': ''
+    'it': '',
+    'crId': ''
 }
 
 url = 'https://flights-cb.makemytrip.com/api/search'
 
+all_india_airport_codes =  ['DEL', 'HYD', 'BOM', 'CCU', 'JAI', 'BLR', 'MAA', 'SXR'] 
+#['IXA','AGX','AGR','AKD','IXD','IXV','IXU','IXB','BEK','BPM','IXG','BEP','BUP','BHU','BHJ','BBI','PAB','IXR','CCJ','CBD','IXC','LKO','MAA','BOM','COK','CJB','GOI','NMB','DED','IDR','DBD','DIB','DMU','NAG','GAY','GOP','GWL','HSS','HBX','IMF','DEL','JLR','JAI','JSA','IXJ','JGA','JDH','JRH','CDP','IXH','IXY','DHM','CNN','KNU','RDP','BLR','IXK','HJR','KQH','KLH','KTU','KUU','VNS','IXL','Leh','AJL','PAT','GAU','LUH','IXM','UDR','IXE','LTU','MZU','BKB','NDC','ISK','CCU','IXI','PGH','IXP','PNY','PBD','PNQ','BHO','RJA','HYD','RAJ','RTC','REW','RRK','SXV','AMD','SXR','SHL','SAG','IXS','SSE','IXW','ATQ','PUT','STV','TEZ','TRZ','TRV','BDQ','VGA','IXZ','ZER']
+
 def getFlightsByPriceAndDuration(SRC, DST, yyyymmdd):
+    ran = random.randint(1, 0xffffffff)
+    ip = socket.inet_ntoa(struct.pack('>I', ran))
+    headers['x-user-ip']: ip
+    params['crId'] = ran
     params['it'] = SRC+'-'+DST+'-'+str(yyyymmdd)
     response = requests.get(url, params=params, headers=headers)
     jsondata = response.json()
@@ -79,35 +89,63 @@ def getFlightsByPriceAndDuration(SRC, DST, yyyymmdd):
         return hashmap
     return
 
-def filterFlightsByLayover(flight_map, minimum_layover_minutes_if_any_layover, direct_flight_only_flag):
+def filterFlightsByLayover(flight_map, minimum_layover_time_if_any_layover, direct_flight_only_flag):
     for key in list(flight_map):
         if flight_map[key]["layover"] == "Multiple Layovers" or (direct_flight_only_flag and flight_map[key]["layover"] > 0):
             del flight_map[key]
-        elif flight_map[key]["layover"] != "Multiple Layovers" and flight_map[key]["layover"] < minimum_layover_minutes_if_any_layover and flight_map[key]["layover"] > 0:
+        elif flight_map[key]["layover"] != "Multiple Layovers" and flight_map[key]["layover"] < minimum_layover_time_if_any_layover and flight_map[key]["layover"] > 0:
             del flight_map[key]
     return flight_map
 
-def sortFlightsByPrice(flight_map):
+def sortFlightsByPrice(flight_map, num):
     for k in [key for key in flight_map if 'fare' not in flight_map[key]]:
         del flight_map[k]
-    list =[["flight_key", "price", "duration_in_minutes", "layover_in_minutes"]]
+    list =[]
     for s in sorted(flight_map, key=lambda x: flight_map[x]["fare"]):
         list.append([s, flight_map[s]["fare"], flight_map[s]["duration"], flight_map[s]["layover"]])
-        if len(list) ==11:
+        if len(list) == num:
             return list
+    return list #in case list is smaller than 10
 
-def printTop10FlightsSortedByPriceAboveLayoverTime(SRC, DST, yyyymmdd, minimum_layover_time_if_any_layover, direct_flight_only_flag):
+def getTop10FlightsSortedByPriceAboveLayoverTime(SRC, DST, yyyymmdd, minimum_layover_time_if_any_layover, direct_flight_only_flag):
     flights = getFlightsByPriceAndDuration(SRC, DST, yyyymmdd)
     if flights == None:
-        print ("Error: REPEAT_HIT_WITH_SAME_CRID. Try changing crId..")
         return
     filtered_flights = filterFlightsByLayover(flights, minimum_layover_time_if_any_layover, direct_flight_only_flag)
-    sorted_flights = sortFlightsByPrice(filtered_flights)
+    sorted_flights = sortFlightsByPrice(filtered_flights, 10)
     if sorted_flights == None:
         print("No flight found")
         return
-    for flight in sorted_flights:
-        print(flight, "\n")
+    return sorted_flights
+
+def printo(list):
+    if list:
+        print ('''flight_key, price, duration_in_minutes, layover_in_minutes''', "\n")
+        for item in list:
+            print(item, "\n")
+    else:
+        print("Nothing found")
+
+
+def findCheapest10FlightsAllOverIndia(yyyymmdd, minimum_layover_time_if_any_layover, direct_flight_only_flag):
+    cheapest_flight_map = {}
+    for src in all_india_airport_codes:
+        for dst in all_india_airport_codes:
+            flights = getFlightsByPriceAndDuration(src, dst, yyyymmdd)
+            if flights != None:
+                filtered_flights = filterFlightsByLayover(flights, minimum_layover_time_if_any_layover, direct_flight_only_flag)
+                cheapest_flight_map.update(filtered_flights)
+                print(src, dst, len(filtered_flights))
+    for k in [key for key in cheapest_flight_map if 'fare' not in cheapest_flight_map[key]]:
+        del cheapest_flight_map[k]
+    list =[]
+    for s in sorted(cheapest_flight_map, key=lambda x: cheapest_flight_map[x]["fare"]):
+        list.append([s, cheapest_flight_map[s]["fare"], cheapest_flight_map[s]["duration"], cheapest_flight_map[s]["layover"]])
+        if len(list) == 10:
+            return list
+    return list #in case list is smaller than 10
+
 
 if __name__ == '__main__':
-    printTop10FlightsSortedByPriceAboveLayoverTime('DEL', 'HYD', 20230528, 120, False)
+    printo(getTop10FlightsSortedByPriceAboveLayoverTime('BLR', 'DEL', 20230530, 120, False))
+    #printo(findCheapest10FlightsAllOverIndia(20230530,100,True))
