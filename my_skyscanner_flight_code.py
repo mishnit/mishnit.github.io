@@ -127,25 +127,5 @@ def printo(list):
         print("Nothing found")
 
 
-def findCheapest10FlightsAllOverIndia(yyyymmdd, minimum_layover_time_if_any_layover, direct_flight_only_flag):
-    cheapest_flight_map = {}
-    for src in all_india_airport_codes:
-        for dst in all_india_airport_codes:
-            flights = getFlightsByPriceAndDuration(src, dst, yyyymmdd)
-            if flights != None:
-                filtered_flights = filterFlightsByLayover(flights, minimum_layover_time_if_any_layover, direct_flight_only_flag)
-                cheapest_flight_map.update(filtered_flights)
-                print(src, dst, len(filtered_flights))
-    for k in [key for key in cheapest_flight_map if 'fare' not in cheapest_flight_map[key]]:
-        del cheapest_flight_map[k]
-    list =[]
-    for s in sorted(cheapest_flight_map, key=lambda x: cheapest_flight_map[x]["fare"]):
-        list.append([s, cheapest_flight_map[s]["fare"], cheapest_flight_map[s]["duration"], cheapest_flight_map[s]["layover"]])
-        if len(list) == 10:
-            return list
-    return list #in case list is smaller than 10
-
-
 if __name__ == '__main__':
     printo(getTop10FlightsSortedByPriceAboveLayoverTime('BLR', 'DEL', 20230530, 120, False))
-    #printo(findCheapest10FlightsAllOverIndia(20230530,100,True))
