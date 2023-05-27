@@ -57,7 +57,7 @@ all_india_airport_codes =  ['DEL', 'HYD', 'BOM', 'CCU', 'JAI', 'BLR', 'MAA', 'SX
 def getFlightsByPriceAndDuration(SRC, DST, yyyymmdd):
     ran = random.randint(1, 0xffffffff)
     ip = socket.inet_ntoa(struct.pack('>I', ran))
-    headers['x-user-ip']: ip
+    headers['x-user-ip'] = ip
     params['crId'] = ran
     params['it'] = SRC+'-'+DST+'-'+str(yyyymmdd)
     response = requests.get(url, params=params, headers=headers)
