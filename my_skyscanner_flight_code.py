@@ -104,7 +104,7 @@ def sortFlightsByPrice(flight_map, num):
         list.append([s, flight_map[s]["fare"], flight_map[s]["duration"], flight_map[s]["layover"]])
         if len(list) == num:
             return list
-    return list #in case list is smaller than 10
+    return list #in case list is smaller than num
 
 def getTop10FlightsSortedByPriceAboveLayoverTime(SRC, DST, yyyymmdd, minimum_layover_time_if_any_layover, direct_flight_only_flag):
     flights = getFlightsByPriceAndDuration(SRC, DST, yyyymmdd)
