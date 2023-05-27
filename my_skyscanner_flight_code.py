@@ -51,8 +51,7 @@ params = {
 
 url = 'https://flights-cb.makemytrip.com/api/search'
 
-all_india_airport_codes =  ['DEL', 'HYD', 'BOM', 'CCU', 'JAI', 'BLR', 'MAA', 'SXR'] 
-#['IXA','AGX','AGR','AKD','IXD','IXV','IXU','IXB','BEK','BPM','IXG','BEP','BUP','BHU','BHJ','BBI','PAB','IXR','CCJ','CBD','IXC','LKO','MAA','BOM','COK','CJB','GOI','NMB','DED','IDR','DBD','DIB','DMU','NAG','GAY','GOP','GWL','HSS','HBX','IMF','DEL','JLR','JAI','JSA','IXJ','JGA','JDH','JRH','CDP','IXH','IXY','DHM','CNN','KNU','RDP','BLR','IXK','HJR','KQH','KLH','KTU','KUU','VNS','IXL','Leh','AJL','PAT','GAU','LUH','IXM','UDR','IXE','LTU','MZU','BKB','NDC','ISK','CCU','IXI','PGH','IXP','PNY','PBD','PNQ','BHO','RJA','HYD','RAJ','RTC','REW','RRK','SXV','AMD','SXR','SHL','SAG','IXS','SSE','IXW','ATQ','PUT','STV','TEZ','TRZ','TRV','BDQ','VGA','IXZ','ZER']
+# all_india_airport_codes = ['IXA','AGX','AGR','AKD','IXD','IXV','IXU','IXB','BEK','BPM','IXG','BEP','BUP','BHU','BHJ','BBI','PAB','IXR','CCJ','CBD','IXC','LKO','MAA','BOM','COK','CJB','GOI','NMB','DED','IDR','DBD','DIB','DMU','NAG','GAY','GOP','GWL','HSS','HBX','IMF','DEL','JLR','JAI','JSA','IXJ','JGA','JDH','JRH','CDP','IXH','IXY','DHM','CNN','KNU','RDP','BLR','IXK','HJR','KQH','KLH','KTU','KUU','VNS','IXL','Leh','AJL','PAT','GAU','LUH','IXM','UDR','IXE','LTU','MZU','BKB','NDC','ISK','CCU','IXI','PGH','IXP','PNY','PBD','PNQ','BHO','RJA','HYD','RAJ','RTC','REW','RRK','SXV','AMD','SXR','SHL','SAG','IXS','SSE','IXW','ATQ','PUT','STV','TEZ','TRZ','TRV','BDQ','VGA','IXZ','ZER']
 
 def getFlightsByPriceAndDuration(SRC, DST, yyyymmdd):
     ran = random.randint(1, 0xffffffff)
