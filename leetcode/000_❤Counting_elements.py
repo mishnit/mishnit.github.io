@@ -22,6 +22,8 @@ Example 4:
 Input: arr = [1,1,2,2]
 Output: 2
 Explanation: Two 1s are counted cause 2 is in arr.
+
+Hint: use set to check if element exists
 '''
 
 class Solution(object):
